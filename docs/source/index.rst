@@ -35,10 +35,10 @@ Bootloader
 
 .. toctree::
    :caption: LINUX KERNEL
-   :maxdepth: 1
+   :maxdepth: 2
    :hidden:
    
-   set-up environment
-   configuring
-   building
+   environment
+   configure
+   build
    
