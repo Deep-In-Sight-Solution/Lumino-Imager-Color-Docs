@@ -9,10 +9,10 @@ DTK4412 Training Kit is a full featured Android development platform that provid
 Bootloader ( U-boot )
 ----------------
 
-:doc:`configure`
+:doc:`configure </bootloader/u-boot/configure>`
     How to configure bootloader
 
-:doc:`build`
+:doc:`build </bootloader/u-boot/build>`
     HOw to build bootloader
 
 .. toctree::
