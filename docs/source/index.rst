@@ -36,8 +36,7 @@ Kernel ( Linux )
    :hidden:
    :caption: Kernel
    
-   /kernel/linux/configure
-   /kernel/linux/build
+   /kernel/linux/index   
 
 Development
 -----------
