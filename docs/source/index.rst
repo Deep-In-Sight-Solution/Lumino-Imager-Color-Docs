@@ -18,6 +18,15 @@ Bootloader ( U-boot )
 :doc:`building`
     HOw to build bootloader
 
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+   :caption: Bootloader
+
+   /bootloader/environment
+   /bootloader/configuring
+   /bootloader/building
+
 Kernel ( Linux )
 ----------------
 
@@ -57,18 +66,7 @@ Development
 
 .. _Read the Docs contributor guide: https://docs.readthedocs.io/en/stable/contribute.html
 
-
-
-
-.. toctree::
-   :caption: Theme Documentation
-   :maxdepth: 2
-   :hidden:
-
-   environment
-   configuring
-   development
-   contributing
+.. Hidden TOCs
 
 .. toctree::
    :maxdepth: 1
