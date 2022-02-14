@@ -13,15 +13,14 @@ Bootloader ( U-boot )
     How to configure bootloader
 
 :doc:`build </bootloader/u-boot/build>`
-    HOw to build bootloader
+    How to build bootloader
 
 .. toctree::
    :maxdepth: 2
    :hidden:
    :caption: Bootloader
 
-   /bootloader/u-boot/configure
-   /bootloader/u-boot/build
+   /bootloader/u-boot/index   
 
 Kernel ( Linux )
 ----------------
