@@ -1,2 +1,5 @@
 Configuration
 =============
+
+Device Tree
+~~~~~~~~~~~
