@@ -20,8 +20,8 @@ Bootloader ( U-boot )
    :hidden:
    :caption: Bootloader
 
-   /bootloader/configure
-   /bootloader/build
+   /bootloader/u-boot/configure
+   /bootloader/u-boot/build
 
 Kernel ( Linux )
 ----------------
