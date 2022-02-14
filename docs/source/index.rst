@@ -12,8 +12,10 @@ Linux Kernel
 
 :doc:`environment`
    How to setup up linux build environment
+   
 :doc:`cofigure`
    How to configure linux kernel
+   
 :doc:`build`
    How to build linux kernel
    
@@ -22,8 +24,10 @@ Bootloader
 
 :doc:`environment`
    How to setup up u-boot environment
+   
 :doc:`cofigure`
    How to configure u-boot
+   
 :doc:`build`
    How to build u-boot
 
@@ -31,7 +35,7 @@ Bootloader
 
 .. toctree::
    :caption: LINUX KERNEL
-   :maxdepth: 2
+   :maxdepth: 1
    :hidden:
    
    set-up environment
