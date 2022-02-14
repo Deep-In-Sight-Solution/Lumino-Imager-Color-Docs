@@ -6,20 +6,29 @@ DTK4412 Training Kit is a full featured Android development platform that provid
 
 .. _Exynos4412: https://en.wikipedia.org/wiki/Exynos
 
-Using this theme
+Bootloader ( U-boot )
 ----------------
 
-:doc:`installing`
-    How to install this theme on your Sphinx project.
+:doc:`environment`
+    How to setup bootloader source build environment
 
 :doc:`configuring`
-    Theme configuration and customization options.
+    How to configure bootloader
 
-:ref:`supported-browsers`
-    Supported browser/operating system combinations.
+:doc:`building`
+    HOw to build bootloader
 
-:ref:`supported-dependencies`
-    Supported project dependencies, like Python and Sphinx.
+Kernel ( Linux )
+----------------
+
+:doc:`environment`
+    How to setup bootloader source build environment
+
+:doc:`configuring`
+    How to configure kernel
+
+:doc:`building`
+    How to configure kernel.
 
 Development
 -----------
@@ -40,6 +49,11 @@ Development
 :doc:`Demo documentation <demo/structure>`
     The theme's styleguide test environment, where new changes are tested.
 
+:ref:`supported-browsers`
+    Supported browser/operating system combinations.
+
+:ref:`supported-dependencies`
+    Supported project dependencies, like Python and Sphinx.
 
 .. _Read the Docs contributor guide: https://docs.readthedocs.io/en/stable/contribute.html
 
@@ -51,7 +65,7 @@ Development
    :maxdepth: 2
    :hidden:
 
-   installing
+   environment
    configuring
    development
    contributing
