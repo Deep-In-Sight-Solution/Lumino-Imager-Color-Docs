@@ -34,9 +34,9 @@ Kernel ( Linux )
 .. toctree::
    :maxdepth: 2
    :hidden:
-   :caption: Kernel
+   :caption: Linux
    
-   /kernel/linux/index   
+   /linux/kernel/index   
 
 Development
 -----------
