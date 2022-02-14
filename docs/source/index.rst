@@ -58,7 +58,7 @@ Development
 .. _Read the Docs contributor guide: https://docs.readthedocs.io/en/stable/contribute.html
 
 
-.. Hidden TOCs
+
 
 .. toctree::
    :caption: Theme Documentation
