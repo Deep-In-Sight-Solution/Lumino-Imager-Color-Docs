@@ -35,7 +35,7 @@ Kernel ( Linux )
 .. toctree::
    :maxdepth: 2
    :hidden:
-   :caption: Bootloader
+   :caption: Kernel
    
    /kernel/linux/configure
    /kernel/linux/build
