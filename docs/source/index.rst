@@ -6,14 +6,9 @@
 Welcome to DTK4412's documentation!
 ===================================
 
-.. toctree::
-   :maxdepth: 2
-   :caption: Contents:
-
-
 
 Linux Kernel
-==================
+------------
 
 :doc:`environment`
    How to setup up linux build environment
@@ -21,6 +16,23 @@ Linux Kernel
    How to configure linux kernel
 :doc:`build`
    How to build linux kernel
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+   
+Bootloader
+----------
+
+:doc:`environment`
+   How to setup up u-boot environment
+:doc:`cofigure`
+   How to configure u-boot
+:doc:`build`
+   How to build u-boot
+   
+.. toctree::
+   :caption: LINUX KERNEL:
+   :maxdepth: 2
+   :hidden:
+   
+   set-up environment
+   configuring
+   building
+   
