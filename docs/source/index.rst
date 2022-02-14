@@ -10,10 +10,16 @@ Bootloader ( U-boot )
 ---------------------
 
 :doc:`configure </linux/bootloader/u-boot/configure>`
-    How to configure bootloader
+    How to configure bootloader.
 
 :doc:`compile </linux/bootloader/u-boot/compile>`
-    How to build bootloader
+    How to compile bootloader.
+    
+:doc:`development </linux/bootloader/u-boot/development>`
+    Guidelines and release planning and check dependencies.
+    
+:doc:`changelog </linux/bootloader/u-boot/changelog>`
+    The bootloader development changelog.
 
 .. toctree::
    :maxdepth: 2
@@ -22,17 +28,23 @@ Bootloader ( U-boot )
 
    /linux/bootloader/u-boot/configure
    /linux/bootloader/u-boot/compile
-   /linux/bootloader/u-boot/devlopment
+   /linux/bootloader/u-boot/development
    /linux/bootloader/u-boot/changelog
 
 Kernel ( Linux )
 ----------------
 
 :doc:`configure </linux/kernel/configure>`
-    How to configure kernel
+    How to configure kernel.
 
 :doc:`compile </linux/kernel/compile>`
-    How to configure kernel
+    How to configure kernel.
+    
+:doc:`development </linux/kernel/development>`
+    Guidelines and release planning and check dependencies.
+    
+:doc:`changelog </linux/kernel/changelog>`
+    The kernel development changelog.
 
 .. toctree::
    :maxdepth: 2
@@ -44,11 +56,17 @@ Kernel ( Linux )
    /linux/kernel/development
    /linux/kernel/changelog
 
-RootFS
+RootFS ( Linux )
 ----------------
 
 :doc:`create </linux/rootfs/index>`
     How to create a rootfs image
+    
+:doc:`development </linux/rootfs/development>`
+    Guidelines and release planning and check dependencies.
+    
+:doc:`changelog </linux/rootfs/changelog>`
+    The rootfs development changelog.
 
 .. toctree::
    :maxdepth: 2
@@ -59,11 +77,20 @@ RootFS
    /linux/rootfs/development
    /linux/rootfs/changelog
    
-Buildroot
+Buildroot ( Linux )
 ----------------
 
-:doc:`build </platform/build/buildroot/index>`
+:doc:`configure </platform/build/buildroot/configure>`
+    How to configure buildroot.
+    
+:doc:`build </platform/build/buildroot/build>`
     How to build DTK4412 linux-based development system
+    
+:doc:`development </platform/build/buildroot/development>`
+    Guidelines and release planning and check dependencies.
+    
+:doc:`changelog </platform/build/buildroot/changelog>`
+    The kernel development changelog.
 
 .. toctree::
    :maxdepth: 2
@@ -78,8 +105,17 @@ Buildroot
 Yocto
 ----------------
 
-:doc:`build </platform/build/yocto/index>`
+:doc:`configure </platform/build/yocto/configure>`
+    How to configure yocto.
+    
+:doc:`build </platform/build/yocto/build>`
     How to build DTK4412 linux-based development system
+    
+:doc:`development </platform/build/yocto/development>`
+    Guidelines and release planning and check dependencies.
+    
+:doc:`changelog </platform/build/yocto/changelog>`
+    The yocto development changelog.
 
 .. toctree::
    :maxdepth: 2
