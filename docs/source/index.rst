@@ -15,7 +15,11 @@ Welcome to DTK4412's documentation!
 Linux Kernel
 ==================
 
-:doc:'build'
+:doc:`environment`
+   How to setup up linux build environment
+:doc:`cofigure`
+   How to configure linux kernel
+:doc:`build`
    How to build linux kernel
 * :ref:`genindex`
 * :ref:`modindex`
