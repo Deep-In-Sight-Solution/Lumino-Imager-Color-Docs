@@ -26,9 +26,11 @@ Bootloader
    How to configure u-boot
 :doc:`build`
    How to build u-boot
-   
+
+.. Hidden TOCs
+
 .. toctree::
-   :caption: LINUX KERNEL:
+   :caption: LINUX KERNEL
    :maxdepth: 2
    :hidden:
    
