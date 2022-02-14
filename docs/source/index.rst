@@ -66,30 +66,3 @@ Development
     Supported project dependencies, like Python and Sphinx.
 
 .. _Read the Docs contributor guide: https://docs.readthedocs.io/en/stable/contribute.html
-
-.. Hidden TOCs
-
-.. toctree::
-   :maxdepth: 1
-   :hidden:
-
-   changelog
-
-.. toctree::
-    :maxdepth: 2
-    :numbered:
-    :caption: Demo Documentation
-    :hidden:
-
-    demo/structure
-    demo/demo
-    demo/lists_tables
-    demo/api
-
-.. toctree::
-    :maxdepth: 3
-    :numbered:
-    :caption: This is an incredibly long caption for a long menu
-    :hidden:
-
-    demo/long
