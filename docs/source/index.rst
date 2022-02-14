@@ -12,9 +12,11 @@ Welcome to DTK4412's documentation!
 
 
 
-Indices and tables
+Linux Kernel
 ==================
 
+:doc:'build'
+   How to build linux kernel
 * :ref:`genindex`
 * :ref:`modindex`
 * :ref:`search`
