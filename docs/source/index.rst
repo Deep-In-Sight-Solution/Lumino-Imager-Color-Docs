@@ -12,7 +12,7 @@ Bootloader ( U-boot )
 :doc:`configure </linux/bootloader/u-boot/configure>`
     How to configure bootloader
 
-:doc:`build </linux/bootloader/u-boot/build>`
+:doc:`compile </linux/bootloader/u-boot/compile>`
     How to build bootloader
 
 .. toctree::
@@ -20,7 +20,10 @@ Bootloader ( U-boot )
    :hidden:
    :caption: Bootloader
 
-   /linux/bootloader/u-boot/index
+   /linux/bootloader/u-boot/configure
+   /linux/bootloader/u-boot/compile
+   /linux/bootloader/u-boot/devlopment
+   /linux/bootloader/u-boot/changelog
 
 Kernel ( Linux )
 ----------------
@@ -28,16 +31,66 @@ Kernel ( Linux )
 :doc:`configure </linux/kernel/configure>`
     How to configure kernel
 
-:doc:`build </linux/kernel/build>`
-    How to configure kernel.
+:doc:`compile </linux/kernel/compile>`
+    How to configure kernel
 
 .. toctree::
    :maxdepth: 2
    :hidden:
    :caption: Kernel
    
-   /linux/kernel/index
+   /linux/kernel/configure
+   /linux/kernel/compile
+   /linux/kernel/development
+   /linux/kernel/changelog
 
+RootFS
+----------------
+
+:doc:`create </linux/rootfs/index>`
+    How to create a rootfs image
+
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+   :caption: RootFS
+   
+   /linux/rootfs/image
+   /linux/rootfs/development
+   /linux/rootfs/changelog
+   
+Buildroot
+----------------
+
+:doc:`build </platform/build/buildroot/index>`
+    How to build DTK4412 linux-based development system
+
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+   :caption: Buildroot
+   
+   /platform/build/buildroot/configure
+   /platform/build/buildroot/build
+   /platform/build/buildroot/development
+   /platform/build/buildroot/changelog
+   
+Yocto
+----------------
+
+:doc:`build </platform/build/yocto/index>`
+    How to build DTK4412 linux-based development system
+
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+   :caption: Yocto
+   
+   /platform/build/yocto/configure
+   /platform/build/yocto/build
+   /platform/build/yocto/development
+   /platform/build/yocto/changelog
+   
 Development
 -----------
 
@@ -56,10 +109,7 @@ Development
 
 :doc:`Demo documentation <demo/structure>`
     The theme's styleguide test environment, where new changes are tested.
-
-:ref:`supported-browsers`
-    Supported browser/operating system combinations.
-
+    
 :ref:`supported-dependencies`
     Supported project dependencies, like Python and Sphinx.
 
