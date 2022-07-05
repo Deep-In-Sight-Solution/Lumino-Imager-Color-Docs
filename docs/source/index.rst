@@ -7,7 +7,7 @@ DTK4412 Training Kit is a full featured Android development platform that provid
 .. _Exynos4412: https://en.wikipedia.org/wiki/Exynos
 
 Bootloader ( U-boot )
----------------------
+#####################
 
 :doc:`configure </linux/bootloader/u-boot/configure>`
     How to configure bootloader.
