@@ -1,5 +1,5 @@
-DeepInsight VOMASYS Documentation
-=================================
+DeepInsight VOMASYS-meerecompany Documentation
+==============================================
 
 ...
 
