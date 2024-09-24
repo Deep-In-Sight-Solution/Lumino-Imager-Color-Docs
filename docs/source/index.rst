@@ -56,11 +56,8 @@ VOMASYS-meerecompany User Manual
 #. `Git for Windows <https://git-scm.com/download/win>`__ 설치
 
 .. note::
-
-    64-bit OS
-        :guilabel:`64-bit Git for Windows Setup`
-    32-bit OS
-        :guilabel:`32-bit Git for Windows Setup`
+    if ``64-bit OS``: Download :guilabel:`64-bit Git for Windows Setup`
+    if ``32-bit OS``: Download :guilabel:`32-bit Git for Windows Setup`
 
     
 
