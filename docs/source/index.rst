@@ -47,12 +47,20 @@ VOMASYS-meerecompany User Manual
 실행 방법
 ========
 
+#. ToF camera 드라이버 설치
+#. PC 에 연결 후 ( I/F: USB ) 장치 인식 상태 확인 :menuselection:`제어판-->장치 관리자`
 #. `Git for Windows <https://git-scm.com/download/win>`__ 설치.
+
     - if ``64-bit OS`` : Download :guilabel:`64-bit Git for Windows Setup`.
     - if ``32-bit OS`` : Download :guilabel:`32-bit Git for Windows Setup`.
-#. 
-    
 
+#. 실행 파일 다운로드
+
+   .. code-block:: window
+
+    PS c:\> git clone
+
+#. 
 
 
 검증 환경
