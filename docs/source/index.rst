@@ -1,7 +1,11 @@
 VOMASYS-meerecompany Documentation
-==============================================
+==================================
 
-...
+*******************
+VOMASYS
+*******************
+
+.. contents:: Table of Contents
 
 개발 환경
 #####################
@@ -23,6 +27,7 @@ VOMASYS-meerecompany Documentation
    :hidden:
    :caption: development
     
+    /dev_env/changelog
     /dev_env/changelog
 
 
