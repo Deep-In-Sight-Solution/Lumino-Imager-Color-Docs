@@ -9,14 +9,11 @@ VOMASYS-meerecompany User Manual
 개발 환경
 ========
 
-:doc:`OS`
-    ``Windows 11``
-    
-:doc:`IDE`
-    ``Qt 5.15.2``
-    
-:doc:`Compiler`
-    ``MSVC2019 ( Visual Studio 2019 )``
+`OS`: ``Windows 11``
+
+`IDE`: ``Qt 5.15.2``
+
+`Compiler`: ``MSVC2019 ( Visual Studio 2019 )``
     
 :doc:`Changelog </dev_env/changelog>`
     개발 환경 변경 사항.
@@ -53,6 +50,7 @@ VOMASYS-meerecompany User Manual
 
 실행 방법
 ========
+
 #. `Git for Windows <https://git-scm.com/download/win>`__ 설치
 
 .. note::
