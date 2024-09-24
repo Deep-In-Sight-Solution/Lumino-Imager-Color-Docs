@@ -7,7 +7,7 @@ VOMASYS-meerecompany Documentation
 #####################
 
 :doc:`OS`
-    Windows 11
+    ``Windows 11``
     
 :doc:`IDE`
     Qt 5.15.2
