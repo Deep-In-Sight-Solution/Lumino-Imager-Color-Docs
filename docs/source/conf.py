@@ -17,8 +17,8 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'DTK4412'
-copyright = '2021, Jinyoung Park'
+project = 'VOMASYS-meerecompany'
+copyright = '2024, Jinyoung Park'
 author = 'Jinyoung Park'
 
 # The full version, including alpha/beta/rc tags
