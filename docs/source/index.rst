@@ -58,9 +58,9 @@ VOMASYS-meerecompany User Manual
 
    .. code-block:: window
 
-    PS c:\> git clone ssh://meerecompany@220.78.49.161:2222/repo/meerecompany/vomasys-release
+    PS c:\work> git clone ssh://meerecompany@220.78.49.161:2222/repo/meerecompany/vomasys-release
 
-#. 
+#. :guilabel:`파일 탐색기` 실행 후 작업 디렉토리 ``c:\work\vomasys-release\build-src-Desktop_Qt_5_15_2_MSVC2019_64bit-Release`` 에 있는 ``BoxDimensionDetectionPrototype.exe`` 를 실행한다. 
 
 
 검증 환경
@@ -78,8 +78,8 @@ VOMASYS-meerecompany User Manual
 운영 환경
 ========
 
-:doc:`Feedback </op_env/operation>`
-    How to create a rootfs image
+:doc:`DeepInsight Issue Management System </op_env/operation>`
+    딥인사이트 이슈 관리 시스템 (협력 업체 대응 이슈)
     
 :doc:`Changelog </op_env/changelog>`
     운영 환경 변경 사항.
