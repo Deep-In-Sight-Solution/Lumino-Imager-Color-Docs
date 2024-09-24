@@ -30,9 +30,7 @@ VOMASYS-meerecompany User Manual
 실행 환경
 ========
 
-`OS`: `Windows 11``
-
-
+`OS` : `Windows 11``
     
 :doc:`Changelog </exec_env/changelog>`
     실행 환경 변경 사항.
@@ -49,9 +47,9 @@ VOMASYS-meerecompany User Manual
 실행 방법
 ========
 
-#. `Git for Windows <https://git-scm.com/download/win>`__ 설치::
- - if ``64-bit OS`` : Download :guilabel:`64-bit Git for Windows Setup`.
- - if ``32-bit OS`` : Download :guilabel:`32-bit Git for Windows Setup`.
+#. `Git for Windows <https://git-scm.com/download/win>`__ 설치.
+    - if ``64-bit OS`` : Download :guilabel:`64-bit Git for Windows Setup`.
+    - if ``32-bit OS`` : Download :guilabel:`32-bit Git for Windows Setup`.
 #. 
     
 
