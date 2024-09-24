@@ -51,23 +51,24 @@ VOMASYS-meerecompany User Manual
    /exec_env/changelog
 
 
+실행 방법
+========
+#. `Git for Windows <https://git-scm.com/download/win>`__ 설치
+
+
+
+
 검증 환경
 ========
 
-.. figure:: static/1.jpeg
-    :width: 50%
-    :align: center
-    :alt: ...
+.. list-table:: 
 
-.. figure:: static/2.jpeg
-    :width: 50%
-    :align: right
-    :alt: ...
+    * - .. figure:: static/1.jpeg
 
-.. figure:: static/3.jpeg
-    :width: 50%
-    :align: right
-    :alt: ...
+      - .. figure:: static/2.jpeg
+
+      - .. figure:: static/3.jpeg
+
 
 운영 환경
 ========
