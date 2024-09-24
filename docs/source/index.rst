@@ -58,7 +58,7 @@ VOMASYS-meerecompany User Manual
 
    .. code-block:: window
 
-    PS c:\> git clone
+    PS c:\> git clone ssh://meerecompany@220.78.49.161:2222/repo/meerecompany/vomasys-release
 
 #. 
 
