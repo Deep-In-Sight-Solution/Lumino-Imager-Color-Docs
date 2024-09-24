@@ -1,4 +1,4 @@
-DeepInsight VOMASYS-meerecompany Documentation
+VOMASYS-meerecompany Documentation
 ==============================================
 
 ...
@@ -22,8 +22,9 @@ DeepInsight VOMASYS-meerecompany Documentation
    :maxdepth: 2
    :hidden:
    :caption: development
-
+    
     /dev_env/changelog
+
 
 실행 환경
 #####################
@@ -44,6 +45,7 @@ DeepInsight VOMASYS-meerecompany Documentation
    
    /exec_env/excution
    /exec_env/changelog
+    
 
 운영 환경
 #####################
