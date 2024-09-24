@@ -1,9 +1,6 @@
-VOMASYS-meerecompany Documentation
-==================================
-
-*******************
-VOMASYS
-*******************
+*********************************
+VOMASYS-meerecompany User Manual
+*********************************
 
 .. contents:: Table of Contents
 
@@ -27,7 +24,7 @@ VOMASYS
    :hidden:
    :caption: development
     
-    /dev_env/changelog
+    /dev_env/development
     /dev_env/changelog
 
 
