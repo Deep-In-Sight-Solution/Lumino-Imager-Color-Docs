@@ -49,10 +49,9 @@ VOMASYS-meerecompany User Manual
 실행 방법
 ========
 
-#. `Git for Windows <https://git-scm.com/download/win>`__ 설치
+#. `Git for Windows <https://git-scm.com/download/win>`__ 설치::
  - if ``64-bit OS`` : Download :guilabel:`64-bit Git for Windows Setup`.
  - if ``32-bit OS`` : Download :guilabel:`32-bit Git for Windows Setup`.
-
 #. 
     
 
