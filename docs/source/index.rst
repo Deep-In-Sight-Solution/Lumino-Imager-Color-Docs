@@ -17,7 +17,13 @@ DeepInsight VOMASYS Documentation
     
 :doc:`Changelog </dev_env/changelog>`
     Development environment changelog.
-    
+
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+   :caption: development
+
+    /dev_env/changelog
 
 실행 환경
 #####################
@@ -28,39 +34,30 @@ DeepInsight VOMASYS Documentation
 :doc:`Install </exec_env/excution>`
     How to configure kernel.
     
-:doc:`development </linux/kernel/development>`
-    Guidelines and release planning and check dependencies.
-    
 :doc:`Changelog </exec_env/changelog>`
     Execution environment changelog.
 
 .. toctree::
    :maxdepth: 2
    :hidden:
-   :caption: Kernel
+   :caption: execution
    
-   /linux/kernel/configure
-   /linux/kernel/compile
-   /linux/kernel/development
-   /linux/kernel/changelog
+   /exec_env/excution
+   /exec_env/changelog
 
 운영 환경
 #####################
 
-:doc:`create </linux/rootfs/index>`
+:doc:`Feedback </op_env/operation>`
     How to create a rootfs image
     
-:doc:`development </linux/rootfs/development>`
-    Guidelines and release planning and check dependencies.
-    
-:doc:`changelog </linux/rootfs/changelog>`
+:doc:`changelog </op_env/changelog>`
     The rootfs development changelog.
 
 .. toctree::
    :maxdepth: 2
    :hidden:
-   :caption: RootFS
+   :caption: operation
    
-   /linux/rootfs/image
-   /linux/rootfs/development
-   /linux/rootfs/changelog
+   /op_env/operation
+   /op_env/changelog
