@@ -75,7 +75,7 @@ VOMASYS-meerecompany User Manual
 
     .. tab:: 실행 흐름
         
-        .. figure:: static/flow.jpeg
+        .. figure:: static/flow.png
 
 
 측정 방법
