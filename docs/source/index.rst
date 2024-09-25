@@ -30,7 +30,7 @@ VOMASYS-meerecompany User Manual
 실행 환경
 ========
 
-`OS` : `Windows 11``
+`OS` : ``Windows 11``
     
 :doc:`Changelog </exec_env/changelog>`
     실행 환경 변경 사항.
