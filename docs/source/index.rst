@@ -14,7 +14,7 @@ VOMASYS-meerecompany User Manual
 `IDE` : ``Qt 5.15.2``
 
 `Compiler` : ``MSVC2019 ( Visual Studio 2019 )``
-    
+
 :doc:`Changelog </dev_env/changelog>`
     개발 환경 변경 사항.
 
@@ -55,17 +55,17 @@ VOMASYS-meerecompany User Manual
 
 .. tabs::
 
-    .. tab:: 1. Calibration
+    .. tab:: #. Calibration
 
-        1) Depth Image에서 ROI로 지정할 :menuselection:`좌상단 --> 우하단` 좌표를 선택하여 사각형 ROI 지정한다.
-        2) 지정 후 지정된 영역을 제외한 다른 영역을 선택하여 셋팅을 완료한다.
+        - 1~2) Depth Image에서 ROI로 지정할 :menuselection:`좌상단 --> 우하단` 좌표를 선택하여 사각형 ROI 지정한다.
+        - 3) 지정 후 지정된 영역을 제외한 다른 영역을 선택하여 셋팅을 완료한다.
 
         .. figure:: static/4.jpeg
 
         .. figure:: static/5.jpeg
 
 
-    .. tab:: 2. Range Setting
+    .. tab:: #. Range Setting
 
         박스를 올려 둘 공간을 지정하는 작업
         1) Calibration과 동일한 방법으로 영역을 지정한다.
