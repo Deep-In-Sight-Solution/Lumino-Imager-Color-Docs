@@ -140,6 +140,9 @@ VOMASYS-meerecompany User Manual
 검증 환경
 ========
 
+- 부피 측정 장비 1set
+- 박스 3ea ( small, medium, big )
+
 .. important::
 
     플레이트와 거리 측정 센서와의 거리는 현재 0.710mm (71Cm)이며 해당 높이에 대한 offset 값이 적용되어 있다.
@@ -156,7 +159,7 @@ VOMASYS-meerecompany User Manual
 운영 환경
 ========
 
-:doc:`DeepInsight Issue Management System </op_env/operation>`
+:doc:`DeepInsight Issue Management System <http://220.78.49.161:8084/>`
     딥인사이트 이슈 관리 시스템 (협력 업체 대응 이슈)
     
 :doc:`Changelog </op_env/changelog>`
