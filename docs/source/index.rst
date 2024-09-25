@@ -81,6 +81,15 @@ VOMASYS-meerecompany User Manual
 
     :menuselection:`Calibration --> Range Setting --> capture (부피 측정)` 순서로 진행하세요.
 
+    .. list-table:: 
+
+        * - .. figure:: static/capture_button.jpeg
+    
+          - .. figure:: static/cal_button.jpeg
+    
+          - .. figure:: static/range_button.jpeg
+
+
 .. warning::
 
     ROI 영역 지정 시 반드시 :menuselection:`좌상단 --> 우하단` 방향으로 좌표를 지정해야 하며, 이 지침을 지키지 않을 시 제대로 동작하지 않을 수 있습니다.
