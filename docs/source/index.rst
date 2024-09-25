@@ -53,7 +53,9 @@ VOMASYS-meerecompany User Manual
 측정 방법
 --------
 
-- :menuselection:`Calibration --> Range Setting --> 측정` 순서로 진행하세요.
+.. important::
+
+    :menuselection:`Calibration --> Range Setting --> 측정` 순서로 진행하세요.
 
 .. tabs::
 
