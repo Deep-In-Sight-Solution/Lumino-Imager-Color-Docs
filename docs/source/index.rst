@@ -53,30 +53,18 @@ VOMASYS-meerecompany User Manual
 실행 화면
 --------
 
-.. tabs::
+.. list-table:: 
 
-    .. tab:: 실행
-
-        .. figure:: static/app.jpeg
-            :width: auto
-            :align: center
-            :alt: 실행
+    * - .. figure:: static/app.jpeg
+            
                 실행
 
-    .. tab:: 측정
-
         .. figure:: static/capture.jpeg
-            :width: auto
-            :align: center
-            :alt: 측정
+            
                 측정
 
-    .. tab:: 결과
-
         .. figure:: static/result.jpeg
-            :width: auto
-            :align: center
-            :alt: 결과
+            
                 결과
 
 측정 방법
