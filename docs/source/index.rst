@@ -55,17 +55,23 @@ VOMASYS-meerecompany User Manual
 
 .. tabs::
 
-    .. tab:: app
+    .. tab:: 실행 화면
         
         .. figure:: static/app.jpeg
 
-    .. tab:: capture
+            택배물 안착 및 부피 측정 요청
+
+    .. tab:: 측정
         
         .. figure:: static/capture.jpeg
 
-    .. tab:: result
+            택배물 가로 세로 길이 계측 및 면적 산정, 높이 계측
+
+    .. tab:: 결과
         
         .. figure:: static/result.jpeg
+
+            택배물 부피 산정
 
 
 측정 방법
