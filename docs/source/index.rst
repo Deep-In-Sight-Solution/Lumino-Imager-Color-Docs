@@ -31,21 +31,9 @@ VOMASYS-meerecompany User Manual
 ========
 
 `OS` : ``Windows 11``
-    
-:doc:`Changelog </exec_env/changelog>`
-    실행 환경 변경 사항.
-
-.. toctree::
-   :maxdepth: 2
-   :hidden:
-   :caption: execution
-   
-   /exec_env/excution
-   /exec_env/changelog
-
 
 실행 방법
-========
+--------
 
 #. ToF camera 드라이버 설치
 #. PC 에 연결 후 ( I/F: USB ) 장치 인식 상태 확인 :menuselection:`제어판 --> 장치 관리자`
@@ -61,6 +49,36 @@ VOMASYS-meerecompany User Manual
     PS c:\work> git clone ssh://meerecompany@220.78.49.161:2222/repo/meerecompany/vomasys-release
 
 #. :guilabel:`파일 탐색기` 실행 후 작업 디렉토리 ``c:\work\vomasys-release\build-src-Desktop_Qt_5_15_2_MSVC2019_64bit-Release`` 에 있는 ``BoxDimensionDetectionPrototype.exe`` 를 실행한다. 
+
+측정 방법
+--------
+
+.. tabs::
+
+    .. tab:: 1. Calibration
+
+        1) Depth Image에서 ROI로 지정할 :manuselection:`좌상단 --> 우하단` 좌표를 선택하여 사각형 ROI 지정한다.
+        2) 지정 후 지정된 영역을 제외한 다른 영역을 선택하여 셋팅을 완료한다.
+
+    .. tab:: 2. Range Setting
+
+        박스를 올려 둘 공간을 지정하는 작업
+        1) Calibration과 동일한 방법으로 영역을 지정한다.
+        2) 지정 후 지정된 영역을 제외한 다른 영역을 선택하여 셋팅을 완료한다.
+
+        
+
+
+:doc:`Changelog </exec_env/changelog>`
+    실행 환경 변경 사항.
+
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+   :caption: execution
+   
+   /exec_env/excution
+   /exec_env/changelog
 
 
 검증 환경
