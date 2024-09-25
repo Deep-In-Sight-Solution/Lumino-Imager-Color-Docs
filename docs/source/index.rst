@@ -73,6 +73,10 @@ VOMASYS-meerecompany User Manual
 
             택배물 부피 산정
 
+    .. tab:: 실행 흐름
+        
+        .. figure:: static/flow.jpeg
+
 
 측정 방법
 --------
