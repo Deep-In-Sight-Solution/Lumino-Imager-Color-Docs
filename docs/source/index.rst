@@ -50,6 +50,35 @@ VOMASYS-meerecompany User Manual
 
 #. :guilabel:`파일 탐색기` 실행 후 작업 디렉토리 ``c:\work\vomasys-release\build-src-Desktop_Qt_5_15_2_MSVC2019_64bit-Release`` 에 있는 ``BoxDimensionDetectionPrototype.exe`` 를 실행한다. 
 
+실행 화면
+--------
+
+.. tabs::
+
+    .. tab:: 실행
+
+        .. figure:: static/app.jpeg
+            :width: auto
+            :align: center
+            :alt: 실행
+                실행
+
+    .. tab:: 측정
+
+        .. figure:: static/capture.jpeg
+            :width: auto
+            :align: center
+            :alt: 측정
+                측정
+
+    .. tab:: 결과
+
+        .. figure:: static/result.jpeg
+            :width: auto
+            :align: center
+            :alt: 결과
+                결과
+
 측정 방법
 --------
 
