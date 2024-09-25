@@ -118,8 +118,7 @@ VOMASYS-meerecompany User Manual
 
     .. tab:: Range Setting
 
-        박스를 올려 둘 공간을 지정하는 작업.
-        1. Calibration과 동일한 방법으로 영역을 지정한다.
+        1. Calibration과 동일한 방법으로 박스를 올려 둘 영역을 지정한다.
         2. 지정 후 지정된 영역을 제외한 다른 영역을 선택하여 셋팅을 완료한다.
 
         .. figure:: static/6.jpeg
