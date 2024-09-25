@@ -79,15 +79,21 @@ VOMASYS-meerecompany User Manual
 
 .. important::
 
-    :menuselection:`Calibration --> Range Setting --> capture (부피 측정)` 순서로 진행하세요.
+    :menuselection:`Calibration --> Range Setting --> Capture (부피 측정)` 순서로 진행하세요.
 
     .. list-table:: 
 
-        * - .. figure:: static/capture_button.jpeg
+        * - .. figure:: static/capture_button.png
+
+            Capture
     
-          - .. figure:: static/cal_button.jpeg
+          - .. figure:: static/cal_button.png
+
+            Calibration
     
-          - .. figure:: static/range_button.jpeg
+          - .. figure:: static/range_button.png
+
+            Range Setting
 
 
 .. warning::
