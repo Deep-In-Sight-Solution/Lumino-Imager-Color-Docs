@@ -1,6 +1,6 @@
-*********************************
-VOMASYS-meerecompany User Manual
-*********************************
+**************************************
+Development Infrastructure User Manual
+**************************************
 
 .. contents:: Table of Contents
 
