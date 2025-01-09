@@ -17,7 +17,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'VOMASYS-meerecompany'
+project = 'Development Infrastructure'
 copyright = '2024, Jinyoung Park'
 author = 'Jinyoung Park'
 
