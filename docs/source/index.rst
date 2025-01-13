@@ -13,14 +13,6 @@ Development Infrastructure User Manual
 .. toctree::
    :maxdepth: 2
    :hidden:
-   :caption: execution
-   
-   /exec_env/execution
-   /exec_env/changelog
-
-.. toctree::
-   :maxdepth: 2
-   :hidden:
    :caption: operation
    
    /op_env/operation
