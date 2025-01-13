@@ -2,6 +2,31 @@
 Development Infrastructure User Manual
 **************************************
 
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+   :caption: development
+    
+    /dev_env/development
+    /dev_env/changelog
+
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+   :caption: execution
+   
+   /exec_env/excution
+   /exec_env/changelog
+
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+   :caption: operation
+   
+   /op_env/operation
+   /op_env/changelog
+
+
 .. contents:: Table of Contents
 
 ---------
@@ -21,14 +46,6 @@ Development Infrastructure User Manual
 
 :doc:`Changelog </dev_env/changelog>`
     개발 환경 변경 사항.
-
-.. toctree::
-   :maxdepth: 2
-   :hidden:
-   :caption: development
-    
-    /dev_env/development
-    /dev_env/changelog
 
 
 실행 환경
@@ -140,14 +157,6 @@ Development Infrastructure User Manual
 :doc:`Changelog </exec_env/changelog>`
     실행 환경 변경 사항.
 
-.. toctree::
-   :maxdepth: 2
-   :hidden:
-   :caption: execution
-   
-   /exec_env/excution
-   /exec_env/changelog
-
 
 검증 환경
 ========
@@ -176,11 +185,3 @@ Development Infrastructure User Manual
     
 :doc:`Changelog </op_env/changelog>`
     운영 환경 변경 사항.
-
-.. toctree::
-   :maxdepth: 2
-   :hidden:
-   :caption: operation
-   
-   /op_env/operation
-   /op_env/changelog
