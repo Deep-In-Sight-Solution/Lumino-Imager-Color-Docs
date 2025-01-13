@@ -15,7 +15,7 @@ Development Infrastructure User Manual
    :hidden:
    :caption: execution
    
-   /exec_env/excution
+   /exec_env/execution
    /exec_env/changelog
 
 .. toctree::
@@ -129,7 +129,6 @@ Development Infrastructure User Manual
 
             Range Setting
 
-
 .. warning::
 
     ROI 영역 지정 시 반드시 :menuselection:`좌상단 --> 우하단` 방향으로 좌표를 지정해야 하며, 이 지침을 지키지 않을 시 제대로 동작하지 않을 수 있습니다.
@@ -152,7 +151,6 @@ Development Infrastructure User Manual
         2. 지정 후 지정된 영역을 제외한 다른 영역을 선택하여 셋팅을 완료한다.
 
         .. figure:: static/6.jpeg
-
 
 :doc:`Changelog </exec_env/changelog>`
     실행 환경 변경 사항.
