@@ -2,7 +2,13 @@
 Development Infrastructure User Manual
 **************************************
 
-
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+   :caption: development
+    
+    /dev_env/development
+    /dev_env/changelog
 
 
 .. contents:: Table of Contents
