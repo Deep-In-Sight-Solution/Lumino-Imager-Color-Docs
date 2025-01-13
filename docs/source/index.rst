@@ -1,5 +1,5 @@
 **************************************
-Development Infrastructure 
+Development Infrastructure User Manual
 **************************************
 
 .. toctree::
