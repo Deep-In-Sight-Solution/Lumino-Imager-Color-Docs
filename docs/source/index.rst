@@ -6,9 +6,25 @@ Development Infrastructure User Manual
    :maxdepth: 2
    :hidden:
    :caption: development
-    
-    /dev_env/development
-    /dev_env/changelog
+   
+   /dev_env/development
+   /dev_env/changelog
+
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+   :caption: execution
+   
+   /exec_env/execution
+   /exec_env/changelog
+
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+   :caption: operation
+   
+   /op_env/operation
+   /op_env/changelog
 
 
 .. contents:: Table of Contents
