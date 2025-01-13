@@ -1,5 +1,5 @@
 **************************************
-Development Infrastructure User Manual
+Development Infrastructure 
 **************************************
 
 .. toctree::
@@ -9,6 +9,14 @@ Development Infrastructure User Manual
     
     /dev_env/development
     /dev_env/changelog
+
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+   :caption: execution
+   
+   /exec_env/execution
+   /exec_env/changelog
 
 .. toctree::
    :maxdepth: 2
