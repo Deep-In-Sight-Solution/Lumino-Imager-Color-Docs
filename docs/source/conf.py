@@ -17,7 +17,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'Development Infrastructure'
+project = 'Lumino Imager Color'
 copyright = '2024, Jinyoung Park'
 author = 'Jinyoung Park'
 

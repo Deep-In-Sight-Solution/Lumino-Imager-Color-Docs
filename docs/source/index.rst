@@ -1,5 +1,5 @@
 **************************************
-Development Infrastructure User Manual
+Lumino Imager Color User Manual
 **************************************
 
 .. toctree::
