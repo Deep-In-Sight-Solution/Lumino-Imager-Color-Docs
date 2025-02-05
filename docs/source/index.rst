@@ -39,7 +39,7 @@ Lumino Imager Color User Manual
    :hidden:
    :caption: 검증환경
 
-   /exec_env/verify
+   /verif_env/verify
 
 .. toctree::
    :maxdepth: 2
