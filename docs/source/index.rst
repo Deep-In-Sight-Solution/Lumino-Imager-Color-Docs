@@ -5,15 +5,15 @@ Lumino Imager Color User Manual
 .. toctree::
    :maxdepth: 2
    :hidden:
-   :caption: introduction
-   
+   :caption: 개요
+
    /intro_env/about
 
 .. toctree::
    :maxdepth: 2
    :hidden:
-   :caption: specification
-   
+   :caption: 사양
+
    /spec_env/usb
    /spec_env/sdcard
    /spec_env/network
@@ -21,18 +21,32 @@ Lumino Imager Color User Manual
 .. toctree::
    :maxdepth: 2
    :hidden:
-   :caption: execution
-   
+   :caption: 개발환경
+
+   /dev_env/development
+
+.. toctree::    
+   :maxdepth: 2
+   :hidden:
+   :caption: 실행환경
+
    /exec_env/execution
-   /exec_env/changelog
+   /exec_env/exec_method
+   /exec_env/exec_screen
 
 .. toctree::
    :maxdepth: 2
    :hidden:
-   :caption: operation
-   
+   :caption: 검증환경
+
+   /exec_env/verify
+
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+   :caption: 운영환경
+
    /op_env/operation
-   /op_env/changelog
 
 
 .. contents:: Table of Contents
