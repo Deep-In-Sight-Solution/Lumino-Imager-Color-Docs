@@ -5,10 +5,10 @@ Lumino Imager Color User Manual
 .. toctree::
    :maxdepth: 2
    :hidden:
-   :caption: development
+   :caption: Specification
    
-   /dev_env/development
-   /dev_env/changelog
+   /spec/specification
+   /spec/changelog
 
 .. toctree::
    :maxdepth: 2
