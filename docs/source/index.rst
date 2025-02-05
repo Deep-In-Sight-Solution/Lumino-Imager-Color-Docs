@@ -7,8 +7,8 @@ Lumino Imager Color User Manual
    :hidden:
    :caption: Specification
    
-   /spec/specification
-   /spec/changelog
+   /spec_env/specification
+   /spec_env/changelog
 
 .. toctree::
    :maxdepth: 2
