@@ -45,8 +45,15 @@ Lumino Imager Color User Manual
    :hidden:
    :caption: 운영환경
 
-   /op_env/operation
+   /op_env/deploy
+   /op_env/release
 
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+   :caption: Reference
+
+   /ref_env/Changelog
 
 Welcome to ICG-Color Documentation
 ==================================
