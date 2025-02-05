@@ -53,7 +53,7 @@ Lumino Imager Color User Manual
    :hidden:
    :caption: Reference
 
-   /ref_env/Changelog
+   /ref_env/changelog
 
 Welcome to ICG-Color Documentation
 ==================================
