@@ -55,6 +55,7 @@ Lumino Imager Color User Manual
 
    /ref_env/changelog
 
+
 Welcome to ICG-Color Documentation
 ==================================
 
@@ -63,6 +64,20 @@ Welcome to ICG-Color Documentation
 
 .. _Indocyanine Green (ICG) and Colorectal Surgery: https://www.mdpi.com/1648-9144/59/9/1530
 .. _Indocyanine Green Fluorescence in Gastrointestinal Surgery: https://www.wjgnet.com/1948-9366/full/v15/i12/2693.htm
+
+
+Specification
+---------------------
+
+:doc:`USB </spec_env/usb>`
+    How to configure bootloader.
+
+:doc:`SD Card </spec_env/sdcard>`
+    How to compile bootloader.
+    
+:doc:`Network </spec_env/network>`
+    Guidelines and release planning and check dependencies.
+
 
 .. contents:: Table of Contents
 
