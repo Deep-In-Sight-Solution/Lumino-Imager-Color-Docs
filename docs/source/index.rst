@@ -5,7 +5,7 @@ Lumino Imager Color User Manual
 .. toctree::
    :maxdepth: 2
    :hidden:
-   :caption: Specification
+   :caption: specification
    
    /spec_env/specification
    /spec_env/changelog
@@ -44,7 +44,7 @@ Lumino Imager Color User Manual
 | Compiler   | ``MSVC2019``                       |
 +------------+----------+-------------------------+
 
-:doc:`Changelog </dev_env/changelog>`
+:doc:`Changelog </spec_env/changelog>`
     개발 환경 변경 사항.
 
 
