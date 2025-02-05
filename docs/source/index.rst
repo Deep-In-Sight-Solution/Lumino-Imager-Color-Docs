@@ -7,15 +7,16 @@ Lumino Imager Color User Manual
    :hidden:
    :caption: introduction
    
-   /intro_env/introduction
+   /intro_env/about
 
 .. toctree::
    :maxdepth: 2
    :hidden:
    :caption: specification
    
-   /spec_env/specification
+   /spec_env/usb
    /spec_env/sdcard
+   /spec_env/network
 
 .. toctree::
    :maxdepth: 2
