@@ -15,7 +15,7 @@ Lumino Imager Color User Manual
    :caption: specification
    
    /spec_env/specification
-   /spec_env/changelog
+   /spec_env/sdcard
 
 .. toctree::
    :maxdepth: 2
