@@ -51,11 +51,11 @@ Lumino Imager Color User Manual
 Welcome to ICG-Color Documentation
 ==================================
 
-Indocyanine Green (ICG) and Colorectal Surgery_: A Literature Review on Qualitative and Quantitative Methods of Usage.
-Indocyanine green fluorescence in gastrointestinal surgery_: Appraisal of current evidence
+Indocyanine Green (ICG) and Colorectal Surgery: A Literature Review on Qualitative and Quantitative Methods of Usage.
+'Indocyanine Green Fluorescence in Gastrointestinal Surgery': Appraisal of current evidence
 
 .. _Indocyanine Green (ICG) and Colorectal Surgery: https://www.mdpi.com/1648-9144/59/9/1530
-.. _Indocyanine green fluorescence in gastrointestinal surgery: https://www.wjgnet.com/1948-9366/full/v15/i12/2693.htm
+.. _Indocyanine Green Fluorescence in Gastrointestinal Surgery: https://www.wjgnet.com/1948-9366/full/v15/i12/2693.htm
 
 .. contents:: Table of Contents
 
