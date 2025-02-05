@@ -30,7 +30,6 @@ Lumino Imager Color User Manual
    :hidden:
    :caption: 실행환경
 
-   /exec_env/execution
    /exec_env/exec_method
    /exec_env/exec_screen
 
