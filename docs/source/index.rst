@@ -48,7 +48,9 @@ Lumino Imager Color User Manual
    :hidden:
    :caption: 관리환경
 
+   /mgmt_env/issues
    /mgmt_env/changes
+   /mgmt_env/version
    /mgmt_env/status
 
 .. toctree::
@@ -57,7 +59,6 @@ Lumino Imager Color User Manual
    :caption: 운영환경
 
    /op_env/deploy
-   /op_env/release
 
 .. toctree::
    :maxdepth: 2
@@ -143,35 +144,3 @@ Specification
 
 :doc:`출시 </op_env/release>`
     ... .
-
-
-.. contents:: Table of Contents
-
-
-검증 환경
-========
-
-- 부피 측정 장비 1set
-- 박스 3ea ( small, medium, big )
-
-.. important::
-
-    플레이트와 거리 측정 센서와의 거리는 현재 0.710mm (71Cm)이며 해당 높이에 대한 offset 값이 적용되어 있다.
-
-.. list-table:: 
-
-    * - .. figure:: static/1.jpeg
-
-      - .. figure:: static/2.jpeg
-
-      - .. figure:: static/3.jpeg
-
-
-운영 환경
-========
-
-`DeepInsight Issue Management System <http://220.78.49.161:8084/>`__
-    딥인사이트 이슈 관리 시스템 (협력 업체 대응 이슈)
-    
-:doc:`Changelog </op_env/changelog>`
-    운영 환경 변경 사항.
