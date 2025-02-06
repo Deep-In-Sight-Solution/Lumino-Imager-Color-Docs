@@ -77,16 +77,14 @@ Welcome to ICG-Color Documentation
     :width: 100%
     :alt: NIR/ICG Overay Mode
 
-    ICG-Color 장비를 이용한 수술 부위 촬영 영상<br />
-    (a) White Light Mode, (b) NIR/ICG Overay Mode<br />
+    ICG-Color 장비를 이용한 수술 부위 촬영 영상 [ (a) White Light Mode, (b) NIR/ICG Overay Mode ]
     (출처: https://www.mdpi.com/1648-9144/59/9/1530)
 
 .. figure:: static/icg-color-overlay-intensity-map.png
     :width: 50%
     :alt: NIR/ICG Intensity Map Mode
 
-    ICG-Color 장비를 이용한 수술 부위 촬영 영상<br />
-    (c) NIR/ICG Intensity Map Mode<br />
+    ICG-Color 장비를 이용한 수술 부위 촬영 영상 [ (c) NIR/ICG Intensity Map Mode ]
     (출처: https://www.mdpi.com/1648-9144/59/9/1530)
 
 - Indocyanine Green (ICG) and Colorectal Surgery_: A Literature Review on Qualitative and Quantitative Methods of Usage.
@@ -185,12 +183,7 @@ Welcome to ICG-Color Documentation
 운영 환경
 --------
 
-시스템 운영에 필요한 인프라 및 관리 체계를 설명합니다. 서버 구성, 네트워크 환경, 
-데이터 관리 정책, 백업 전략, 보안 프로토콜 등 실제 운영에 필요한 물리적/논리적 환경과 
-유지보수 프로세스를 포함합니다. 시스템 가용성, 확장성, 장애 대응 방안 등 
-운영 품질 보장을 위한 전반적인 환경 구성 요소를 다룹니다.
-
 :doc:`배포 </op_env/deploy>`
     배포 단계에서는 애플리케이션의 설치, 구성, 업데이트 및 유지보수와 관련된 절차와 환경 구성이 상세히 설명됩니다.
-    개발 완료된 시스템을 운영 환경에 적용하기 위한 배포 방법과 절차를 설명합니다. 
+    개발 완료된 시스템을 운영 환경에 적용하기 위한 배포 방법과 절차를 설명합니다.
     패키징, 버전 관리, 롤백 전략, 협력 업체 연동 방안 등을 포함한 실제 서비스 환경 적용 프로세스를 다룹니다.
