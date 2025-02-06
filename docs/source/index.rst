@@ -96,11 +96,16 @@ Welcome to ICG-Color Documentation
 .. list-table:: 
 
     * - .. figure:: static/icg-color-white-light-mode.png
+            :width: 50%
+            :alt: NIR/ICG White Light Mode
 
       - .. figure:: static/icg-color-overlay.png
+            :width: 50%
+            :alt: NIR/ICG Overay Mode
 
       - .. figure:: static/icg-color-overlay-intensity-map.png
-
+            :width: 100%
+            :alt: NIR/ICG Intensity Map Mode
 
 - Indocyanine Green (ICG) and Colorectal Surgery_: A Literature Review on Qualitative and Quantitative Methods of Usage.
 - Indocyanine Green Fluorescence in Gastrointestinal Surgery_: Appraisal of current evidence
