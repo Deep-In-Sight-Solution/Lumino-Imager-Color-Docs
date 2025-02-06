@@ -74,8 +74,24 @@ Specification
 
 :doc:`SD Card </spec_env/sdcard>`
     ... .
-    
+
 :doc:`Network </spec_env/network>`
+    ... .
+
+
+개발환경
+---------------------
+
+:doc:`구현 </dev_env/impl>`
+    ... .
+
+:doc:`배포 </dev_env/deploy>`
+    ... .
+
+:doc:`테스트 </dev_env/test>`
+    ... .
+
+:doc:`형상관리 </dev_env/repo>`
     ... .
 
 
@@ -93,6 +109,16 @@ Specification
 ---------------------
 
 :doc:`검증방법 </verif_env/verify>`
+    ... .
+
+
+관리환경
+---------------------
+
+:doc:`변경관리 </mgmt_env/changes>`
+    ... .
+
+:doc:`현황관리 </mgmt_env/status>`
     ... .
 
 
