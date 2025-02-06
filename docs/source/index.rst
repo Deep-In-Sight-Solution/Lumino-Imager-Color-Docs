@@ -77,7 +77,7 @@ Welcome to ICG-Color Documentation
 .. _Indocyanine Green (ICG) and Colorectal Surgery: https://www.mdpi.com/1648-9144/59/9/1530
 .. _Indocyanine Green Fluorescence in Gastrointestinal Surgery: https://www.wjgnet.com/1948-9366/full/v15/i12/2693.htm
 
-.. image:: static/icg-color.png
+.. image:: static/icg-color.jpeg
     :width: 100%
 
 .. contents:: Table of Contents
