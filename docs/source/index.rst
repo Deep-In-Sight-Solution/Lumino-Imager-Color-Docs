@@ -70,13 +70,40 @@ Specification
 ---------------------
 
 :doc:`USB </spec_env/usb>`
-    How to configure bootloader.
+    ... .
 
 :doc:`SD Card </spec_env/sdcard>`
-    How to compile bootloader.
+    ... .
     
 :doc:`Network </spec_env/network>`
-    Guidelines and release planning and check dependencies.
+    ... .
+
+
+실행환경
+---------------------
+
+:doc:`실행방법 </exec_env/exec_method>`
+    ... .
+
+:doc:`실행화면 </exec_env/exec_screen>`
+    ... .
+
+
+검증환경
+---------------------
+
+:doc:`검증방법 </verif_env/verify>`
+    ... .
+
+
+운영환경
+---------------------
+
+:doc:`배포 </op_env/deploy>`
+    ... .
+
+:doc:`출시 </op_env/release>`
+    ... .
 
 
 .. contents:: Table of Contents
