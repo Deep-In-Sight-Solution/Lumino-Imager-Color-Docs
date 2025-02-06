@@ -1,15 +1,13 @@
 .. contents:: Table of Contents
 
----------
-
 검증
 ====
 
 검증환경
--------
+========
 
 검증절차
--------
+========
 - 부피 측정 장비 1set
 - 박스 3ea ( small, medium, big )
 
@@ -19,8 +17,8 @@
 
 .. list-table:: 
 
-    * - .. figure:: static/1.jpeg
+    * - .. figure:: ../static/1.jpeg
 
-      - .. figure:: static/2.jpeg
+      - .. figure:: ../static/2.jpeg
 
-      - .. figure:: static/3.jpeg
+      - .. figure:: ../static/3.jpeg
