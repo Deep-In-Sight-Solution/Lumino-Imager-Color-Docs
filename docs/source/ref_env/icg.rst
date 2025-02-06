@@ -34,21 +34,21 @@ About ICG
     
     .. tab:: 수술
         
-        .. figure:: static/icg0.jpg
+        .. figure:: ../static/icg0.jpg
             
             형광 영상장비를 이용해 수술하는 모습
             ( 출처: https://www.cbuanimal.co.kr/?pg_idx=18&spg_idx=114 )
 
     .. tab:: 형광 발현
         
-        .. figure:: static/icg1.jpg
+        .. figure:: ../static/icg1.jpg
 
             위 종양 내로 인도시아닌 그린을 주입하여 형광 발현된 모습
             ( 출처: https://www.cbuanimal.co.kr/?pg_idx=18&spg_idx=114 )
 
     .. tab:: 절제 후
         
-        .. figure:: static/icg2.jpg
+        .. figure:: ../static/icg2.jpg
 
             발다닥의 비만세포종을 형광 영상 장비를 이용하여 최소 절제한 모습
             ( 출처: https://www.cbuanimal.co.kr/?pg_idx=18&spg_idx=114 )
