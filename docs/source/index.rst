@@ -23,7 +23,10 @@ Lumino Imager Color User Manual
    :hidden:
    :caption: 개발환경
 
-   /dev_env/development
+   /dev_env/impl
+   /dev_env/deploy
+   /dev_env/test
+   /dev_env/repo
 
 .. toctree::    
    :maxdepth: 2
@@ -39,6 +42,14 @@ Lumino Imager Color User Manual
    :caption: 검증환경
 
    /verif_env/verify
+
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+   :caption: 관리환경
+
+   /mgmt_env/changes
+   /mgmt_env/status
 
 .. toctree::
    :maxdepth: 2
