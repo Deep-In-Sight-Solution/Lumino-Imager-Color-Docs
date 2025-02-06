@@ -62,6 +62,8 @@ Lumino Imager Color User Manual
 
 .. contents:: Table of Contents
 
+----------
+
 Welcome to ICG-Color Documentation
 ==================================
 
@@ -75,6 +77,8 @@ Welcome to ICG-Color Documentation
     <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
         <iframe src="https://www.youtube.com/embed/FKaYvVP2f4o" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
     </div>
+
+----------
 
 .. tabs::
     
@@ -109,11 +113,6 @@ Welcome to ICG-Color Documentation
       - .. figure:: static/icg-color-overlay-intensity-map.png
             :width: 100%
             :alt: NIR/ICG Intensity Map Mode
-
-- Indocyanine Green (ICG) and Colorectal Surgery_: A Literature Review on Qualitative and Quantitative Methods of Usage.
-- Indocyanine Green Fluorescence in Gastrointestinal Surgery_: Appraisal of current evidence
-.. _Indocyanine Green (ICG) and Colorectal Surgery: https://www.mdpi.com/1648-9144/59/9/1530
-.. _Indocyanine Green Fluorescence in Gastrointestinal Surgery: https://www.wjgnet.com/1948-9366/full/v15/i12/2693.htm
 
 
 지원 사양
