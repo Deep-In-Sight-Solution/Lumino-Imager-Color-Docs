@@ -2,7 +2,6 @@
 Lumino Imager Color User Manual
 **************************************
 
-
 .. toctree::
    :maxdepth: 2
    :hidden:
@@ -68,6 +67,8 @@ Lumino Imager Color User Manual
    /ref_env/changelog
 
 
+.. contents:: Table of Contents
+
 Welcome to ICG-Color Documentation
 ==================================
 
@@ -79,8 +80,6 @@ Welcome to ICG-Color Documentation
 
 .. image:: static/icg-color.jpeg
     :width: 100%
-
-.. contents:: Table of Contents
 
 
 Specification
