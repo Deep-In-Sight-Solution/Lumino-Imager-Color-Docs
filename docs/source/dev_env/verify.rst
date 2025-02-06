@@ -1,8 +1,8 @@
 .. contents:: Table of Contents
 
 
-검증방법
-========
+검증
+====
 
 ... .
 
