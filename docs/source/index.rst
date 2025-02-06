@@ -12,7 +12,7 @@ Lumino Imager Color User Manual
 .. toctree::
    :maxdepth: 2
    :hidden:
-   :caption: 사양
+   :caption: 지원 사양
 
    /spec_env/usb
    /spec_env/sdcard
@@ -21,7 +21,7 @@ Lumino Imager Color User Manual
 .. toctree::
    :maxdepth: 2
    :hidden:
-   :caption: 개발환경
+   :caption: 개발 환경
 
    /dev_env/impl
    /dev_env/deploy
@@ -31,22 +31,14 @@ Lumino Imager Color User Manual
 .. toctree::    
    :maxdepth: 2
    :hidden:
-   :caption: 실행환경
+   :caption: 실행 환경
 
-   /exec_env/exec_method
-   /exec_env/exec_screen
-
-.. toctree::
-   :maxdepth: 2
-   :hidden:
-   :caption: 검증환경
-
-   /verif_env/verify
+   /exec_env/sw_stack
 
 .. toctree::
    :maxdepth: 2
    :hidden:
-   :caption: 관리환경
+   :caption: 관리 환경
 
    /mgmt_env/issues
    /mgmt_env/changes
@@ -56,7 +48,7 @@ Lumino Imager Color User Manual
 .. toctree::
    :maxdepth: 2
    :hidden:
-   :caption: 운영환경
+   :caption: 운영 환경
 
    /op_env/deploy
 
@@ -83,7 +75,7 @@ Welcome to ICG-Color Documentation
     :width: 100%
 
 
-Specification
+지원사양
 ---------------------
 
 :doc:`USB </spec_env/usb>`
@@ -93,6 +85,16 @@ Specification
     ... .
 
 :doc:`Network </spec_env/network>`
+    ... .
+
+
+동작환경
+---------------------
+
+:doc:`시스템 구동 </exec_env/exec_hw_method>`
+    ... .
+
+:doc:`프로그램 실행 </exec_env/exec_sw_method>`
     ... .
 
 
@@ -108,6 +110,9 @@ Specification
 :doc:`테스트 </dev_env/test>`
     ... .
 
+:doc:`검증 </dev_env/test>`
+    ... .
+
 :doc:`형상관리 </dev_env/repo>`
     ... .
 
@@ -115,14 +120,7 @@ Specification
 실행환경
 ---------------------
 
-:doc:`실행방법 </exec_env/exec_method>`
-    ... .
-
-
-검증환경
----------------------
-
-:doc:`검증방법 </verif_env/verify>`
+:doc:`소프트웨어 스택 </exec_env/sw_stack>`
     ... .
 
 
@@ -140,7 +138,4 @@ Specification
 ---------------------
 
 :doc:`배포 </op_env/deploy>`
-    ... .
-
-:doc:`출시 </op_env/release>`
     ... .

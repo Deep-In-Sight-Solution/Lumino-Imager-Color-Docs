@@ -1,7 +1,7 @@
 .. contents:: Table of Contents
 
 
-버전관리
+버전 관리
 =======
 
 `DeepInsight Issue Management System <http://220.78.49.161:8084/>`__
