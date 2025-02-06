@@ -65,6 +65,14 @@ Lumino Imager Color User Manual
 Welcome to ICG-Color Documentation
 ==================================
 
+- 형광 영상장비를 이용한 첨단 종양 수술 시스템 개발중이며,실시간 형광 이미징 기술을 활용하여 종양과 정상 조직을 명확하게 구분하고, 보다 정밀한 수술이 가능하도록 지원하는 것을 목표로 한다.
+
+.. raw:: html
+
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
+        <iframe src="https://sora.com/g/gen_01jkd135a5ey5tt7r2sgee64ny" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+    </div>
+
 - Indocyanine Green (ICG) and Colorectal Surgery_: A Literature Review on Qualitative and Quantitative Methods of Usage.
 - Indocyanine Green Fluorescence in Gastrointestinal Surgery_: Appraisal of current evidence
 
