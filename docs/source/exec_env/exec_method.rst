@@ -1,8 +1,14 @@
 .. contents:: Table of Contents
 
 
-실행 환경
+실행방법
 ========
+
+... .
+
+
+실행환경
+--------
 
 +------------+----------+-------------------------+
 | SW         | Description                        |
@@ -15,7 +21,7 @@
 +------------+----------+-------------------------+
 
 
-실행 방법
+실행절차
 --------
 
 #. ToF camera 드라이버 설치
@@ -33,7 +39,7 @@
 
 #. :guilabel:`파일 탐색기` 실행 후 작업 디렉토리 ``c:\work\vomasys-release\build-src-Desktop_Qt_5_15_2_MSVC2019_64bit-Release`` 에 있는 ``BoxDimensionDetectionPrototype.exe`` 를 실행한다. 
 
-실행 화면
+실행화면
 --------
 
 .. tabs::
@@ -61,7 +67,7 @@
         .. figure:: static/flow.png
 
 
-측정 방법
+측정방법
 --------
 
 .. important::

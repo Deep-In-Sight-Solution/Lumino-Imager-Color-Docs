@@ -1,13 +1,17 @@
 .. contents:: Table of Contents
 
 
-검증 환경
+검증방법
 ========
 
 ... .
 
 
-검증 방법
+검증환경
+--------
+
+
+검증절차
 --------
 - 부피 측정 장비 1set
 - 박스 3ea ( small, medium, big )
