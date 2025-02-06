@@ -73,10 +73,6 @@ Welcome to ICG-Color Documentation
         <iframe src="https://www.youtube.com/embed/FKaYvVP2f4o" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
     </div>
 
-
-실행 화면
---------
-
 .. tabs::
     
     .. tab:: White Light Mode
@@ -97,13 +93,14 @@ Welcome to ICG-Color Documentation
 
             출처: https://www.mdpi.com/1648-9144/59/9/1530
 
-    .. list-table:: 
+.. list-table:: 
 
     * - .. figure:: static/icg-color-white-light-mode.png
 
       - .. figure:: static/icg-color-overlay.png
 
       - .. figure:: static/icg-color-overlay-intensity-map.png
+
 
 - Indocyanine Green (ICG) and Colorectal Surgery_: A Literature Review on Qualitative and Quantitative Methods of Usage.
 - Indocyanine Green Fluorescence in Gastrointestinal Surgery_: Appraisal of current evidence
