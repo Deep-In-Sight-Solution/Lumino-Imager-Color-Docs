@@ -78,16 +78,16 @@ Welcome to ICG-Color Documentation
     :width: 100%
     :alt: NIR/ICG Overay Mode
 
-    ICG-Color 장비를 이용한 수술 부위 촬영 영상 |
-    (a) White Light Mode, (b) NIR/ICG Overay Mode |
+    ICG-Color 장비를 이용한 수술 부위 촬영 영상
+    (a) White Light Mode, (b) NIR/ICG Overay Mode
     (출처: https://www.mdpi.com/1648-9144/59/9/1530)
 
 .. figure:: static/icg-color-overlay-intensity-map.png
     :width: 50%
     :alt: NIR/ICG Intensity Map Mode
 
-    ICG-Color 장비를 이용한 수술 부위 촬영 영상 |
-    (c) NIR/ICG Intensity Map Mode |
+    ICG-Color 장비를 이용한 수술 부위 촬영 영상
+    (c) NIR/ICG Intensity Map Mode
     (출처: https://www.mdpi.com/1648-9144/59/9/1530)
 
 - Indocyanine Green (ICG) and Colorectal Surgery_: A Literature Review on Qualitative and Quantitative Methods of Usage.
