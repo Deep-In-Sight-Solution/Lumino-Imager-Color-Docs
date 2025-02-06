@@ -115,6 +115,7 @@ Welcome to ICG-Color Documentation
             :width: 100%
             :alt: NIR/ICG Intensity Map Mode
 
+----------
 
 지원 사양
 --------

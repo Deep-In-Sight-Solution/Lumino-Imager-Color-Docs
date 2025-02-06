@@ -1,5 +1,5 @@
 *********************************
-About ICG
+about ICG
 *********************************
 
 .. contents:: Table of Contents
