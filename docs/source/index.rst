@@ -12,11 +12,11 @@ Lumino Imager Color User Manual
 .. toctree::
    :maxdepth: 2
    :hidden:
-   :caption: 지원 사양
+   :caption: Specification
 
-   /spec_env/usb
-   /spec_env/sdcard
-   /spec_env/network
+   /spec_env/system
+   /spec_env/development
+   /spec_env/support
 
 .. toctree::
    :maxdepth: 2
@@ -28,7 +28,7 @@ Lumino Imager Color User Manual
    /dev_env/deploy
    /dev_env/repo
 
-.. toctree::    
+.. toctree::
    :maxdepth: 2
    :hidden:
    :caption: 실행 환경
