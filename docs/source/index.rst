@@ -26,6 +26,7 @@ Lumino Imager Color User Manual
    /dev_env/impl
    /dev_env/verify
    /dev_env/build-deploy
+   /dev_env/quality
    /dev_env/repo
 
 .. toctree::
