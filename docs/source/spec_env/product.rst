@@ -27,23 +27,25 @@ Software
 License
 --------
 
-+------------------+---------------------------+----------------------------------------+
-| Tools            | License                   | Description                            |
-+==================+===========================+========================================+
-| BitLocker        | 독점 S/W                   | - Windows 전용 암호화 기능                |
-|                  |                           | - Windos Pro, Enterprise 버전 이상 지원   |
-|                  |                           | - 소스 코드 비공개, 수정 및 배포 불가         |
-+------------------+---------------------------+----------------------------------------+
-| VeraCrypt        | - 오픈소스                  | - 자유롭게 수정 및 배포 가능                |
-|                  | - Multi-licensed          | - Windows, macOS, Linux 지원            |
-|                  |   - Apache License 2.0    |                                        |
-|                  |   - TrueCrypt License 3.0 |                                        |
-+------------------+---------------------------+----------------------------------------+
-| LUKS             | - 오픈소스                  | - Linux 전용 디스크 암호화 표준             |
-|                  | - Multi-licensed          | - 자유롭게 수정 및 배포 가능                |    
-|                  |   - GPL v2                | - dm-crypt 와 함께 사용                  |
-|                  |   - BSD License           |                                        |
-+------------------+---------------------------+----------------------------------------+
++------------------+---------------------------+------------------------------------------+
+| Tools            | License                   | Description                              |
++==================+===========================+==========================================+
+| BitLocker        | Proprietary ( MS )        | - Windows-only encryption tool           |
+|                  |                           | - Available in Pro, Enterprise editions  |
+|                  |                           | - Closed-source, modification and        |
+|                  |                           |   redistribution not allowed             |
++------------------+---------------------------+------------------------------------------+
+| VeraCrypt        | - Open-source             | - Free to use                            |
+|                  | - Multi-licensed          | - Source code available, allowing        |
+|                  |   - Apache License 2.0    |   modification and redistribution        |
+|                  |   - TrueCrypt License 3.0 | - Supports Windows, macOS, and Linux     |
++------------------+---------------------------+------------------------------------------+
+| LUKS             | - Open-source             | - Linux-native disk encryption standard  |
+|                  | - Multi-licensed          | - Source code available, free to modify  |
+|                  |   - GPL v2                |   and redistribute                       |
+|                  |   - BSD License           | - Works with dm-crypt for full-disk      |
+|                  |                           |   encryption                             |
++------------------+---------------------------+------------------------------------------+
 
 User Manual
 ------------
