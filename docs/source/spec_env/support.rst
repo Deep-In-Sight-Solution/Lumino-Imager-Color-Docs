@@ -6,16 +6,21 @@
 
 ---------
 
-USB 
+기능 
 ===
 
 
-지원 속도
---------
+Recording
+----------
 - USB 2.0 ( 480 Mbps )
 - USB 3.0 ( 5 Gbps )
 
 
-포트 유형
---------
+Snapshot
+---------
 - USB Type-A
+
+
+Storage
+-------
+- SD Card
