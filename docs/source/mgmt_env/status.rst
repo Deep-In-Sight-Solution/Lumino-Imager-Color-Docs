@@ -6,14 +6,8 @@
 
 ---------
 
-상위 항목
-========
+Jira
+=====
 
-`DeepInsight Issue Management System <http:///>`__
-    딥인사이트 현황 공유 시스템
-
-하위 항목
---------
-
-.. image:: static/status.png
-    :width: 100%
+`DeepInsight Issue Management System <https://deepinsight-projects.atlassian.net/jira/software/c/projects/LIC/summary>`__
+    딥인사이트 현황 관리 시스템
