@@ -35,8 +35,8 @@ License
 |                  |                           | - Closed-source, modification and        |
 |                  |                           |   redistribution not allowed             |
 +------------------+---------------------------+------------------------------------------+
-| :guilabel:       | - Open-source             | - Free to use                            |
-| ``VeraCrypt``    | - Multi-licensed          | - Source code available, allowing        |
+| **VeraCrypt**    | - Open-source             | - Free to use                            |
+|                  | - Multi-licensed          | - Source code available, allowing        |
 |                  |   - Apache License 2.0    |   modification and redistribution        |
 |                  |   - TrueCrypt License 3.0 | - Supports Windows, macOS, and Linux     |
 +------------------+---------------------------+------------------------------------------+
