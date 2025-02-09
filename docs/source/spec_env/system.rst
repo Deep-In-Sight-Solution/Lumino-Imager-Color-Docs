@@ -20,7 +20,7 @@
         - **Output Format**: RGB, YUV ( 4:2:0, etc )
         - **Display Interface**: HDMI ( RGB )
         - **HS Communication Interface**: USB2.0 or USB3.0 ( YUV )
-    
+
 .. important::
     :guilabel:`Camera module` 은 UVC 규격를 준수해야 합니다.
 
