@@ -14,19 +14,22 @@
         - Output Mode: RGB + NIR
         - Output Format: RGB Raw Bayer
     - Board: FPGA
+        - Role: UVC Webcam
         - Input Format: RGB Raw Bayer
         - Image Processing: Image composition ( RGB + NIR mode )
-        - Output Format: YUV 4:2:0 ( YU12, YV12 )
-        - Output Interface: HDMI (for display), USB2.0 (for recording)
+        - Output Format: RGB, YUV
+        - Display Interface: HDMI ( RGB )
+        - HS Communication Interface: USB2.0 or USB3.0 ( YUV )
 
 - Recording & Storage
     - Board: Raspberry Pi 4 CM4 Lite + I/O Board
-    - SD Card
-        - Storage: 512GB
-        - Speed Grade: UHS-I (104MB/s)
-    - Recording
-        - Video Codec: H.264
-        - File Format: AVI
+        - Storage: SD Card
+            - Type: SD, SDHC, SDXC
+            - Capacity: 2GB ~ 2TB
+            - Speed Grade: UHS-I ( 104MB/s )
+        - Recording
+            - Video Codec: H.264
+            - File Format: AVI
 
 Image Sensor
 -------------
@@ -38,33 +41,42 @@ Image Sensor
 +------------------+----------------------------------------+
 | Resolution       | ``1920x1080 @ 30fps``                  |
 +------------------+----------------------------------------+
-| Supported Format | ``RGB Raw Bayer / NIR``                |
+| Supported Format | ``RGB Raw Bayer``                      |
 +------------------+----------------------------------------+
 
 FPGA
 -----
 
 +------------------+----------------------------------------+
-| Image Sensor     | Description                            |
+| FPGA            | Description                            |
 +==================+========================================+
-| Manufacturer     | ``Sony IMX462``                        |
+| Manufacturer     | ``Xilinx Zynq-7000 XC7020-CLG400``    |
 +------------------+----------------------------------------+
-| Resolution       | ``1920x1080 @ 30fps``                  |
+| Architecture     | ``Dual-core ARM Cortex-A9 + FPGA``     |
 +------------------+----------------------------------------+
-| Supported Format | ``RGB Raw Bayer / NIR``                |
+| Logic Cells      | ``85K``                                |
++------------------+----------------------------------------+
+| Memory           | ``4.9Mb Block RAM``                    |
++------------------+----------------------------------------+
+| I/O Pins         | ``400-pin CLG Package``                |
++------------------+----------------------------------------+
+| Video Processing | ``1080p@30fps, RGB/YUV Format``        |
 +------------------+----------------------------------------+
 
 Raspberry Pi 4 CM4 Lite + I/O Board
 ------------------------------------
 
 +------------------+----------------------------------------+
-| Image Sensor     | Description                            |
+| CM4 Lite        | Description                            |
 +==================+========================================+
-| Manufacturer     | ``Sony IMX462``                        |
+| Processor       | ``BCM2711 Quad-core Cortex-A72 64-bit``|
 +------------------+----------------------------------------+
-| Resolution       | ``1920x1080 @ 30fps``                  |
+| Memory          | ``Up to 8GB LPDDR4-2400 SDRAM``        |
 +------------------+----------------------------------------+
-| Supported Format | ``RGB Raw Bayer / NIR``                |
+| Video Codec     | ``H.265 ( 4Kp60 decode )``             |
+|                 | ``H.264 ( 1080p60 decode, 1080p30 )``  |
++------------------+----------------------------------------+
+| I/O             | ``USB 2.0 / 3.0``                      |
 +------------------+----------------------------------------+
 
 
