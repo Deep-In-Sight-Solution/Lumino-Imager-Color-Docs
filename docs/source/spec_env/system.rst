@@ -132,6 +132,9 @@ Hardware
 Power
 ~~~~~~
 
+Temperature
+~~~~~~~~~~~~
+
 Software
 ---------
 
