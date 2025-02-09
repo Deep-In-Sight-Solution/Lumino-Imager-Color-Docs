@@ -10,28 +10,31 @@
 ========
 
 - Image Processing
-    - Dual Image Sensor: `NIR ( Dual )`
+    - Dual Image Sensor: :guilabel:`NIR ( Dual )`
         - **Resolution**: 1920x1080@30fps
         - **Output Mode**: RGB + NIR
         - **Output Format**: RGB Raw Bayer
-    - Camera Module: `FPGA`
+    - Camera Module: :guilabel:`FPGA`
         - **Input Format**: RGB Raw Bayer
         - **Image Processing**: Image composition ( RGB + NIR mode )
         - **Output Format**: RGB, YUV
         - **Display Interface**: HDMI ( RGB )
         - **HS Communication Interface**: USB2.0 or USB3.0 ( YUV )
+        
         .. important::
-            :menuselection: UVC 규격를 준수해야 합니다.
+            UVC 규격를 준수해야 합니다.
+        
         .. warning::
-            UVC 규격을 준수하지 않을 경우, 카메라 모듈의 동작이 보장되지 않습니다.
-            드라이버 수정 및 추가 구현이 필요할 수 있습니다.
+            - UVC 규격을 준수하지 않을 경우, 카메라 모듈의 동작이 보장되지 않습니다. 드라이버 수정이 필요할 수 있습니다.
+        
         .. note::
-            기본 기능 외에 추가 기능을 구현할 경우,     Cypress FX3 펌웨어 수정이 필요할 수 있습니다.
-    - Video Recorder: `SOM ( System on Module )`
+            기본 기능 외에 추가 기능을 구현할 경우, Cypress FX3 펌웨어 수정이 필요할 수 있습니다.
+
+    - Video Recorder: :guilabel:`SOM ( System on Module )`
         - **Board**: Raspberry Pi 4 CM4 Lite Series + Self-designed I/O Board
         
 - Video Processing
-    - Board: `Raspberry Pi 4 CM4 Lite + I/O Board`
+    - Board: :guilabel:`Raspberry Pi 4 CM4 Lite + I/O Board`
         - Storage: SD Card
             - **Capacity**: 2GB ~ 2TB
             - **Video Speed Class**: V30 ( 30MB/s, 4K )
