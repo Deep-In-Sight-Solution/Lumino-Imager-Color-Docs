@@ -25,7 +25,7 @@ Whiteboard
     Lumino-Imager-Color 변경 관리 화이트보드
 
 draw.io
-~~~~~~~~
+--------
 
 `DeepInsight Requirement Management System <https://app.diagrams.net/>`__
     Lumino-Imager-Color 변경 관리 화이트보드
