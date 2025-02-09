@@ -44,7 +44,6 @@ Lumino Imager Color User Manual
 
    /mgmt_env/issues
    /mgmt_env/changes
-   /mgmt_env/version
    /mgmt_env/status
 
 .. toctree::
