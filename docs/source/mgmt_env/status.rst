@@ -9,5 +9,5 @@
 Jira
 =====
 
-`DeepInsight Issue Management System <https://deepinsight-projects.atlassian.net/jira/software/c/projects/LIC/summary>`__
-    딥인사이트 현황 관리 시스템
+`Lumino-Imager-Color Project Summary Monitoring System <https://deepinsight-projects.atlassian.net/jira/software/c/projects/LIC/summary>`__
+    Lumino-Imager-Color 프로젝트 현황 모니터링 시스템
