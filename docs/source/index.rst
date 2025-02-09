@@ -51,7 +51,7 @@ Lumino Imager Color User Manual
    :hidden:
    :caption: 운영 환경
 
-   /op_env/deploy
+   /op_env/release
 
 .. toctree::
    :maxdepth: 2

@@ -1,18 +1,19 @@
 *********************************
-출시
+Release
 *********************************
 
 .. contents:: Table of Contents
 
 ---------
 
-상위 항목
-========
+Cloud-based Repository URL
+===========================
 
-`DeepInsight Issue Management System <http://220.78.49.161:8084/>`__
-    딥인사이트 이슈 관리 시스템 (협력 업체 대응 이슈)
+Jira + GitHub
+--------------
 
+`Lumino-Imager-Color Release Management <https://deepinsight-projects.atlassian.net/projects/LIC?selectedItem=com.atlassian.jira.jira-projects-plugin%3Arelease-page>`__
+    Lumino-Imager-Color 배포 관리
 
-하위 항목
---------
-
+`Lumino-Imager-Color Deployment Image Repository <https://github.com/Deep-In-Sight-Public/Lumino-Imager-Color-Release.git>`__
+    Lumino-Imager-Color 배포 이미지 저장소

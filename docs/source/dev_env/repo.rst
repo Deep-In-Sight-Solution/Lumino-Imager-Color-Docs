@@ -18,12 +18,6 @@ Code Repository
 `Lumino-Imager-Color Version Control System <https://github.com/Deep-In-Sight-Public/Lumino-Imager-Color-Release.git/>`__
     Lumino-Imager-Color 코드 저장소
 
-Release
-~~~~~~~~
-
-`Lumino-Imager-Color Release Management <https://deepinsight-projects.atlassian.net/projects/LIC?selectedItem=com.atlassian.jira.jira-projects-plugin%3Arelease-page>`__
-    Lumino-Imager-Color Release 관리
-
 Deployments
 ~~~~~~~~~~~~
 
