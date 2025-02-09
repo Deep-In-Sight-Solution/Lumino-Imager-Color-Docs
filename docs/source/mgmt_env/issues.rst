@@ -6,12 +6,8 @@
 
 ---------
 
-상위 항목
-========
+On-Premises Server URL
+=======================
 
-`DeepInsight Issue Management System <http://220.78.49.161:8084/>`__
-    딥인사이트 이슈 관리 시스템 (협력 업체 대응 이슈)
-
-
-하위 항목
---------
+`DeepInsight Issue Management System <http://14.35.255.147:9007/>`__
+    Lumino-Imager-Color 이슈 공유 시스템
