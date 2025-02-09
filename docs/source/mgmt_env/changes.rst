@@ -18,10 +18,16 @@ Database
 `DeepInsight Requirement Management System <https://deepinsight-projects.atlassian.net/wiki/spaces/LuminoImag/pages/337674241>`__
     Lumino-Imager-Color 변경 관리 데이터베이스
 
+Whiteboard
+~~~~~~~~~~~
+
 `DeepInsight Requirement Management System <https://deepinsight-projects.atlassian.net/wiki/spaces/LuminoImag/pages/337674241>`__
     Lumino-Imager-Color 변경 관리 화이트보드
 
-`DeepInsight Requirement Management System <https://deepinsight-projects.atlassian.net/wiki/spaces/LuminoImag/pages/337674241>`__
-    Lumino-Imager-Color 변경 관리 데이터베이스
+draw.io
+~~~~~~~~
+
+`DeepInsight Requirement Management System <https://app.diagrams.net/>`__
+    Lumino-Imager-Color 변경 관리 화이트보드
 
 
