@@ -14,8 +14,3 @@ On-Premises Server URL
 
 `DeepInsight Code Quality Management System <http://14.35.255.147:9110/>`__
     딥인사이트 코드 품질 관리 자동화 시스템
-
-.. note::
-    딥인사이트 코드 품질 관리 자동화 시스템은 딥인사이트 내부 시스템으로 외부에서 접속할 수 없습니다.
-    딥인사이트 외부 시스템에서 접속할 경우, 접속 거절 메시지를 확인할 수 있습니다.
-
