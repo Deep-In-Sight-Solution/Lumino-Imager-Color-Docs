@@ -7,7 +7,7 @@
 ---------
 
 기능 
-===
+====
 
 Recording
 ----------
@@ -20,7 +20,13 @@ Snapshot
 - Compression Format: JPEG
 
 Storage
--------
+--------
 - SD Card
     - Capacity: 2GB ~ 2TB
     - Video Speed Class: V30 ( 30MB/s, 4K )
+
+지원 OS
+-------
+- Windows ( X64 & ARM64 )
+- MacOS ( Monterey 12 and later )
+- Linux
