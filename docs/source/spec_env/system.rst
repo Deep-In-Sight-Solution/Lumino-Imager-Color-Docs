@@ -34,16 +34,16 @@
 
 - Video Processing
     - Board: Raspberry Pi 4 CM4 Lite + I/O Board
-        - Storage: SD Card
-            - **Capacity**: 2GB ~ 2TB
-            - **Video Speed Class**: V30 ( 30MB/s, 4K )
-        - Recording
-            - **Resolution**: 1280x720@25fps
-            - **Video Codec**: MPEG-4
-            - **File Format**: MP4
-        - Snapshot
-            - **Resolution**: 1280x720
-            - **Compression Format**: JPEG
+    - Storage: SD Card
+        - **Capacity**: 2GB ~ 2TB
+        - **Video Speed Class**: V30 ( 30MB/s, 4K )
+    - Recording
+        - **Resolution**: 1280x720@25fps
+        - **Video Codec**: MPEG-4
+        - **File Format**: MP4
+    - Snapshot
+        - **Resolution**: 1280x720
+        - **Compression Format**: JPEG
 
 Image Sensor
 -------------
