@@ -9,18 +9,18 @@
 기능 
 ===
 
-
 Recording
 ----------
-- USB 2.0 ( 480 Mbps )
-- USB 3.0 ( 5 Gbps )
-
+- Resolution: 1280x720@25fps
+- Video Codec: MPEG-4 ( H.264 )
 
 Snapshot
 ---------
-- USB Type-A
-
+- Resolution: 1280x720
+- Compression Format: JPEG
 
 Storage
 -------
 - SD Card
+    - Capacity: 2GB ~ 2TB
+    - Video Speed Class: V30 ( 30MB/s, 4K )
