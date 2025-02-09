@@ -6,24 +6,39 @@
 
 ---------
 
-Cloud-based Repository URL
+Cloud-based Server URL
 ===========================
 
-GitHub
--------
+Jira
+-----
 
-`DeepInsight GitHub <https://github.com/Deep-In-Sight-Public/Lumino-Imager-Color-Release.git/>`__
-    딥인사이트 형상 관리 저장소
+Code Repository
+~~~~~~~~~~~~~~~~
 
-On-Premises Repository URL
+`Lumino-Imager-Color Version Control System <https://github.com/Deep-In-Sight-Public/Lumino-Imager-Color-Release.git/>`__
+    Lumino-Imager-Color 코드 저장소
+
+Release
+~~~~~~~~
+
+`Lumino-Imager-Color Release Management <https://deepinsight-projects.atlassian.net/projects/LIC?selectedItem=com.atlassian.jira.jira-projects-plugin%3Arelease-page>`__
+    Lumino-Imager-Color Release 관리
+
+Deployments
+~~~~~~~~~~~~
+
+`Lumino-Imager-Color Deployment Management <https://deepinsight-projects.atlassian.net/jira/software/c/projects/LIC/deployments>`__
+    Lumino-Imager-Color Deployment 관리
+
+
+On-Premises Server URL
 ===========================
 
 SCM-Manager
 -----------
 
-`DeepInsight Code Quality Management System <http://14.35.255.147:9008/scm/>`__
-    딥인사이트 형상 관리 시스템
+Code Repository
+~~~~~~~~~~~~~~~~
 
-.. note::
-    딥인사이트 On-Premises형상 관리 시스템은 딥인사이트 내부 시스템으로 외부에서 접속할 수 없습니다.
-    딥인사이트 외부 시스템에서 접속할 경우, 접속 거절 메시지를 확인할 수 있습니다.
+`Lumino-Imager-Color Version Control System <http://14.35.255.147:9008/scm/>`__
+    Lumino-Imager-Color 코드 저장소
