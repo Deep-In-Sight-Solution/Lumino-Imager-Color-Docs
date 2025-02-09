@@ -32,7 +32,6 @@
 
 - Video Processing
     - SoM: :guilabel:`Raspberry Pi 4 CM4 Lite`
-        - **Manufacturer**: Raspberry Pi Foundation
         - **Board**: SoM + Self-designed I/O Board
     - Storage: SD Card
         - **Capacity**: 2GB ~ 2TB
