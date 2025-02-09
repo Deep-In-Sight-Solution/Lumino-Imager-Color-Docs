@@ -9,11 +9,17 @@
 Cloud-based Repository URL
 ===========================
 
+GitHub
+-------
+
 `DeepInsight GitHub <https://github.com/Deep-In-Sight-Public/Lumino-Imager-Color-Release.git/>`__
     딥인사이트 형상 관리 저장소
 
 On-Premises Repository URL
 ===========================
+
+SCM-Manager
+-----------
 
 `DeepInsight Code Quality Management System <http://14.35.255.147:9008/scm/>`__
     딥인사이트 형상 관리 시스템
