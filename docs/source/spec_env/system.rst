@@ -11,31 +11,31 @@
 
 - Image Processing
     - Dual Image Sensor: NIR ( Dual )
-        - Resolution: 1920x1080@30fps
-        - Output Mode: RGB + NIR
-        - Output Format: RGB Raw Bayer
-    - Camera Module Board: FPGA
-        - Role: UVC Webcam
-        - Input Format: RGB Raw Bayer
-        - Image Processing: Image composition ( RGB + NIR mode )
-        - Output Format: RGB, YUV
-        - Display Interface: HDMI ( RGB )
-        - HS Communication Interface: USB2.0 or USB3.0 ( YUV )
+        - **Resolution**: '1920x1080@30fps'
+        - **Output Mode**: RGB + NIR
+        - **Output Format**: RGB Raw Bayer
+    - Camera Module: FPGA
+        - **Role**: UVC Webcam
+        - **Input Format**: RGB Raw Bayer
+        - **Image Processing**: Image composition ( RGB + NIR mode )
+        - **Output Format**: RGB, YUV
+        - **Display Interface**: HDMI ( RGB )
+        - **HS Communication Interface**: USB2.0 or USB3.0 ( YUV )
     - Video Recorder: SOM ( System on Module )
-        - Board: Raspberry Pi 4 CM4 Lite Series + Self-designed I/O Board
+        - **Board**: Raspberry Pi 4 CM4 Lite Series + Self-designed I/O Board
         
 - Video Processing
     - Board: Raspberry Pi 4 CM4 Lite + I/O Board
         - Storage: SD Card
-            - Capacity: 2GB ~ 2TB
-            - Video Speed Class: V30 ( 30MB/s, 4K )
+            - **Capacity**: 2GB ~ 2TB
+            - **Video Speed Class**: V30 ( 30MB/s, 4K )
         - Recording
-            - Resolution: 1280x720@25fps
-            - Video Codec: MPEG-4
-            - File Format: MP4
+            - **Resolution**: 1280x720@25fps
+            - **Video Codec**: MPEG-4
+            - **File Format**: MP4
         - Snapshot
-            - Resolution: 1280x720
-            - Compression Format: JPEG
+            - **Resolution**: 1280x720
+            - **Compression Format**: JPEG
 
 Image Sensor
 -------------
@@ -47,8 +47,8 @@ Image Sensor
 +------------------+----------------------------------------+
 | Resolution       | ``1920x1080p@120fps``                  |
 +------------------+----------------------------------------+
-| Supported Format | - ``MIPI D-PHY: 2-lane ``              |
-|                  | - ``MIPI CSI-2: RAW10 / RAW12 ``       |
+| Supported Format | - ``MIPI D-PHY: 2-lane``               |
+|                  | - ``MIPI CSI-2: RAW10 / RAW12``        |
 +------------------+----------------------------------------+
 
 FPGA
