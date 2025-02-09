@@ -19,10 +19,10 @@ Software
     - LUKS
 
 .. important::
-    
+    ...
 
 .. note::
-    
+    ...
 
 License
 --------
