@@ -9,5 +9,8 @@
 On-Premises Server URL
 =======================
 
-`DeepInsight Requirement Sharing System <https://app.diagrams.net/>`__
+Confluence
+-----------
+
+`DeepInsight Requirement Sharing System <https://deepinsight-projects.atlassian.net/wiki/spaces/LuminoImag/pages/337674241>`__
     Lumino-Imager-Color 변경 관리 시스템
