@@ -20,6 +20,7 @@
         - **Output Format**: RGB, YUV ( 4:2:0, etc )
         - **Display Interface**: HDMI ( RGB )
         - **HS Communication Interface**: USB2.0 or USB3.0 ( YUV )
+
         
 .. important::
     UVC 규격를 준수해야 합니다.
@@ -29,6 +30,7 @@
 
 .. note::
     기본 기능 외에 추가 기능을 구현할 경우, Cypress FX3 펌웨어 수정이 필요할 수 있습니다.
+
 
     - Video Recorder: :guilabel:`System on Module`
         - **Board**: Raspberry Pi 4 CM4 Lite Series + Self-designed I/O Board
