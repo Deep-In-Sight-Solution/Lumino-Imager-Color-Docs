@@ -15,7 +15,7 @@ Software
 
 - Encryption Tools
     - BitLocker
-    - VeraCrypt
+    - **VeraCrypt**
     - LUKS
 
 .. important::
