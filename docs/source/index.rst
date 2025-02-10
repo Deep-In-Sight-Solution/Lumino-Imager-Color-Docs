@@ -25,6 +25,7 @@ Lumino Imager Color User Manual
    :caption: 개발 환경
 
    /dev_env/impl
+   /dev_env/test
    /dev_env/verify
    /dev_env/build-deploy
    /dev_env/quality
