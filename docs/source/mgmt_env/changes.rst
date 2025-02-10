@@ -34,8 +34,8 @@ draw.io
 On-Premises Server URL
 =======================
 
-Feature
---------
+Database
+---------
 
 `Lumino-Imager-Color Requirement Management System <http://14.35.255.147:9006/projects/product-lumino-imager-color/issues>`__
     Lumino-Imager-Color 변경 관리 데이터베이스
