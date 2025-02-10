@@ -30,3 +30,5 @@ Storage
 - Windows ( X64 & ARM64 )
 - MacOS ( Monterey 12 and later )
 - Linux
+- Android ( EDS NG )
+- iOS ( Disk Decipher, Crypto Disks )
