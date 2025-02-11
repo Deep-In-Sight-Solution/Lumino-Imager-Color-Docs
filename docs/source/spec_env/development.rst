@@ -20,7 +20,7 @@
 Data Flow
 ----------
 
-`Data Flow <https://deepinsight-projects.atlassian.net/wiki/spaces/LuminoImag/whiteboard/370212865?atl_f=PAGETREE>`__
+`Lumino-Imager-Color Data Flow <https://deepinsight-projects.atlassian.net/wiki/spaces/LuminoImag/whiteboard/370212865?atl_f=PAGETREE>`__
     Lumino-Imager-Color Data Flow
 
 
