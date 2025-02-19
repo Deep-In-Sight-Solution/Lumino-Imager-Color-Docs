@@ -19,8 +19,3 @@ Jira
 On-Premises Server URL
 =======================
 
-Redmine
---------
-
-`DeepInsight Issue Management System <http://14.35.255.147:9006/projects/product-lumino-imager-color/issues>`__
-    Lumino-Imager-Color 위험 관리 시스템

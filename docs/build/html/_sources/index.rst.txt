@@ -15,6 +15,7 @@ Lumino Imager Color User Manual
    :caption: Specification
 
    /spec_env/product
+   /spec_env/target
    /spec_env/system
    /spec_env/development
    /spec_env/support

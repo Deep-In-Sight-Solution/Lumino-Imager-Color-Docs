@@ -1,0 +1,399 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>시스템 사양 &mdash; Lumino Imager Color 0.0.1 documentation</title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=e59714d7" />
+
+  
+      <script src="../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../_static/documentation_options.js?v=d45e8c67"></script>
+      <script src="../_static/doctools.js?v=9bcbadda"></script>
+      <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../index.html" class="icon icon-home">
+            Lumino Imager Color
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">개요</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../intro_env/about.html">개발 배경</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Specification</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="product.html">제품 구성</a></li>
+<li class="toctree-l1"><a class="reference internal" href="system.html">시스템 사양</a></li>
+<li class="toctree-l1"><a class="reference internal" href="development.html">개발 사양</a></li>
+<li class="toctree-l1"><a class="reference internal" href="support.html">지원 사양</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">개발 환경</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../dev_env/impl.html">구현</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../dev_env/test.html">시험</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../dev_env/verify.html">검증</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../dev_env/build-deploy.html">빌드 / 배포</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../dev_env/quality.html">코드 품질</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../dev_env/repo.html">형상 관리</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">관리 환경</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../mgmt_env/issues.html">이슈 관리</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../mgmt_env/changes.html">변경 관리</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../mgmt_env/status.html">현황 관리</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../mgmt_env/risk.html">위험 관리</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">운영 환경</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../op_env/release.html">Release</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Reference</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../ref_env/changelog.html">Changelog</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ref_env/icg.html">about ICG</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Lumino Imager Color</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">시스템 사양</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../_sources/spec_env/purpose.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="id1">
+<h1><a class="toc-backref" href="#id4" role="doc-backlink">시스템 사양</a><a class="headerlink" href="#id1" title="Link to this heading"></a></h1>
+<nav class="contents" id="table-of-contents">
+<p class="topic-title">Table of Contents</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="#id1" id="id4">시스템 사양</a></p>
+<ul>
+<li><p><a class="reference internal" href="#id2" id="id5">구성 요소</a></p>
+<ul>
+<li><p><a class="reference internal" href="#image-sensor" id="id6">Image Sensor</a></p></li>
+<li><p><a class="reference internal" href="#fpga" id="id7">FPGA</a></p></li>
+<li><p><a class="reference internal" href="#system-on-module" id="id8">System On Module</a></p></li>
+<li><p><a class="reference internal" href="#i-o-board" id="id9">I/O Board</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference internal" href="#id3" id="id10">동작 환경</a></p>
+<ul>
+<li><p><a class="reference internal" href="#hardware" id="id11">Hardware</a></p>
+<ul>
+<li><p><a class="reference internal" href="#power" id="id12">Power</a></p></li>
+<li><p><a class="reference internal" href="#temperature" id="id13">Temperature</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference internal" href="#software" id="id14">Software</a></p>
+<ul>
+<li><p><a class="reference internal" href="#software-stack" id="id15">Software Stack</a></p></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</nav>
+<hr class="docutils" />
+<section id="id2">
+<h2><a class="toc-backref" href="#id5" role="doc-backlink">구성 요소</a><a class="headerlink" href="#id2" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><dl class="simple">
+<dt>Image Processing</dt><dd><ul>
+<li><dl class="simple">
+<dt>Dual Image Sensor: <span class="guilabel">NIR ( Dual )</span></dt><dd><ul>
+<li><p><strong>Resolution</strong>: <a class="reference external" href="mailto:1920x1080&#37;&#52;&#48;30fps">1920x1080<span>&#64;</span>30fps</a></p></li>
+<li><p><strong>Output Mode</strong>: RGB + NIR</p></li>
+<li><p><strong>Output Format</strong>: RGB Raw Bayer</p></li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>Camera Module: <span class="guilabel">FPGA</span></dt><dd><ul>
+<li><p><strong>Input Format</strong>: RGB Raw Bayer</p></li>
+<li><p><strong>Image Processing</strong>: Image composition ( RGB + NIR mode )</p></li>
+<li><p><strong>Output Format</strong>: RGB, YUV ( 4:2:0, etc )</p></li>
+<li><p><strong>Display Interface</strong>: HDMI ( RGB )</p></li>
+<li><p><strong>HS Communication Interface</strong>: USB2.0 or USB3.0 ( YUV )</p></li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+<div class="admonition important">
+<p class="admonition-title">Important</p>
+<p><span class="guilabel">Camera module</span> 은 UVC 규격를 준수해야 합니다.</p>
+</div>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p><span class="guilabel">Camera module</span> 이 UVC 규격을 준수하지 않을 경우, 카메라 모듈의 동작이 보장되지 않아 드라이버 수정이 필요할 수 있습니다.</p>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>기본 기능 외에 추가 기능을 구현할 경우, Cypress FX3 펌웨어 수정이 필요할 수 있습니다.</p>
+</div>
+<ul class="simple">
+<li><dl class="simple">
+<dt>Video Processing</dt><dd><ul>
+<li><dl class="simple">
+<dt>Video Recorder: <span class="guilabel">System on Module</span></dt><dd><ul>
+<li><p><strong>Board</strong>: SoM ( Raspberry Pi 4 CM4 Lite ) + Self-designed I/O Board</p></li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>Storage: SD Card</dt><dd><ul>
+<li><p><strong>Capacity</strong>: 2GB ~ 2TB</p></li>
+<li><p><strong>Video Speed Class</strong>: V30 ( 30MB/s, 4K )</p></li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>Recording</dt><dd><ul>
+<li><p><strong>Resolution</strong>: <a class="reference external" href="mailto:1280x720&#37;&#52;&#48;25fps">1280x720<span>&#64;</span>25fps</a></p></li>
+<li><p><strong>Video Codec</strong>: MPEG-4</p></li>
+<li><p><strong>File Format</strong>: MP4</p></li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>Snapshot</dt><dd><ul>
+<li><p><strong>Resolution</strong>: 1280x720</p></li>
+<li><p><strong>Compression Format</strong>: JPEG</p></li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+<section id="image-sensor">
+<h3><a class="toc-backref" href="#id6" role="doc-backlink">Image Sensor</a><a class="headerlink" href="#image-sensor" title="Link to this heading"></a></h3>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Image Sensor</p></th>
+<th class="head"><p>Description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Manufacturer</p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">Sony</span> <span class="pre">IMX462</span></code></p></td>
+</tr>
+<tr class="row-odd"><td><p>Resolution</p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">1920x1080p&#64;120fps</span></code></p></td>
+</tr>
+<tr class="row-even"><td><p>Supported Format</p></td>
+<td><ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">MIPI</span> <span class="pre">D-PHY:</span> <span class="pre">2-lane</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">MIPI</span> <span class="pre">CSI-2:</span> <span class="pre">RAW10</span> <span class="pre">/</span> <span class="pre">RAW12</span></code></p></li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="fpga">
+<h3><a class="toc-backref" href="#id7" role="doc-backlink">FPGA</a><a class="headerlink" href="#fpga" title="Link to this heading"></a></h3>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>FPGA</p></th>
+<th class="head"><p>Description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Manufacturer</p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">Xilinx</span> <span class="pre">Zynq-7000</span> <span class="pre">XC7020-CLG400</span></code></p></td>
+</tr>
+<tr class="row-odd"><td><p>Architecture</p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">Dual-core</span> <span class="pre">ARM</span> <span class="pre">Cortex-A9</span> <span class="pre">+</span> <span class="pre">FPGA</span></code></p></td>
+</tr>
+<tr class="row-even"><td><p>Logic Cells</p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">85K</span></code></p></td>
+</tr>
+<tr class="row-odd"><td><p>Memory</p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">4.9Mb</span> <span class="pre">Block</span> <span class="pre">RAM</span></code></p></td>
+</tr>
+<tr class="row-even"><td><p>I/O Pins</p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">400-pin</span> <span class="pre">CLG</span> <span class="pre">Package</span></code></p></td>
+</tr>
+<tr class="row-odd"><td><p>Video Processing</p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">1080p&#64;30fps,</span> <span class="pre">RGB</span> <span class="pre">/</span> <span class="pre">YUV</span> <span class="pre">Format</span></code></p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="system-on-module">
+<h3><a class="toc-backref" href="#id8" role="doc-backlink">System On Module</a><a class="headerlink" href="#system-on-module" title="Link to this heading"></a></h3>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>System On MOdule</p></th>
+<th class="head"><p>Description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>SOM</p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">Raspberry</span> <span class="pre">Pi</span> <span class="pre">4</span> <span class="pre">CM4</span> <span class="pre">Lite</span></code></p></td>
+</tr>
+<tr class="row-odd"><td><p>Processor</p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">BCM2711</span> <span class="pre">Quad-core</span> <span class="pre">Cortex-A72</span> <span class="pre">64-bit</span></code></p></td>
+</tr>
+<tr class="row-even"><td><p>Memory</p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">Up</span> <span class="pre">to</span> <span class="pre">8GB</span> <span class="pre">LPDDR4-2400</span> <span class="pre">SDRAM</span></code></p></td>
+</tr>
+<tr class="row-odd"><td><p>SD Card</p></td>
+<td><ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">Type:</span> <span class="pre">SD,</span> <span class="pre">SDHC,</span> <span class="pre">SDXC</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">Capacity:</span> <span class="pre">2GB</span> <span class="pre">~</span> <span class="pre">2TB</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">Speed</span> <span class="pre">Class</span> <span class="pre">(</span> <span class="pre">Max</span> <span class="pre">Data</span> <span class="pre">Transfer</span> <span class="pre">Rate</span> <span class="pre">):</span> <span class="pre">UHS-I</span> <span class="pre">(</span> <span class="pre">SDR104,</span> <span class="pre">104MB/s</span> <span class="pre">)</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">Video</span> <span class="pre">Speed</span> <span class="pre">Class</span> <span class="pre">(</span> <span class="pre">Min</span> <span class="pre">Sustained</span> <span class="pre">Write</span> <span class="pre">Speed</span> <span class="pre">):</span> <span class="pre">V30</span> <span class="pre">(</span> <span class="pre">30MB/s,</span> <span class="pre">4K</span> <span class="pre">)</span></code></p></li>
+</ul>
+</td>
+</tr>
+<tr class="row-even"><td><p>Video Codec</p></td>
+<td><ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">H.265</span> <span class="pre">(</span> <span class="pre">4Kp60</span> <span class="pre">decode</span> <span class="pre">)</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">H.264</span> <span class="pre">(</span> <span class="pre">1080p60</span> <span class="pre">decode,</span> <span class="pre">1080p30</span> <span class="pre">)</span></code></p></li>
+</ul>
+</td>
+</tr>
+<tr class="row-odd"><td><p>I/O</p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">USB</span> <span class="pre">2.0</span> <span class="pre">/</span> <span class="pre">3.0</span></code></p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="i-o-board">
+<h3><a class="toc-backref" href="#id9" role="doc-backlink">I/O Board</a><a class="headerlink" href="#i-o-board" title="Link to this heading"></a></h3>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>I/O Board</p></th>
+<th class="head"><p>Description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Manufacturer</p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">Self-designed</span></code></p></td>
+</tr>
+<tr class="row-odd"><td><p>JTAG for DBG</p></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>UART for DBG</p></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>SD Card</p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">Form</span> <span class="pre">factor:</span> <span class="pre">micro</span> <span class="pre">SD</span></code></p></td>
+</tr>
+<tr class="row-even"><td><p>USB</p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">USB</span> <span class="pre">2.0</span> <span class="pre">x</span> <span class="pre">1</span> <span class="pre">(</span> <span class="pre">Type-A</span> <span class="pre">)</span></code></p></td>
+</tr>
+<tr class="row-odd"><td><p>RESET</p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">1-pin</span></code></p></td>
+</tr>
+<tr class="row-even"><td><p>Power</p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">5V</span> <span class="pre">8A</span></code></p></td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<hr class="docutils" />
+<section id="id3">
+<h2><a class="toc-backref" href="#id10" role="doc-backlink">동작 환경</a><a class="headerlink" href="#id3" title="Link to this heading"></a></h2>
+<section id="hardware">
+<h3><a class="toc-backref" href="#id11" role="doc-backlink">Hardware</a><a class="headerlink" href="#hardware" title="Link to this heading"></a></h3>
+<section id="power">
+<h4><a class="toc-backref" href="#id12" role="doc-backlink">Power</a><a class="headerlink" href="#power" title="Link to this heading"></a></h4>
+</section>
+<section id="temperature">
+<h4><a class="toc-backref" href="#id13" role="doc-backlink">Temperature</a><a class="headerlink" href="#temperature" title="Link to this heading"></a></h4>
+</section>
+</section>
+<section id="software">
+<h3><a class="toc-backref" href="#id14" role="doc-backlink">Software</a><a class="headerlink" href="#software" title="Link to this heading"></a></h3>
+<section id="software-stack">
+<h4><a class="toc-backref" href="#id15" role="doc-backlink">Software Stack</a><a class="headerlink" href="#software-stack" title="Link to this heading"></a></h4>
+</section>
+</section>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2024, Jinyoung Park.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
