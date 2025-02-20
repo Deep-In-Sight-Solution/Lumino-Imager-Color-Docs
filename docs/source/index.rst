@@ -16,8 +16,9 @@ Lumino Imager Color User Manual
 
    /spec_env/product
    /spec_env/system
-   /spec_env/development
-   /spec_env/support
+   /spec_env/srs
+   /spec_env/feature
+   /spec_env/tech
 
 .. toctree::
    :maxdepth: 2

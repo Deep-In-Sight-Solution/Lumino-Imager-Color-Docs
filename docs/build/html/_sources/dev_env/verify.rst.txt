@@ -33,8 +33,8 @@
 
 .. list-table:: 
 
-    * - .. figure:: ../static/1.jpeg
+    * - .. figure:: ../static/lic.png
 
-      - .. figure:: ../static/2.jpeg
+      - .. figure:: ../static/lic.png
 
-      - .. figure:: ../static/3.jpeg
+      - .. figure:: ../static/lic.png

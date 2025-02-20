@@ -6,7 +6,7 @@
   <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>기능 명세서 &mdash; Lumino Imager Color 0.0.1 documentation</title>
+  <title>기술 명세서 &mdash; Lumino Imager Color 0.0.1 documentation</title>
       <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=b86133f3" />
       <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=e59714d7" />
 
@@ -20,7 +20,7 @@
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
     <link rel="next" title="구현" href="../dev_env/impl.html" />
-    <link rel="prev" title="기술 명세서" href="development.html" /> 
+    <link rel="prev" title="기능 명세서" href="feature.html" /> 
 </head>
 
 <body class="wy-body-for-nav"> 
@@ -50,15 +50,15 @@
 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="product.html">제품 구성</a></li>
 <li class="toctree-l1"><a class="reference internal" href="system.html">시스템 사양</a></li>
-<li class="toctree-l1"><a class="reference internal" href="development.html">기술 명세서</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">기능 명세서</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#id2">기능</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#recording">Recording</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#snapshot">Snapshot</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#storage">Storage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="srs.html">요구사항 명세서</a></li>
+<li class="toctree-l1"><a class="reference internal" href="feature.html">기능 명세서</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">기술 명세서</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#id2">개발 범위</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id3">소프트웨어 스택</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id4">소프트웨어 아키텍처</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#data-flow">Data Flow</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="#id3">운영체제</a></li>
 </ul>
 </li>
 </ul>
@@ -103,9 +103,9 @@
           <div role="navigation" aria-label="Page navigation">
   <ul class="wy-breadcrumbs">
       <li><a href="../index.html" class="icon icon-home" aria-label="Home"></a></li>
-      <li class="breadcrumb-item active">기능 명세서</li>
+      <li class="breadcrumb-item active">기술 명세서</li>
       <li class="wy-breadcrumbs-aside">
-            <a href="../_sources/spec_env/support.rst.txt" rel="nofollow"> View page source</a>
+            <a href="../_sources/spec_env/tech.rst.txt" rel="nofollow"> View page source</a>
       </li>
   </ul>
   <hr/>
@@ -114,64 +114,39 @@
            <div itemprop="articleBody">
              
   <section id="id1">
-<h1><a class="toc-backref" href="#id4" role="doc-backlink">기능 명세서</a><a class="headerlink" href="#id1" title="Link to this heading"></a></h1>
+<h1><a class="toc-backref" href="#id5" role="doc-backlink">기술 명세서</a><a class="headerlink" href="#id1" title="Link to this heading"></a></h1>
 <nav class="contents" id="table-of-contents">
 <p class="topic-title">Table of Contents</p>
 <ul class="simple">
-<li><p><a class="reference internal" href="#id1" id="id4">기능 명세서</a></p>
+<li><p><a class="reference internal" href="#id1" id="id5">기술 명세서</a></p>
 <ul>
-<li><p><a class="reference internal" href="#id2" id="id5">기능</a></p>
+<li><p><a class="reference internal" href="#id2" id="id6">개발 범위</a></p></li>
+<li><p><a class="reference internal" href="#id3" id="id7">소프트웨어 스택</a></p></li>
+<li><p><a class="reference internal" href="#id4" id="id8">소프트웨어 아키텍처</a></p>
 <ul>
-<li><p><a class="reference internal" href="#recording" id="id6">Recording</a></p></li>
-<li><p><a class="reference internal" href="#snapshot" id="id7">Snapshot</a></p></li>
-<li><p><a class="reference internal" href="#storage" id="id8">Storage</a></p></li>
+<li><p><a class="reference internal" href="#data-flow" id="id9">Data Flow</a></p></li>
 </ul>
 </li>
-<li><p><a class="reference internal" href="#id3" id="id9">운영체제</a></p></li>
 </ul>
 </li>
 </ul>
 </nav>
 <hr class="docutils" />
 <section id="id2">
-<h2><a class="toc-backref" href="#id5" role="doc-backlink">기능</a><a class="headerlink" href="#id2" title="Link to this heading"></a></h2>
-<section id="recording">
-<h3><a class="toc-backref" href="#id6" role="doc-backlink">Recording</a><a class="headerlink" href="#recording" title="Link to this heading"></a></h3>
-<ul class="simple">
-<li><p>Resolution: <a class="reference external" href="mailto:1280x720&#37;&#52;&#48;25fps">1280x720<span>&#64;</span>25fps</a></p></li>
-<li><p>Video Codec: MPEG-4 ( H.264 )</p></li>
-</ul>
-</section>
-<section id="snapshot">
-<h3><a class="toc-backref" href="#id7" role="doc-backlink">Snapshot</a><a class="headerlink" href="#snapshot" title="Link to this heading"></a></h3>
-<ul class="simple">
-<li><p>Resolution: 1280x720</p></li>
-<li><p>Compression Format: JPEG</p></li>
-</ul>
-</section>
-<section id="storage">
-<h3><a class="toc-backref" href="#id8" role="doc-backlink">Storage</a><a class="headerlink" href="#storage" title="Link to this heading"></a></h3>
-<ul class="simple">
-<li><dl class="simple">
-<dt>SD Card</dt><dd><ul>
-<li><p>Capacity: 2GB ~ 2TB</p></li>
-<li><p>Video Speed Class: V30 ( 30MB/s, 4K )</p></li>
-</ul>
-</dd>
-</dl>
-</li>
-</ul>
-</section>
+<h2><a class="toc-backref" href="#id6" role="doc-backlink">개발 범위</a><a class="headerlink" href="#id2" title="Link to this heading"></a></h2>
 </section>
 <section id="id3">
-<h2><a class="toc-backref" href="#id9" role="doc-backlink">운영체제</a><a class="headerlink" href="#id3" title="Link to this heading"></a></h2>
-<ul class="simple">
-<li><p>Windows ( X64 &amp; ARM64 )</p></li>
-<li><p>MacOS ( Monterey 12 and later )</p></li>
-<li><p>Linux</p></li>
-<li><p>Android ( EDS NG )</p></li>
-<li><p>iOS ( Disk Decipher, Crypto Disks )</p></li>
-</ul>
+<h2><a class="toc-backref" href="#id7" role="doc-backlink">소프트웨어 스택</a><a class="headerlink" href="#id3" title="Link to this heading"></a></h2>
+</section>
+<section id="id4">
+<h2><a class="toc-backref" href="#id8" role="doc-backlink">소프트웨어 아키텍처</a><a class="headerlink" href="#id4" title="Link to this heading"></a></h2>
+<section id="data-flow">
+<h3><a class="toc-backref" href="#id9" role="doc-backlink">Data Flow</a><a class="headerlink" href="#data-flow" title="Link to this heading"></a></h3>
+<dl class="simple">
+<dt><a class="reference external" href="https://deepinsight-projects.atlassian.net/wiki/spaces/LuminoImag/whiteboard/370212865?atl_f=PAGETREE">Lumino-Imager-Color Data Flow</a></dt><dd><p>Lumino-Imager-Color Data Flow</p>
+</dd>
+</dl>
+</section>
 </section>
 </section>
 
@@ -179,7 +154,7 @@
            </div>
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
-        <a href="development.html" class="btn btn-neutral float-left" title="기술 명세서" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="feature.html" class="btn btn-neutral float-left" title="기능 명세서" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
         <a href="../dev_env/impl.html" class="btn btn-neutral float-right" title="구현" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 

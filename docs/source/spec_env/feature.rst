@@ -25,6 +25,7 @@ Storage
     - Capacity: 2GB ~ 2TB
     - Video Speed Class: V30 ( 30MB/s, 4K )
 
+File
 
 운영체제
 ========
