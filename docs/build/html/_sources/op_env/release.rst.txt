@@ -7,10 +7,10 @@ Release
 ---------
 
 Cloud-based Repository URL
-===========================
+============================
 
 Jira + GitHub
---------------
+---------------
 
 `Lumino-Imager-Color Release Management <https://deepinsight-projects.atlassian.net/projects/LIC?selectedItem=com.atlassian.jira.jira-projects-plugin%3Arelease-page>`__
     Lumino-Imager-Color 배포 관리
@@ -20,4 +20,4 @@ Jira + GitHub
 
 
 User Manual
-============
+=============

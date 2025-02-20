@@ -7,7 +7,7 @@
 ---------
 
 실행 환경
-========
+=========
 
 +------------+----------+-------------------------+
 | SW         | Description                        |
@@ -21,7 +21,7 @@
 
 
 실행 절차
-========
+=========
 
 #. ToF camera 드라이버 설치
 #. PC 에 연결 후 ( I/F: USB ) 장치 인식 상태 확인 :menuselection:`제어판 --> 장치 관리자`
@@ -40,35 +40,35 @@
 
 
 실행화면
-=======
+========
 
 .. tabs::
 
     .. tab:: 실행 화면
         
-        .. figure:: static/app.jpeg
+        .. figure:: ../static/app.jpeg
 
             택배물 안착 및 부피 측정 요청
 
     .. tab:: 측정
         
-        .. figure:: static/capture.jpeg
+        .. figure:: ../static/capture.jpeg
 
             택배물 가로 세로 길이 계측 및 면적 산정, 높이 계측
 
     .. tab:: 결과
         
-        .. figure:: static/result.jpeg
+        .. figure:: ../static/result.jpeg
 
             택배물 부피 산정
 
     .. tab:: 실행 흐름
         
-        .. figure:: static/flow.png
+        .. figure:: ../static/flow.png
 
 
 측정방법
-=======
+========
 
 .. important::
 
@@ -76,15 +76,15 @@
 
     .. list-table:: 
 
-        * - .. figure:: static/capture_button.png
+        * - .. figure:: ../static/capture_button.png
 
             Capture
     
-          - .. figure:: static/cal_button.png
+          - .. figure:: ../static/cal_button.png
 
             Calibration
     
-          - .. figure:: static/range_button.png
+          - .. figure:: ../static/range_button.png
 
             Range Setting
 
@@ -99,9 +99,9 @@
         1. Depth Image에서 ROI로 지정할 :menuselection:`좌상단 --> 우하단` 좌표를 선택하여 사각형 ROI 지정한다.
         2. 지정 후 지정된 영역을 제외한 다른 영역을 선택하여 셋팅을 완료한다.
 
-        .. figure:: static/4.jpeg
+        .. figure:: ../static/4.jpeg
 
-        .. figure:: static/5.jpeg
+        .. figure:: ../static/5.jpeg
 
 
     .. tab:: Range Setting
@@ -109,4 +109,4 @@
         1. Calibration과 동일한 방법으로 박스를 올려 둘 영역을 지정한다.
         2. 지정 후 지정된 영역을 제외한 다른 영역을 선택하여 셋팅을 완료한다.
 
-        .. figure:: static/6.jpeg
+        .. figure:: ../static/6.jpeg
