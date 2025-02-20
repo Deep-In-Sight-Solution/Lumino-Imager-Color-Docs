@@ -6,24 +6,24 @@
 
 ---------
 
-Cloud-based Server URL
-========================
+Cloud-Based
+=============
 
 Jira
 ------
 
-`DeepInsight Issue Management System <https://deepinsight-projects.atlassian.net/jira/software/c/projects/LIC/boards/161/timeline>`__
-    Lumino-Imager-Color 이슈 관리 시스템
+`Issue Management System <https://deepinsight-projects.atlassian.net/jira/software/c/projects/LIC/boards/161/timeline>`__
+    이슈 관리 시스템
 
 
-On-Premises Server URL
-========================
+On-Premise
+============
 
 Redmine
 ---------
 
-`DeepInsight Issue Management System <http://14.35.255.147:9006/projects/product-lumino-imager-color/issues>`__
-    Lumino-Imager-Color 이슈 관리 시스템 ( 내부용 )
+`Issue Management System <http://14.35.255.147:9006/projects/product-lumino-imager-color/issues>`__
+    이슈 관리 시스템 ( 내부용 )
 
-`DeepInsight Issue Management System <http://14.35.255.147:9007/projects/product-lumino-imager-color-icg/issues>`__
-    Lumino-Imager-Color 이슈 관리 시스템 ( 외부용 )
+`Issue Management System <http://14.35.255.147:9007/projects/product-lumino-imager-color-icg/issues>`__
+    이슈 관리 시스템 ( 외부용 )

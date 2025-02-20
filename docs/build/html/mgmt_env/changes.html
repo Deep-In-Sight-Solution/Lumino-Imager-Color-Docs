@@ -58,7 +58,7 @@
 <li class="toctree-l1"><a class="reference internal" href="../dev_env/impl.html">구현</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../dev_env/test.html">시험</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../dev_env/verify.html">검증</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../dev_env/build-deploy.html">빌드 / 배포</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../dev_env/cicd.html">CI / CD</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../dev_env/quality.html">코드 품질</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../dev_env/repo.html">형상 관리</a></li>
 </ul>
@@ -66,17 +66,22 @@
 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="issues.html">이슈 관리</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">변경 관리</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#cloud-based-server-url">Cloud-based Server URL</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#cloud-based">Cloud-Based</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#confluence">Confluence</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="#database">Database</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#whiteboard">Whiteboard</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#requirement-management">Requirement Management</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#system-architecture">System Architecture</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#data-flow">Data Flow</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="#draw-io">draw.io</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="#on-premises-server-url">On-Premises Server URL</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#id2">Database</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#on-premise">On-Premise</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#redmine">Redmine</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#id2">Requirement Management</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id3">System Architecture</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id4">Data Flow</a></li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>
@@ -86,6 +91,7 @@
 </ul>
 <p class="caption" role="heading"><span class="caption-text">운영 환경</span></p>
 <ul>
+<li class="toctree-l1"><a class="reference internal" href="../op_env/deploy.html">Deploy</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../op_env/release.html">Release</a></li>
 </ul>
 <p class="caption" role="heading"><span class="caption-text">Reference</span></p>
@@ -119,26 +125,32 @@
            <div itemprop="articleBody">
              
   <section id="id1">
-<h1><a class="toc-backref" href="#id3" role="doc-backlink">변경 관리</a><a class="headerlink" href="#id1" title="Link to this heading"></a></h1>
+<h1><a class="toc-backref" href="#id5" role="doc-backlink">변경 관리</a><a class="headerlink" href="#id1" title="Link to this heading"></a></h1>
 <nav class="contents" id="table-of-contents">
 <p class="topic-title">Table of Contents</p>
 <ul class="simple">
-<li><p><a class="reference internal" href="#id1" id="id3">변경 관리</a></p>
+<li><p><a class="reference internal" href="#id1" id="id5">변경 관리</a></p>
 <ul>
-<li><p><a class="reference internal" href="#cloud-based-server-url" id="id4">Cloud-based Server URL</a></p>
+<li><p><a class="reference internal" href="#cloud-based" id="id6">Cloud-Based</a></p>
 <ul>
-<li><p><a class="reference internal" href="#confluence" id="id5">Confluence</a></p>
+<li><p><a class="reference internal" href="#confluence" id="id7">Confluence</a></p>
 <ul>
-<li><p><a class="reference internal" href="#database" id="id6">Database</a></p></li>
-<li><p><a class="reference internal" href="#whiteboard" id="id7">Whiteboard</a></p></li>
+<li><p><a class="reference internal" href="#requirement-management" id="id8">Requirement Management</a></p></li>
+<li><p><a class="reference internal" href="#system-architecture" id="id9">System Architecture</a></p></li>
+<li><p><a class="reference internal" href="#data-flow" id="id10">Data Flow</a></p></li>
 </ul>
 </li>
-<li><p><a class="reference internal" href="#draw-io" id="id8">draw.io</a></p></li>
 </ul>
 </li>
-<li><p><a class="reference internal" href="#on-premises-server-url" id="id9">On-Premises Server URL</a></p>
+<li><p><a class="reference internal" href="#on-premise" id="id11">On-Premise</a></p>
 <ul>
-<li><p><a class="reference internal" href="#id2" id="id10">Database</a></p></li>
+<li><p><a class="reference internal" href="#redmine" id="id12">Redmine</a></p>
+<ul>
+<li><p><a class="reference internal" href="#id2" id="id13">Requirement Management</a></p></li>
+<li><p><a class="reference internal" href="#id3" id="id14">System Architecture</a></p></li>
+<li><p><a class="reference internal" href="#id4" id="id15">Data Flow</a></p></li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>
@@ -146,44 +158,58 @@
 </ul>
 </nav>
 <hr class="docutils" />
-<section id="cloud-based-server-url">
-<h2><a class="toc-backref" href="#id4" role="doc-backlink">Cloud-based Server URL</a><a class="headerlink" href="#cloud-based-server-url" title="Link to this heading"></a></h2>
+<section id="cloud-based">
+<h2><a class="toc-backref" href="#id6" role="doc-backlink">Cloud-Based</a><a class="headerlink" href="#cloud-based" title="Link to this heading"></a></h2>
 <section id="confluence">
-<h3><a class="toc-backref" href="#id5" role="doc-backlink">Confluence</a><a class="headerlink" href="#confluence" title="Link to this heading"></a></h3>
-<section id="database">
-<h4><a class="toc-backref" href="#id6" role="doc-backlink">Database</a><a class="headerlink" href="#database" title="Link to this heading"></a></h4>
-<dl>
-<dt><a class="reference external" href="https://deepinsight-projects.atlassian.net/wiki/spaces/LuminoImag/pages/337674241">Lumino-Imager-Color Requirement Management System</a></dt><dd><p>Lumino-Imager-Color 변경 관리 데이터베이스</p>
-</dd>
-<dt><a class="reference external" href="https://deepinsight-projects.atlassian.net/wiki/spaces/LuminoImag/database/337674285?atl_f=PAGETREE">Lumino-Imager-Color Requirement Management System</a></dt><dd><p>Lumino-Imager-Color 사용자 요구사항 데이터베이스</p>
-<p>…</p>
-</dd>
-</dl>
-</section>
-<section id="whiteboard">
-<h4><a class="toc-backref" href="#id7" role="doc-backlink">Whiteboard</a><a class="headerlink" href="#whiteboard" title="Link to this heading"></a></h4>
+<h3><a class="toc-backref" href="#id7" role="doc-backlink">Confluence</a><a class="headerlink" href="#confluence" title="Link to this heading"></a></h3>
+<section id="requirement-management">
+<h4><a class="toc-backref" href="#id8" role="doc-backlink">Requirement Management</a><a class="headerlink" href="#requirement-management" title="Link to this heading"></a></h4>
 <dl class="simple">
-<dt><a class="reference external" href="https://deepinsight-projects.atlassian.net/wiki/spaces/LuminoImag/pages/337674241">Lumino-Imager-Color Requirement Management System</a></dt><dd><p>Lumino-Imager-Color 변경 관리 화이트보드</p>
+<dt><a class="reference external" href="https://deepinsight-projects.atlassian.net/wiki/spaces/LuminoImag/pages/337674241">Requirement Management System</a></dt><dd><p>요구사항 관리 시스템</p>
 </dd>
 </dl>
 </section>
-</section>
-<section id="draw-io">
-<h3><a class="toc-backref" href="#id8" role="doc-backlink">draw.io</a><a class="headerlink" href="#draw-io" title="Link to this heading"></a></h3>
+<section id="system-architecture">
+<h4><a class="toc-backref" href="#id9" role="doc-backlink">System Architecture</a><a class="headerlink" href="#system-architecture" title="Link to this heading"></a></h4>
 <dl class="simple">
-<dt><a class="reference external" href="https://app.diagrams.net/">Lumino-Imager-Color Requirement Management System</a></dt><dd><p>Lumino-Imager-Color 변경 관리 화이트보드</p>
+<dt><a class="reference external" href="https://deepinsight-projects.atlassian.net/wiki/spaces/LuminoImag/whiteboard/384237597?atl_f=PAGETREE">System Architecture</a></dt><dd><p>시스템 아키텍처</p>
+</dd>
+</dl>
+</section>
+<section id="data-flow">
+<h4><a class="toc-backref" href="#id10" role="doc-backlink">Data Flow</a><a class="headerlink" href="#data-flow" title="Link to this heading"></a></h4>
+<dl class="simple">
+<dt><a class="reference external" href="https://deepinsight-projects.atlassian.net/wiki/spaces/LuminoImag/whiteboard/370212865?atl_f=PAGETREE">Data Flow</a></dt><dd><p>데이터 흐름</p>
 </dd>
 </dl>
 </section>
 </section>
-<section id="on-premises-server-url">
-<h2><a class="toc-backref" href="#id9" role="doc-backlink">On-Premises Server URL</a><a class="headerlink" href="#on-premises-server-url" title="Link to this heading"></a></h2>
+</section>
+<section id="on-premise">
+<h2><a class="toc-backref" href="#id11" role="doc-backlink">On-Premise</a><a class="headerlink" href="#on-premise" title="Link to this heading"></a></h2>
+<section id="redmine">
+<h3><a class="toc-backref" href="#id12" role="doc-backlink">Redmine</a><a class="headerlink" href="#redmine" title="Link to this heading"></a></h3>
 <section id="id2">
-<h3><a class="toc-backref" href="#id10" role="doc-backlink">Database</a><a class="headerlink" href="#id2" title="Link to this heading"></a></h3>
+<h4><a class="toc-backref" href="#id13" role="doc-backlink">Requirement Management</a><a class="headerlink" href="#id2" title="Link to this heading"></a></h4>
 <dl class="simple">
-<dt><a class="reference external" href="http://14.35.255.147:9006/projects/product-lumino-imager-color/issues">Lumino-Imager-Color Requirement Management System</a></dt><dd><p>Lumino-Imager-Color 변경 관리 데이터베이스</p>
+<dt><a class="reference external" href="http://14.35.255.147:9006/projects/product-lumino-imager-color/issues">Requirement Management System</a></dt><dd><p>요구사항 관리 시스템</p>
 </dd>
 </dl>
+</section>
+<section id="id3">
+<h4><a class="toc-backref" href="#id14" role="doc-backlink">System Architecture</a><a class="headerlink" href="#id3" title="Link to this heading"></a></h4>
+<dl class="simple">
+<dt><a class="reference external" href="https://app.diagrams.net/">System Architecture</a></dt><dd><p>시스템 아키텍처</p>
+</dd>
+</dl>
+</section>
+<section id="id4">
+<h4><a class="toc-backref" href="#id15" role="doc-backlink">Data Flow</a><a class="headerlink" href="#id4" title="Link to this heading"></a></h4>
+<dl class="simple">
+<dt><a class="reference external" href="https://app.diagrams.net/">Data Flow</a></dt><dd><p>데이터 흐름</p>
+</dd>
+</dl>
+</section>
 </section>
 </section>
 </section>

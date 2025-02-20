@@ -6,8 +6,8 @@
 
 ---------
 
-Cloud-based Repository URL
-============================
+Cloud-Based
+=============
 
 GitHub
 --------
@@ -16,8 +16,8 @@ GitHub
     Lumino-Imager-Color 버전 관리 저장소
 
 
-On-Premises Repository URL
-============================
+On-Premises
+=============
 
 SCM-Manager
 -------------

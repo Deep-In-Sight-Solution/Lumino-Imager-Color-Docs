@@ -59,7 +59,7 @@
 <li class="toctree-l1"><a class="reference internal" href="dev_env/impl.html">구현</a></li>
 <li class="toctree-l1"><a class="reference internal" href="dev_env/test.html">시험</a></li>
 <li class="toctree-l1"><a class="reference internal" href="dev_env/verify.html">검증</a></li>
-<li class="toctree-l1"><a class="reference internal" href="dev_env/build-deploy.html">빌드 / 배포</a></li>
+<li class="toctree-l1"><a class="reference internal" href="dev_env/cicd.html">CI / CD</a></li>
 <li class="toctree-l1"><a class="reference internal" href="dev_env/quality.html">코드 품질</a></li>
 <li class="toctree-l1"><a class="reference internal" href="dev_env/repo.html">형상 관리</a></li>
 </ul>
@@ -72,6 +72,7 @@
 </ul>
 <p class="caption" role="heading"><span class="caption-text">운영 환경</span></p>
 <ul>
+<li class="toctree-l1"><a class="reference internal" href="op_env/deploy.html">Deploy</a></li>
 <li class="toctree-l1"><a class="reference internal" href="op_env/release.html">Release</a></li>
 </ul>
 <p class="caption" role="heading"><span class="caption-text">Reference</span></p>
@@ -131,6 +132,7 @@
 <li><p><a class="reference internal" href="#id5" id="id16">실행 환경</a></p></li>
 <li><p><a class="reference internal" href="#id6" id="id17">관리 환경</a></p></li>
 <li><p><a class="reference internal" href="#id7" id="id18">운영 환경</a></p></li>
+<li><p><a class="reference internal" href="#reference" id="id19">Reference</a></p></li>
 </ul>
 </li>
 </ul>
@@ -216,23 +218,24 @@ TCP/IP 프로토콜을 통한 네트워크 통신이 가능하며, 원격 접속
 <section id="id4">
 <h3><a class="toc-backref" href="#id15" role="doc-backlink">개발 환경</a><a class="headerlink" href="#id4" title="Link to this heading"></a></h3>
 <dl class="simple">
-<dt><a class="reference internal" href="dev_env/impl.html"><span class="doc">구현</span></a></dt><dd><p>시스템의 주요 기능과 모듈별 구현 방법을 설명합니다. 프로그래밍 언어, 프레임워크, 라이브러리 등 개발 도구와 코드 구조, 주요 알고리즘, API 명세를 포함합니다. …</p>
+<dt><a class="reference internal" href="dev_env/impl.html"><span class="doc">구현</span></a></dt><dd><p>시스템의 주요 기능과 모듈별 구현 방법을 설명합니다.
+프로그래밍 언어, 프레임워크, 라이브러리 등 개발 도구와 코드 구조, 주요 알고리즘, API 명세를 포함합니다.</p>
 </dd>
 <dt><span class="xref std std-doc">배포</span></dt><dd><p>소프트웨어 빌드, 패키징 및 배포 프로세스를 설명합니다.
 컴파일 방법, 의존성 관리, 설치 패키지 생성,
-버전 관리 및 릴리스 절차를 포함합니다. …</p>
+버전 관리 및 릴리스 절차를 포함합니다.</p>
 </dd>
 <dt><a class="reference internal" href="dev_env/test.html"><span class="doc">테스트</span></a></dt><dd><p>소프트웨어 품질 보증을 위한 테스트 방법론과 절차를 설명합니다.
 단위 테스트, 통합 테스트, 시스템 테스트, 성능 테스트 등
-각종 테스트 케이스와 자동화 도구 활용 방법을 포함합니다. …</p>
+각종 테스트 케이스와 자동화 도구 활용 방법을 포함합니다.</p>
 </dd>
 <dt><a class="reference internal" href="dev_env/test.html"><span class="doc">검증</span></a></dt><dd><p>개발된 시스템의 요구사항 충족 여부를 검증하는 방법을 설명합니다.
 기능 검증, 성능 검증, 안정성 검증 등
-품질 기준 충족 여부를 확인하는 절차를 포함합니다. …</p>
+품질 기준 충족 여부를 확인하는 절차를 포함합니다.</p>
 </dd>
 <dt><a class="reference internal" href="dev_env/repo.html"><span class="doc">형상 관리</span></a></dt><dd><p>소스 코드와 문서의 버전 관리 방법을 설명합니다.
 Git 저장소 구조, 브랜치 전략, 커밋 규칙,
-코드 리뷰 프로세스 등을 포함합니다. …</p>
+코드 리뷰 프로세스 등을 포함합니다.</p>
 </dd>
 </dl>
 </section>
@@ -250,27 +253,30 @@ Git 저장소 구조, 브랜치 전략, 커밋 규칙,
 <section id="id6">
 <h3><a class="toc-backref" href="#id17" role="doc-backlink">관리 환경</a><a class="headerlink" href="#id6" title="Link to this heading"></a></h3>
 <dl class="simple">
-<dt><a class="reference internal" href="mgmt_env/issues.html"><span class="doc">이슈 관리</span></a></dt><dd><p>시스템 개발 및 운영 과정에서 발생하는 문제점, 개선사항, 요구사항 등을
-추적하고 관리하는 프로세스를 설명합니다. 이슈 등록, 분류, 우선순위 지정,
-해결 및 검증 절차를 포함합니다.</p>
+<dt><a class="reference internal" href="mgmt_env/issues.html"><span class="doc">이슈 관리</span></a></dt><dd><p>시스템 개발 및 운영 과정에서 발생하는 문제점, 개선사항 등을 추적하고 관리하는 프로세스</p>
 </dd>
-<dt><a class="reference internal" href="mgmt_env/changes.html"><span class="doc">변경 관리</span></a></dt><dd><p>시스템의 하드웨어 및 소프트웨어 구성요소의 변경사항을 관리하는 프로세스를 설명합니다.
-변경 요청, 영향도 분석, 승인 절차, 적용 및 검증 방법을 포함합니다.</p>
+<dt><a class="reference internal" href="mgmt_env/changes.html"><span class="doc">변경 관리</span></a></dt><dd><p>요구사항(사용자, 시스템, 품질 등)과 그에 따른 시스템의 하드웨어 및 소프트웨어 구성요소의 변경사항을 관리하는 프로세스</p>
 </dd>
-<dt><a class="reference internal" href="mgmt_env/version.html"><span class="doc">버전 관리</span></a></dt><dd><p>시스템의 버전 체계와 관리 방법을 설명합니다. 버전 번호 체계,
-주요/부 버전 릴리스 기준, 패치 관리, 버전별 호환성 정보를 포함합니다.</p>
+<dt><a class="reference internal" href="mgmt_env/status.html"><span class="doc">현황 관리</span></a></dt><dd><p>프로젝트에서 소프트웨어 개발 전체 진행 상황을 한눈에 파악할 수 있는 대시보드를 제공</p>
 </dd>
-<dt><a class="reference internal" href="mgmt_env/status.html"><span class="doc">현황 관리</span></a></dt><dd><p>시스템의 운영 상태와 성능을 모니터링하고 관리하는 방법을 설명합니다.
-시스템 상태 점검, 성능 지표 측정, 로그 관리, 문제 해결 절차를 포함합니다.</p>
+<dt><a class="reference internal" href="mgmt_env/risk.html"><span class="doc">위험 관리</span></a></dt><dd><p>프로젝트 진행 중 발생할 수 있는 위험 요소 식별 및 대응 전략을 설명</p>
 </dd>
 </dl>
 </section>
 <section id="id7">
 <h3><a class="toc-backref" href="#id18" role="doc-backlink">운영 환경</a><a class="headerlink" href="#id7" title="Link to this heading"></a></h3>
 <dl class="simple">
-<dt><span class="xref std std-doc">배포</span></dt><dd><p>배포 단계에서는 애플리케이션의 설치, 구성, 업데이트 및 유지보수와 관련된 절차와 환경 구성이 상세히 설명됩니다.
-개발 완료된 시스템을 운영 환경에 적용하기 위한 배포 방법과 절차를 설명합니다.
-패키징, 버전 관리, 롤백 전략, 협력 업체 연동 방안 등을 포함한 실제 서비스 환경 적용 프로세스를 다룹니다.</p>
+<dt><a class="reference internal" href="op_env/deploy.html"><span class="doc">배포</span></a></dt><dd><p>배포 단계에서는 애플리케이션의 설치, 구성, 업데이트 및 유지보수와 관련된 절차와 환경 구성이 상세히 설명됩니다.
+개발 완료된 시스템을 운영 환경에 적용하기 위한 배포 방법과 절차를 설명합니다.</p>
+</dd>
+</dl>
+</section>
+<section id="reference">
+<h3><a class="toc-backref" href="#id19" role="doc-backlink">Reference</a><a class="headerlink" href="#reference" title="Link to this heading"></a></h3>
+<dl class="simple">
+<dt><a class="reference internal" href="ref_env/changelog.html"><span class="doc">Changelog</span></a></dt><dd><p>각 버전별 변경사항과 업데이트 내용을 기록합니다.</p>
+</dd>
+<dt><a class="reference internal" href="ref_env/icg.html"><span class="doc">ICG</span></a></dt><dd><p>형광 영상 장비와 관련된 추가 정보와 참고 자료를 제공합니다.</p>
 </dd>
 </dl>
 </section>

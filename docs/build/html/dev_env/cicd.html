@@ -6,7 +6,7 @@
   <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>코드 품질 &mdash; Lumino Imager Color 0.0.1 documentation</title>
+  <title>CI / CD &mdash; Lumino Imager Color 0.0.1 documentation</title>
       <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=b86133f3" />
       <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=e59714d7" />
 
@@ -19,8 +19,8 @@
     <script src="../_static/js/theme.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="형상 관리" href="repo.html" />
-    <link rel="prev" title="CI / CD" href="cicd.html" /> 
+    <link rel="next" title="코드 품질" href="quality.html" />
+    <link rel="prev" title="검증" href="verify.html" /> 
 </head>
 
 <body class="wy-body-for-nav"> 
@@ -58,15 +58,15 @@
 <li class="toctree-l1"><a class="reference internal" href="impl.html">구현</a></li>
 <li class="toctree-l1"><a class="reference internal" href="test.html">시험</a></li>
 <li class="toctree-l1"><a class="reference internal" href="verify.html">검증</a></li>
-<li class="toctree-l1"><a class="reference internal" href="cicd.html">CI / CD</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">코드 품질</a><ul>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">CI / CD</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#cloud-based">Cloud-based</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#on-premise">On-Premise</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#sonarqube">SonarQube</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#jenkins">Jenkins</a></li>
 </ul>
 </li>
 </ul>
 </li>
+<li class="toctree-l1"><a class="reference internal" href="quality.html">코드 품질</a></li>
 <li class="toctree-l1"><a class="reference internal" href="repo.html">형상 관리</a></li>
 </ul>
 <p class="caption" role="heading"><span class="caption-text">관리 환경</span></p>
@@ -101,9 +101,9 @@
           <div role="navigation" aria-label="Page navigation">
   <ul class="wy-breadcrumbs">
       <li><a href="../index.html" class="icon icon-home" aria-label="Home"></a></li>
-      <li class="breadcrumb-item active">코드 품질</li>
+      <li class="breadcrumb-item active">CI / CD</li>
       <li class="wy-breadcrumbs-aside">
-            <a href="../_sources/dev_env/quality.rst.txt" rel="nofollow"> View page source</a>
+            <a href="../_sources/dev_env/cicd.rst.txt" rel="nofollow"> View page source</a>
       </li>
   </ul>
   <hr/>
@@ -111,17 +111,17 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
              
-  <section id="id1">
-<h1><a class="toc-backref" href="#id2" role="doc-backlink">코드 품질</a><a class="headerlink" href="#id1" title="Link to this heading"></a></h1>
+  <section id="ci-cd">
+<h1><a class="toc-backref" href="#id1" role="doc-backlink">CI / CD</a><a class="headerlink" href="#ci-cd" title="Link to this heading"></a></h1>
 <nav class="contents" id="table-of-contents">
 <p class="topic-title">Table of Contents</p>
 <ul class="simple">
-<li><p><a class="reference internal" href="#id1" id="id2">코드 품질</a></p>
+<li><p><a class="reference internal" href="#ci-cd" id="id1">CI / CD</a></p>
 <ul>
-<li><p><a class="reference internal" href="#cloud-based" id="id3">Cloud-based</a></p></li>
-<li><p><a class="reference internal" href="#on-premise" id="id4">On-Premise</a></p>
+<li><p><a class="reference internal" href="#cloud-based" id="id2">Cloud-based</a></p></li>
+<li><p><a class="reference internal" href="#on-premise" id="id3">On-Premise</a></p>
 <ul>
-<li><p><a class="reference internal" href="#sonarqube" id="id5">SonarQube</a></p></li>
+<li><p><a class="reference internal" href="#jenkins" id="id4">Jenkins</a></p></li>
 </ul>
 </li>
 </ul>
@@ -130,14 +130,14 @@
 </nav>
 <hr class="docutils" />
 <section id="cloud-based">
-<h2><a class="toc-backref" href="#id3" role="doc-backlink">Cloud-based</a><a class="headerlink" href="#cloud-based" title="Link to this heading"></a></h2>
+<h2><a class="toc-backref" href="#id2" role="doc-backlink">Cloud-based</a><a class="headerlink" href="#cloud-based" title="Link to this heading"></a></h2>
 </section>
 <section id="on-premise">
-<h2><a class="toc-backref" href="#id4" role="doc-backlink">On-Premise</a><a class="headerlink" href="#on-premise" title="Link to this heading"></a></h2>
-<section id="sonarqube">
-<h3><a class="toc-backref" href="#id5" role="doc-backlink">SonarQube</a><a class="headerlink" href="#sonarqube" title="Link to this heading"></a></h3>
+<h2><a class="toc-backref" href="#id3" role="doc-backlink">On-Premise</a><a class="headerlink" href="#on-premise" title="Link to this heading"></a></h2>
+<section id="jenkins">
+<h3><a class="toc-backref" href="#id4" role="doc-backlink">Jenkins</a><a class="headerlink" href="#jenkins" title="Link to this heading"></a></h3>
 <dl class="simple">
-<dt><a class="reference external" href="http://14.35.255.147:9110/">Code Quality Management System</a></dt><dd><p>코드 품질 관리 자동화 시스템</p>
+<dt><a class="reference external" href="https://deepinsight-jenkins.ddns.net/">CI / CD  Automation System</a></dt><dd><p>CI / CD 자동화 시스템</p>
 </dd>
 </dl>
 </section>
@@ -148,8 +148,8 @@
            </div>
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
-        <a href="cicd.html" class="btn btn-neutral float-left" title="CI / CD" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
-        <a href="repo.html" class="btn btn-neutral float-right" title="형상 관리" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="verify.html" class="btn btn-neutral float-left" title="검증" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="quality.html" class="btn btn-neutral float-right" title="코드 품질" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
   <hr/>

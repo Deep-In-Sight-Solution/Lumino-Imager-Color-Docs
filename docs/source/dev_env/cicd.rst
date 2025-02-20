@@ -1,5 +1,5 @@
 *********************************
-코드 품질
+CI / CD
 *********************************
 
 .. contents:: Table of Contents
@@ -13,8 +13,8 @@ Cloud-based
 On-Premise
 ============
 
-SonarQube
------------
+Jenkins
+---------
 
-`Code Quality Management System <http://14.35.255.147:9110/>`__
-    코드 품질 관리 자동화 시스템
+`CI / CD  Automation System <https://deepinsight-jenkins.ddns.net/>`__
+    CI / CD 자동화 시스템

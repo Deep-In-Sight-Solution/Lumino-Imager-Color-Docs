@@ -6,41 +6,51 @@
 
 ---------
 
-Cloud-based Server URL
-========================
+Cloud-Based
+=============
 
 Confluence
 ------------
 
-Database
-~~~~~~~~~~
+Requirement Management
+~~~~~~~~~~~~~~~~~~~~~~~~
 
-`Lumino-Imager-Color Requirement Management System <https://deepinsight-projects.atlassian.net/wiki/spaces/LuminoImag/pages/337674241>`__
-    Lumino-Imager-Color 변경 관리 데이터베이스
+`Requirement Management System <https://deepinsight-projects.atlassian.net/wiki/spaces/LuminoImag/pages/337674241>`__
+    요구사항 관리 시스템
 
-`Lumino-Imager-Color Requirement Management System <https://deepinsight-projects.atlassian.net/wiki/spaces/LuminoImag/database/337674285?atl_f=PAGETREE>`__
-    Lumino-Imager-Color 사용자 요구사항 데이터베이스
+System Architecture 
+~~~~~~~~~~~~~~~~~~~~~
 
-    ...
+`System Architecture <https://deepinsight-projects.atlassian.net/wiki/spaces/LuminoImag/whiteboard/384237597?atl_f=PAGETREE>`__
+    시스템 아키텍처
 
-Whiteboard
-~~~~~~~~~~~~
+Data Flow
+~~~~~~~~~~~
 
-`Lumino-Imager-Color Requirement Management System <https://deepinsight-projects.atlassian.net/wiki/spaces/LuminoImag/pages/337674241>`__
-    Lumino-Imager-Color 변경 관리 화이트보드
+`Data Flow <https://deepinsight-projects.atlassian.net/wiki/spaces/LuminoImag/whiteboard/370212865?atl_f=PAGETREE>`__
+    데이터 흐름
 
-draw.io
+
+On-Premise
+============
+
+Redmine
 ---------
 
-`Lumino-Imager-Color Requirement Management System <https://app.diagrams.net/>`__
-    Lumino-Imager-Color 변경 관리 화이트보드
+Requirement Management
+~~~~~~~~~~~~~~~~~~~~~~~~
 
+`Requirement Management System <http://14.35.255.147:9006/projects/product-lumino-imager-color/issues>`__
+    요구사항 관리 시스템
 
-On-Premises Server URL
-========================
+System Architecture 
+~~~~~~~~~~~~~~~~~~~~~
 
-Database
-----------
+`System Architecture <https://app.diagrams.net/>`__
+    시스템 아키텍처
 
-`Lumino-Imager-Color Requirement Management System <http://14.35.255.147:9006/projects/product-lumino-imager-color/issues>`__
-    Lumino-Imager-Color 변경 관리 데이터베이스
+Data Flow 
+~~~~~~~~~~~
+
+`Data Flow <https://app.diagrams.net/>`__
+    데이터 흐름

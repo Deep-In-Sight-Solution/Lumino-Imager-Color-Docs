@@ -6,7 +6,7 @@
   <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>코드 품질 &mdash; Lumino Imager Color 0.0.1 documentation</title>
+  <title>Deploy &mdash; Lumino Imager Color 0.0.1 documentation</title>
       <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=b86133f3" />
       <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=e59714d7" />
 
@@ -19,8 +19,8 @@
     <script src="../_static/js/theme.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="형상 관리" href="repo.html" />
-    <link rel="prev" title="CI / CD" href="cicd.html" /> 
+    <link rel="next" title="Release" href="release.html" />
+    <link rel="prev" title="위험 관리" href="../mgmt_env/risk.html" /> 
 </head>
 
 <body class="wy-body-for-nav"> 
@@ -54,20 +54,13 @@
 <li class="toctree-l1"><a class="reference internal" href="../spec_env/support.html">지원 사양</a></li>
 </ul>
 <p class="caption" role="heading"><span class="caption-text">개발 환경</span></p>
-<ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="impl.html">구현</a></li>
-<li class="toctree-l1"><a class="reference internal" href="test.html">시험</a></li>
-<li class="toctree-l1"><a class="reference internal" href="verify.html">검증</a></li>
-<li class="toctree-l1"><a class="reference internal" href="cicd.html">CI / CD</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">코드 품질</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#cloud-based">Cloud-based</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#on-premise">On-Premise</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#sonarqube">SonarQube</a></li>
-</ul>
-</li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="repo.html">형상 관리</a></li>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../dev_env/impl.html">구현</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../dev_env/test.html">시험</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../dev_env/verify.html">검증</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../dev_env/cicd.html">CI / CD</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../dev_env/quality.html">코드 품질</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../dev_env/repo.html">형상 관리</a></li>
 </ul>
 <p class="caption" role="heading"><span class="caption-text">관리 환경</span></p>
 <ul>
@@ -77,9 +70,20 @@
 <li class="toctree-l1"><a class="reference internal" href="../mgmt_env/risk.html">위험 관리</a></li>
 </ul>
 <p class="caption" role="heading"><span class="caption-text">운영 환경</span></p>
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="../op_env/deploy.html">Deploy</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../op_env/release.html">Release</a></li>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Deploy</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#cloud-based">Cloud-Based</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#jira-github">Jira + GitHub</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#on-premise">On-Premise</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#scm-manager">SCM-Manager</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#user-manual">User Manual</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="release.html">Release</a></li>
 </ul>
 <p class="caption" role="heading"><span class="caption-text">Reference</span></p>
 <ul>
@@ -101,9 +105,9 @@
           <div role="navigation" aria-label="Page navigation">
   <ul class="wy-breadcrumbs">
       <li><a href="../index.html" class="icon icon-home" aria-label="Home"></a></li>
-      <li class="breadcrumb-item active">코드 품질</li>
+      <li class="breadcrumb-item active">Deploy</li>
       <li class="wy-breadcrumbs-aside">
-            <a href="../_sources/dev_env/quality.rst.txt" rel="nofollow"> View page source</a>
+            <a href="../_sources/op_env/deploy.rst.txt" rel="nofollow"> View page source</a>
       </li>
   </ul>
   <hr/>
@@ -111,36 +115,53 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
              
-  <section id="id1">
-<h1><a class="toc-backref" href="#id2" role="doc-backlink">코드 품질</a><a class="headerlink" href="#id1" title="Link to this heading"></a></h1>
+  <section id="deploy">
+<h1><a class="toc-backref" href="#id1" role="doc-backlink">Deploy</a><a class="headerlink" href="#deploy" title="Link to this heading"></a></h1>
 <nav class="contents" id="table-of-contents">
 <p class="topic-title">Table of Contents</p>
 <ul class="simple">
-<li><p><a class="reference internal" href="#id1" id="id2">코드 품질</a></p>
+<li><p><a class="reference internal" href="#deploy" id="id1">Deploy</a></p>
 <ul>
-<li><p><a class="reference internal" href="#cloud-based" id="id3">Cloud-based</a></p></li>
-<li><p><a class="reference internal" href="#on-premise" id="id4">On-Premise</a></p>
+<li><p><a class="reference internal" href="#cloud-based" id="id2">Cloud-Based</a></p>
 <ul>
-<li><p><a class="reference internal" href="#sonarqube" id="id5">SonarQube</a></p></li>
+<li><p><a class="reference internal" href="#jira-github" id="id3">Jira + GitHub</a></p></li>
 </ul>
 </li>
+<li><p><a class="reference internal" href="#on-premise" id="id4">On-Premise</a></p>
+<ul>
+<li><p><a class="reference internal" href="#scm-manager" id="id5">SCM-Manager</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference internal" href="#user-manual" id="id6">User Manual</a></p></li>
 </ul>
 </li>
 </ul>
 </nav>
 <hr class="docutils" />
 <section id="cloud-based">
-<h2><a class="toc-backref" href="#id3" role="doc-backlink">Cloud-based</a><a class="headerlink" href="#cloud-based" title="Link to this heading"></a></h2>
-</section>
-<section id="on-premise">
-<h2><a class="toc-backref" href="#id4" role="doc-backlink">On-Premise</a><a class="headerlink" href="#on-premise" title="Link to this heading"></a></h2>
-<section id="sonarqube">
-<h3><a class="toc-backref" href="#id5" role="doc-backlink">SonarQube</a><a class="headerlink" href="#sonarqube" title="Link to this heading"></a></h3>
+<h2><a class="toc-backref" href="#id2" role="doc-backlink">Cloud-Based</a><a class="headerlink" href="#cloud-based" title="Link to this heading"></a></h2>
+<section id="jira-github">
+<h3><a class="toc-backref" href="#id3" role="doc-backlink">Jira + GitHub</a><a class="headerlink" href="#jira-github" title="Link to this heading"></a></h3>
 <dl class="simple">
-<dt><a class="reference external" href="http://14.35.255.147:9110/">Code Quality Management System</a></dt><dd><p>코드 품질 관리 자동화 시스템</p>
+<dt><a class="reference external" href="https://deepinsight-projects.atlassian.net/projects/LIC?selectedItem=com.atlassian.jira.jira-projects-plugin%3Arelease-page">Release Management</a></dt><dd><p>배포 버전 관리</p>
+</dd>
+<dt><a class="reference external" href="https://github.com/Deep-In-Sight-Public/Lumino-Imager-Color-Release.git">Deployment Image Repository</a></dt><dd><p>배포 이미지 저장소</p>
 </dd>
 </dl>
 </section>
+</section>
+<section id="on-premise">
+<h2><a class="toc-backref" href="#id4" role="doc-backlink">On-Premise</a><a class="headerlink" href="#on-premise" title="Link to this heading"></a></h2>
+<section id="scm-manager">
+<h3><a class="toc-backref" href="#id5" role="doc-backlink">SCM-Manager</a><a class="headerlink" href="#scm-manager" title="Link to this heading"></a></h3>
+<dl class="simple">
+<dt><a class="reference external" href="https://github.com/Deep-In-Sight-Public/Lumino-Imager-Color-Release.git">Deployment Image Repository</a></dt><dd><p>배포 이미지 저장소</p>
+</dd>
+</dl>
+</section>
+</section>
+<section id="user-manual">
+<h2><a class="toc-backref" href="#id6" role="doc-backlink">User Manual</a><a class="headerlink" href="#user-manual" title="Link to this heading"></a></h2>
 </section>
 </section>
 
@@ -148,8 +169,8 @@
            </div>
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
-        <a href="cicd.html" class="btn btn-neutral float-left" title="CI / CD" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
-        <a href="repo.html" class="btn btn-neutral float-right" title="형상 관리" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="../mgmt_env/risk.html" class="btn btn-neutral float-left" title="위험 관리" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="release.html" class="btn btn-neutral float-right" title="Release" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
   <hr/>
