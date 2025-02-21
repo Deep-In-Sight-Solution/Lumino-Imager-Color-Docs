@@ -6,7 +6,7 @@
   <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>제품 구성 &mdash; Lumino Imager Color 0.0.1 documentation</title>
+  <title>설계 사양 &mdash; Lumino Imager Color 0.0.1 documentation</title>
       <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=b86133f3" />
       <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=e59714d7" />
 
@@ -19,8 +19,8 @@
     <script src="../_static/js/theme.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="시스템 사양" href="system.html" />
-    <link rel="prev" title="개발 배경" href="../intro_env/about.html" /> 
+    <link rel="next" title="구현" href="../dev_env/impl.html" />
+    <link rel="prev" title="기술 명세서" href="tech.html" /> 
 </head>
 
 <body class="wy-body-for-nav"> 
@@ -48,20 +48,18 @@
 </ul>
 <p class="caption" role="heading"><span class="caption-text">Specification</span></p>
 <ul class="current">
-<li class="toctree-l1 current"><a class="current reference internal" href="#">제품 구성</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#hardware">Hardware</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#software">Software</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#license">License</a></li>
-</ul>
-</li>
-<li class="toctree-l2"><a class="reference internal" href="#user-manual">User Manual</a></li>
-</ul>
-</li>
+<li class="toctree-l1"><a class="reference internal" href="product.html">제품 구성</a></li>
 <li class="toctree-l1"><a class="reference internal" href="system.html">시스템 사양</a></li>
 <li class="toctree-l1"><a class="reference internal" href="srs.html">요구사항 명세서</a></li>
 <li class="toctree-l1"><a class="reference internal" href="feature.html">기능 명세서</a></li>
 <li class="toctree-l1"><a class="reference internal" href="tech.html">기술 명세서</a></li>
-<li class="toctree-l1"><a class="reference internal" href="design.html">설계 사양</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">설계 사양</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#id2">상위 항목</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id3">하위 항목</a></li>
+</ul>
+</li>
+</ul>
+</li>
 </ul>
 <p class="caption" role="heading"><span class="caption-text">개발 환경</span></p>
 <ul>
@@ -104,9 +102,9 @@
           <div role="navigation" aria-label="Page navigation">
   <ul class="wy-breadcrumbs">
       <li><a href="../index.html" class="icon icon-home" aria-label="Home"></a></li>
-      <li class="breadcrumb-item active">제품 구성</li>
+      <li class="breadcrumb-item active">설계 사양</li>
       <li class="wy-breadcrumbs-aside">
-            <a href="../_sources/spec_env/product.rst.txt" rel="nofollow"> View page source</a>
+            <a href="../_sources/spec_env/design.rst.txt" rel="nofollow"> View page source</a>
       </li>
   </ul>
   <hr/>
@@ -115,110 +113,27 @@
            <div itemprop="articleBody">
              
   <section id="id1">
-<h1><a class="toc-backref" href="#id2" role="doc-backlink">제품 구성</a><a class="headerlink" href="#id1" title="Link to this heading"></a></h1>
+<h1><a class="toc-backref" href="#id4" role="doc-backlink">설계 사양</a><a class="headerlink" href="#id1" title="Link to this heading"></a></h1>
 <nav class="contents" id="table-of-contents">
 <p class="topic-title">Table of Contents</p>
 <ul class="simple">
-<li><p><a class="reference internal" href="#id1" id="id2">제품 구성</a></p>
+<li><p><a class="reference internal" href="#id1" id="id4">설계 사양</a></p>
 <ul>
-<li><p><a class="reference internal" href="#hardware" id="id3">Hardware</a></p></li>
-<li><p><a class="reference internal" href="#software" id="id4">Software</a></p>
+<li><p><a class="reference internal" href="#id2" id="id5">상위 항목</a></p>
 <ul>
-<li><p><a class="reference internal" href="#license" id="id5">License</a></p></li>
+<li><p><a class="reference internal" href="#id3" id="id6">하위 항목</a></p></li>
 </ul>
 </li>
-<li><p><a class="reference internal" href="#user-manual" id="id6">User Manual</a></p></li>
 </ul>
 </li>
 </ul>
 </nav>
 <hr class="docutils" />
-<section id="hardware">
-<h2><a class="toc-backref" href="#id3" role="doc-backlink">Hardware</a><a class="headerlink" href="#hardware" title="Link to this heading"></a></h2>
+<section id="id2">
+<h2><a class="toc-backref" href="#id5" role="doc-backlink">상위 항목</a><a class="headerlink" href="#id2" title="Link to this heading"></a></h2>
+<section id="id3">
+<h3><a class="toc-backref" href="#id6" role="doc-backlink">하위 항목</a><a class="headerlink" href="#id3" title="Link to this heading"></a></h3>
 </section>
-<section id="software">
-<h2><a class="toc-backref" href="#id4" role="doc-backlink">Software</a><a class="headerlink" href="#software" title="Link to this heading"></a></h2>
-<ul class="simple">
-<li><dl class="simple">
-<dt>Encryption Tools</dt><dd><ul>
-<li><p>BitLocker</p></li>
-<li><p><strong>VeraCrypt</strong></p></li>
-<li><p>LUKS</p></li>
-</ul>
-</dd>
-</dl>
-</li>
-</ul>
-<div class="admonition important">
-<p class="admonition-title">Important</p>
-<p>…</p>
-</div>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>…</p>
-</div>
-<section id="license">
-<h3><a class="toc-backref" href="#id5" role="doc-backlink">License</a><a class="headerlink" href="#license" title="Link to this heading"></a></h3>
-<table class="docutils align-default">
-<thead>
-<tr class="row-odd"><th class="head"><p>Tools</p></th>
-<th class="head"><p>License</p></th>
-<th class="head"><p>Description</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="row-even"><td><p>BitLocker</p></td>
-<td><p>Proprietary ( MS )</p></td>
-<td><ul class="simple">
-<li><p>Windows-only encryption tool</p></li>
-<li><p>Available in Pro, Enterprise editions</p></li>
-<li><p>Closed-source, modification and
-redistribution not allowed</p></li>
-</ul>
-</td>
-</tr>
-<tr class="row-odd"><td><p><strong>VeraCrypt</strong></p></td>
-<td><ul class="simple">
-<li><p>Open-source</p></li>
-<li><p>Multi-licensed
-- Apache License 2.0
-- TrueCrypt License 3.0</p></li>
-</ul>
-</td>
-<td><ul class="simple">
-<li><p>Free to use</p></li>
-<li><p>Source code available, allowing
-modification and redistribution</p></li>
-<li><p>Supports Windows, macOS, and Linux</p></li>
-</ul>
-</td>
-</tr>
-<tr class="row-even"><td><p>LUKS</p></td>
-<td><ul class="simple">
-<li><p>Open-source</p></li>
-<li><p>Multi-licensed
-- GPL v2
-- BSD License</p></li>
-</ul>
-</td>
-<td><ul class="simple">
-<li><p>Linux-native disk encryption standard</p></li>
-<li><p>Source code available, free to modify
-and redistribute</p></li>
-<li><p>Works with dm-crypt for full-disk
-encryption</p></li>
-</ul>
-</td>
-</tr>
-</tbody>
-</table>
-</section>
-</section>
-<section id="user-manual">
-<h2><a class="toc-backref" href="#id6" role="doc-backlink">User Manual</a><a class="headerlink" href="#user-manual" title="Link to this heading"></a></h2>
-<ul class="simple">
-<li><p><strong>T.B.D</strong></p></li>
-</ul>
 </section>
 </section>
 
@@ -226,8 +141,8 @@ encryption</p></li>
            </div>
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
-        <a href="../intro_env/about.html" class="btn btn-neutral float-left" title="개발 배경" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
-        <a href="system.html" class="btn btn-neutral float-right" title="시스템 사양" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="tech.html" class="btn btn-neutral float-left" title="기술 명세서" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="../dev_env/impl.html" class="btn btn-neutral float-right" title="구현" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
   <hr/>

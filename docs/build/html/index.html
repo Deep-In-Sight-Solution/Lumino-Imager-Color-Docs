@@ -54,6 +54,7 @@
 <li class="toctree-l1"><a class="reference internal" href="spec_env/srs.html">요구사항 명세서</a></li>
 <li class="toctree-l1"><a class="reference internal" href="spec_env/feature.html">기능 명세서</a></li>
 <li class="toctree-l1"><a class="reference internal" href="spec_env/tech.html">기술 명세서</a></li>
+<li class="toctree-l1"><a class="reference internal" href="spec_env/design.html">설계 사양</a></li>
 </ul>
 <p class="caption" role="heading"><span class="caption-text">개발 환경</span></p>
 <ul>
@@ -107,7 +108,7 @@
            <div itemprop="articleBody">
              
   <section id="lumino-imager-color-user-manual">
-<h1><a class="toc-backref" href="#id11" role="doc-backlink">Lumino Imager Color User Manual</a><a class="headerlink" href="#lumino-imager-color-user-manual" title="Link to this heading"></a></h1>
+<h1><a class="toc-backref" href="#id14" role="doc-backlink">Lumino Imager Color User Manual</a><a class="headerlink" href="#lumino-imager-color-user-manual" title="Link to this heading"></a></h1>
 <div class="toctree-wrapper compound">
 </div>
 <div class="toctree-wrapper compound">
@@ -123,17 +124,20 @@
 <nav class="contents" id="table-of-contents">
 <p class="topic-title">Table of Contents</p>
 <ul class="simple">
-<li><p><a class="reference internal" href="#lumino-imager-color-user-manual" id="id11">Lumino Imager Color User Manual</a></p>
+<li><p><a class="reference internal" href="#lumino-imager-color-user-manual" id="id14">Lumino Imager Color User Manual</a></p>
 <ul>
-<li><p><a class="reference internal" href="#welcome-to-icg-color-documentation" id="id12">Welcome to ICG-Color Documentation</a></p>
+<li><p><a class="reference internal" href="#welcome-to-icg-color-documentation" id="id15">Welcome to ICG-Color Documentation</a></p>
 <ul>
-<li><p><a class="reference internal" href="#id2" id="id13">지원 사양</a></p></li>
-<li><p><a class="reference internal" href="#id3" id="id14">동작 환경</a></p></li>
-<li><p><a class="reference internal" href="#id4" id="id15">개발 환경</a></p></li>
-<li><p><a class="reference internal" href="#id5" id="id16">실행 환경</a></p></li>
-<li><p><a class="reference internal" href="#id6" id="id17">관리 환경</a></p></li>
-<li><p><a class="reference internal" href="#id7" id="id18">운영 환경</a></p></li>
-<li><p><a class="reference internal" href="#reference" id="id19">Reference</a></p></li>
+<li><p><a class="reference internal" href="#id2" id="id16">제품 구성</a></p></li>
+<li><p><a class="reference internal" href="#id3" id="id17">시스템 사양</a></p></li>
+<li><p><a class="reference internal" href="#id4" id="id18">요구 사항 명세서</a></p></li>
+<li><p><a class="reference internal" href="#id5" id="id19">기능 명세서</a></p></li>
+<li><p><a class="reference internal" href="#id6" id="id20">기술 명세서</a></p></li>
+<li><p><a class="reference internal" href="#id7" id="id21">설계 사양</a></p></li>
+<li><p><a class="reference internal" href="#id8" id="id22">개발 환경</a></p></li>
+<li><p><a class="reference internal" href="#id9" id="id23">관리 환경</a></p></li>
+<li><p><a class="reference internal" href="#id10" id="id24">운영 환경</a></p></li>
+<li><p><a class="reference internal" href="#reference" id="id25">Reference</a></p></li>
 </ul>
 </li>
 </ul>
@@ -142,7 +146,7 @@
 </nav>
 <hr class="docutils" />
 <section id="welcome-to-icg-color-documentation">
-<h2><a class="toc-backref" href="#id12" role="doc-backlink">Welcome to ICG-Color Documentation</a><a class="headerlink" href="#welcome-to-icg-color-documentation" title="Link to this heading"></a></h2>
+<h2><a class="toc-backref" href="#id15" role="doc-backlink">Welcome to ICG-Color Documentation</a><a class="headerlink" href="#welcome-to-icg-color-documentation" title="Link to this heading"></a></h2>
 <ul class="simple">
 <li><p>형광 영상 장비를 이용한 첨단 종양 수술에 사용되는 영상 장비를 개발중이며, 실시간 형광 이미징 기술을 활용하여 종양과 정상 조직을 명확하게 구분하고, 보다 정밀한 수술이 가능하도록 지원하는 것을 목표로 한다.</p></li>
 <li><p>( 형광 영상 장비를 이용한 첨단 종양 수술 관련 자세한 정보는 <a class="reference external" href="https://deep-in-sight-lumino-imager-color-private.readthedocs.io/ko/latest/ref_env/icg.html">여기에</a> )</p></li>
@@ -151,22 +155,22 @@
     <iframe src="https://www.youtube.com/embed/FKaYvVP2f4o" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
 </div><hr class="docutils" />
 <div class="sphinx-tabs docutils container">
-<div aria-label="Tabbed content" class="closeable" role="tablist"><button aria-controls="panel-0-0-0" aria-selected="true" class="sphinx-tabs-tab" id="tab-0-0-0" name="0-0" role="tab" tabindex="0">White Light Mode</button><button aria-controls="panel-0-0-1" aria-selected="false" class="sphinx-tabs-tab" id="tab-0-0-1" name="0-1" role="tab" tabindex="-1">NIR/ICG Overay Mode</button><button aria-controls="panel-0-0-2" aria-selected="false" class="sphinx-tabs-tab" id="tab-0-0-2" name="0-2" role="tab" tabindex="-1">NIR/ICG Intensity Map Mode</button></div><div aria-labelledby="tab-0-0-0" class="sphinx-tabs-panel" id="panel-0-0-0" name="0-0" role="tabpanel" tabindex="0"><figure class="align-default" id="id8">
+<div aria-label="Tabbed content" class="closeable" role="tablist"><button aria-controls="panel-0-0-0" aria-selected="true" class="sphinx-tabs-tab" id="tab-0-0-0" name="0-0" role="tab" tabindex="0">White Light Mode</button><button aria-controls="panel-0-0-1" aria-selected="false" class="sphinx-tabs-tab" id="tab-0-0-1" name="0-1" role="tab" tabindex="-1">NIR/ICG Overay Mode</button><button aria-controls="panel-0-0-2" aria-selected="false" class="sphinx-tabs-tab" id="tab-0-0-2" name="0-2" role="tab" tabindex="-1">NIR/ICG Intensity Map Mode</button></div><div aria-labelledby="tab-0-0-0" class="sphinx-tabs-panel" id="panel-0-0-0" name="0-0" role="tabpanel" tabindex="0"><figure class="align-default" id="id11">
 <img alt="_images/icg-color-white-light-mode.png" src="_images/icg-color-white-light-mode.png" />
 <figcaption>
-<p><span class="caption-text">출처: <a class="reference external" href="https://www.mdpi.com/1648-9144/59/9/1530">https://www.mdpi.com/1648-9144/59/9/1530</a></span><a class="headerlink" href="#id8" title="Link to this image"></a></p>
+<p><span class="caption-text">출처: <a class="reference external" href="https://www.mdpi.com/1648-9144/59/9/1530">https://www.mdpi.com/1648-9144/59/9/1530</a></span><a class="headerlink" href="#id11" title="Link to this image"></a></p>
 </figcaption>
 </figure>
-</div><div aria-labelledby="tab-0-0-1" class="sphinx-tabs-panel" hidden="true" id="panel-0-0-1" name="0-1" role="tabpanel" tabindex="0"><figure class="align-default" id="id9">
+</div><div aria-labelledby="tab-0-0-1" class="sphinx-tabs-panel" hidden="true" id="panel-0-0-1" name="0-1" role="tabpanel" tabindex="0"><figure class="align-default" id="id12">
 <img alt="_images/icg-color-overlay.png" src="_images/icg-color-overlay.png" />
 <figcaption>
-<p><span class="caption-text">출처: <a class="reference external" href="https://www.mdpi.com/1648-9144/59/9/1530">https://www.mdpi.com/1648-9144/59/9/1530</a></span><a class="headerlink" href="#id9" title="Link to this image"></a></p>
+<p><span class="caption-text">출처: <a class="reference external" href="https://www.mdpi.com/1648-9144/59/9/1530">https://www.mdpi.com/1648-9144/59/9/1530</a></span><a class="headerlink" href="#id12" title="Link to this image"></a></p>
 </figcaption>
 </figure>
-</div><div aria-labelledby="tab-0-0-2" class="sphinx-tabs-panel" hidden="true" id="panel-0-0-2" name="0-2" role="tabpanel" tabindex="0"><figure class="align-default" id="id10">
+</div><div aria-labelledby="tab-0-0-2" class="sphinx-tabs-panel" hidden="true" id="panel-0-0-2" name="0-2" role="tabpanel" tabindex="0"><figure class="align-default" id="id13">
 <img alt="_images/icg-color-overlay-intensity-map.png" src="_images/icg-color-overlay-intensity-map.png" />
 <figcaption>
-<p><span class="caption-text">출처: <a class="reference external" href="https://www.mdpi.com/1648-9144/59/9/1530">https://www.mdpi.com/1648-9144/59/9/1530</a></span><a class="headerlink" href="#id10" title="Link to this image"></a></p>
+<p><span class="caption-text">출처: <a class="reference external" href="https://www.mdpi.com/1648-9144/59/9/1530">https://www.mdpi.com/1648-9144/59/9/1530</a></span><a class="headerlink" href="#id13" title="Link to this image"></a></p>
 </figcaption>
 </figure>
 </div></div>
@@ -192,41 +196,72 @@
 </table>
 <hr class="docutils" />
 <section id="id2">
-<h3><a class="toc-backref" href="#id13" role="doc-backlink">지원 사양</a><a class="headerlink" href="#id2" title="Link to this heading"></a></h3>
+<h3><a class="toc-backref" href="#id16" role="doc-backlink">제품 구성</a><a class="headerlink" href="#id2" title="Link to this heading"></a></h3>
 <dl class="simple">
-<dt><span class="xref std std-doc">USB</span></dt><dd><p>USB 포트를 통해 데이터 전송 및 주변기기 연결이 가능합니다.
-USB 2.0/3.0을 지원하며, …</p>
+<dt><span class="xref std std-doc">하드웨어</span></dt><dd><p>…</p>
 </dd>
-<dt><span class="xref std std-doc">SD Card</span></dt><dd><p>SD/SDHC/SDXC 카드를 지원하여 데이터 저장 및 백업이 가능합니다.
-최대 2TB까지의 저장 용량을 지원합니다. …</p>
-</dd>
-<dt><span class="xref std std-doc">Network</span></dt><dd><p>유선 이더넷(RJ45) 및 무선 Wi-Fi 연결을 지원합니다.
-TCP/IP 프로토콜을 통한 네트워크 통신이 가능하며, 원격 접속 및 데이터 전송을 지원합니다. …</p>
+<dt><span class="xref std std-doc">소프트웨어</span></dt><dd><p>…</p>
 </dd>
 </dl>
 </section>
 <section id="id3">
-<h3><a class="toc-backref" href="#id14" role="doc-backlink">동작 환경</a><a class="headerlink" href="#id3" title="Link to this heading"></a></h3>
+<h3><a class="toc-backref" href="#id17" role="doc-backlink">시스템 사양</a><a class="headerlink" href="#id3" title="Link to this heading"></a></h3>
 <dl class="simple">
-<dt><a class="reference internal" href="exec_env/exec_hw_method.html"><span class="doc">시스템 구동</span></a></dt><dd><p>시스템의 하드웨어 구성요소를 초기화하고 부팅하는 과정을 설명합니다.
-전원 공급, 카메라 모듈 초기화, 디스플레이 설정, 네트워크 연결 등 하드웨어 관련 구동 절차를 포함합니다.</p>
+<dt><a class="reference internal" href="spec_env/system.html"><span class="doc">구성 요소</span></a></dt><dd><p>…</p>
 </dd>
-<dt><a class="reference internal" href="exec_env/exec_sw_method.html"><span class="doc">프로그램 실행</span></a></dt><dd><p>ICG-Color 소프트웨어의 실행 방법과 작동 절차를 설명합니다.
-사용자 인터페이스 조작, 영상 촬영 및 처리, 데이터 저장, 시스템 종료 등 소프트웨어 운영에 관한 상세 절차를 포함합니다.</p>
+<dt><a class="reference internal" href="spec_env/system.html"><span class="doc">성능 목표</span></a></dt><dd><p>…</p>
+</dd>
+<dt><a class="reference internal" href="spec_env/system.html"><span class="doc">구동 환경</span></a></dt><dd><p>시스템의 하드웨어 구성요소를 초기화하고 부팅하는 과정을 설명합니다.</p>
+</dd>
+<dt><a class="reference internal" href="spec_env/system.html"><span class="doc">동작 환경</span></a></dt><dd><p>…</p>
 </dd>
 </dl>
 </section>
 <section id="id4">
-<h3><a class="toc-backref" href="#id15" role="doc-backlink">개발 환경</a><a class="headerlink" href="#id4" title="Link to this heading"></a></h3>
+<h3><a class="toc-backref" href="#id18" role="doc-backlink">요구 사항 명세서</a><a class="headerlink" href="#id4" title="Link to this heading"></a></h3>
 <dl class="simple">
-<dt><a class="reference internal" href="dev_env/impl.html"><span class="doc">구현</span></a></dt><dd><p>시스템의 주요 기능과 모듈별 구현 방법을 설명합니다.
+<dt><a class="reference internal" href="spec_env/system.html"><span class="doc">요구 사항</span></a></dt><dd><p>…</p>
+</dd>
+<dt><a class="reference internal" href="spec_env/system.html"><span class="doc">개발 범위</span></a></dt><dd><p>…</p>
+</dd>
+</dl>
+</section>
+<section id="id5">
+<h3><a class="toc-backref" href="#id19" role="doc-backlink">기능 명세서</a><a class="headerlink" href="#id5" title="Link to this heading"></a></h3>
+<dl class="simple">
+<dt><a class="reference internal" href="spec_env/system.html"><span class="doc">기능 정의</span></a></dt><dd><p>…</p>
+</dd>
+</dl>
+</section>
+<section id="id6">
+<h3><a class="toc-backref" href="#id20" role="doc-backlink">기술 명세서</a><a class="headerlink" href="#id6" title="Link to this heading"></a></h3>
+<dl class="simple">
+<dt><a class="reference internal" href="spec_env/system.html"><span class="doc">소프트웨어 스택</span></a></dt><dd><p>시스템 운영에 필요한 소프트웨어 계층 구조를 설명합니다.
+운영체제, 미들웨어, 응용 프로그램 등 각 계층별 구성요소와
+버전 정보, 의존성 관계를 포함합니다.
+또한 드라이버, 라이브러리, 프레임워크 등
+시스템 구동에 필요한 모든 소프트웨어 요소들의 구성을 설명합니다.</p>
+</dd>
+<dt><a class="reference internal" href="spec_env/system.html"><span class="doc">소프트웨어 아키텍처</span></a></dt><dd><p>…</p>
+</dd>
+</dl>
+</section>
+<section id="id7">
+<h3><a class="toc-backref" href="#id21" role="doc-backlink">설계 사양</a><a class="headerlink" href="#id7" title="Link to this heading"></a></h3>
+<dl class="simple">
+<dt><a class="reference internal" href="spec_env/system.html"><span class="doc">설계</span></a></dt><dd><p>…</p>
+</dd>
+<dt><a class="reference internal" href="spec_env/system.html"><span class="doc">구현</span></a></dt><dd><p>시스템의 주요 기능과 모듈별 구현 방법을 설명합니다.
 프로그래밍 언어, 프레임워크, 라이브러리 등 개발 도구와 코드 구조, 주요 알고리즘, API 명세를 포함합니다.</p>
 </dd>
-<dt><span class="xref std std-doc">배포</span></dt><dd><p>소프트웨어 빌드, 패키징 및 배포 프로세스를 설명합니다.
-컴파일 방법, 의존성 관리, 설치 패키지 생성,
-버전 관리 및 릴리스 절차를 포함합니다.</p>
+<dt><a class="reference internal" href="spec_env/system.html"><span class="doc">실행 환경</span></a></dt><dd><p>…</p>
 </dd>
-<dt><a class="reference internal" href="dev_env/test.html"><span class="doc">테스트</span></a></dt><dd><p>소프트웨어 품질 보증을 위한 테스트 방법론과 절차를 설명합니다.
+</dl>
+</section>
+<section id="id8">
+<h3><a class="toc-backref" href="#id22" role="doc-backlink">개발 환경</a><a class="headerlink" href="#id8" title="Link to this heading"></a></h3>
+<dl class="simple">
+<dt><a class="reference internal" href="dev_env/test.html"><span class="doc">시험</span></a></dt><dd><p>소프트웨어 품질 보증을 위한 테스트 방법론과 절차를 설명합니다.
 단위 테스트, 통합 테스트, 시스템 테스트, 성능 테스트 등
 각종 테스트 케이스와 자동화 도구 활용 방법을 포함합니다.</p>
 </dd>
@@ -234,25 +269,22 @@ TCP/IP 프로토콜을 통한 네트워크 통신이 가능하며, 원격 접속
 기능 검증, 성능 검증, 안정성 검증 등
 품질 기준 충족 여부를 확인하는 절차를 포함합니다.</p>
 </dd>
+<dt><span class="xref std std-doc">CI/CD</span></dt><dd><p>소프트웨어 빌드, 패키징 및 배포 프로세스를 설명합니다.
+컴파일 방법, 의존성 관리, 설치 패키지 생성,
+버전 관리 및 릴리스 절차를 포함합니다.</p>
+</dd>
+<dt><span class="xref std std-doc">코드 품질</span></dt><dd><p>소프트웨어 빌드, 패키징 및 배포 프로세스를 설명합니다.
+컴파일 방법, 의존성 관리, 설치 패키지 생성,
+버전 관리 및 릴리스 절차를 포함합니다.</p>
+</dd>
 <dt><a class="reference internal" href="dev_env/repo.html"><span class="doc">형상 관리</span></a></dt><dd><p>소스 코드와 문서의 버전 관리 방법을 설명합니다.
 Git 저장소 구조, 브랜치 전략, 커밋 규칙,
 코드 리뷰 프로세스 등을 포함합니다.</p>
 </dd>
 </dl>
 </section>
-<section id="id5">
-<h3><a class="toc-backref" href="#id16" role="doc-backlink">실행 환경</a><a class="headerlink" href="#id5" title="Link to this heading"></a></h3>
-<dl class="simple">
-<dt><span class="xref std std-doc">소프트웨어 스택</span></dt><dd><p>시스템 운영에 필요한 소프트웨어 계층 구조를 설명합니다.
-운영체제, 미들웨어, 응용 프로그램 등 각 계층별 구성요소와
-버전 정보, 의존성 관계를 포함합니다.
-또한 드라이버, 라이브러리, 프레임워크 등
-시스템 구동에 필요한 모든 소프트웨어 요소들의 구성을 설명합니다.</p>
-</dd>
-</dl>
-</section>
-<section id="id6">
-<h3><a class="toc-backref" href="#id17" role="doc-backlink">관리 환경</a><a class="headerlink" href="#id6" title="Link to this heading"></a></h3>
+<section id="id9">
+<h3><a class="toc-backref" href="#id23" role="doc-backlink">관리 환경</a><a class="headerlink" href="#id9" title="Link to this heading"></a></h3>
 <dl class="simple">
 <dt><a class="reference internal" href="mgmt_env/issues.html"><span class="doc">이슈 관리</span></a></dt><dd><p>시스템 개발 및 운영 과정에서 발생하는 문제점, 개선사항 등을 추적하고 관리하는 프로세스</p>
 </dd>
@@ -264,8 +296,8 @@ Git 저장소 구조, 브랜치 전략, 커밋 규칙,
 </dd>
 </dl>
 </section>
-<section id="id7">
-<h3><a class="toc-backref" href="#id18" role="doc-backlink">운영 환경</a><a class="headerlink" href="#id7" title="Link to this heading"></a></h3>
+<section id="id10">
+<h3><a class="toc-backref" href="#id24" role="doc-backlink">운영 환경</a><a class="headerlink" href="#id10" title="Link to this heading"></a></h3>
 <dl class="simple">
 <dt><a class="reference internal" href="op_env/deploy.html"><span class="doc">배포</span></a></dt><dd><p>배포 단계에서는 애플리케이션의 설치, 구성, 업데이트 및 유지보수와 관련된 절차와 환경 구성이 상세히 설명됩니다.
 개발 완료된 시스템을 운영 환경에 적용하기 위한 배포 방법과 절차를 설명합니다.</p>
@@ -273,7 +305,7 @@ Git 저장소 구조, 브랜치 전략, 커밋 규칙,
 </dl>
 </section>
 <section id="reference">
-<h3><a class="toc-backref" href="#id19" role="doc-backlink">Reference</a><a class="headerlink" href="#reference" title="Link to this heading"></a></h3>
+<h3><a class="toc-backref" href="#id25" role="doc-backlink">Reference</a><a class="headerlink" href="#reference" title="Link to this heading"></a></h3>
 <dl class="simple">
 <dt><a class="reference internal" href="ref_env/changelog.html"><span class="doc">Changelog</span></a></dt><dd><p>각 버전별 변경사항과 업데이트 내용을 기록합니다.</p>
 </dd>

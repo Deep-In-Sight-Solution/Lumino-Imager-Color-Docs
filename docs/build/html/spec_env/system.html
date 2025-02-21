@@ -19,7 +19,7 @@
     <script src="../_static/js/theme.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="기술 명세서" href="development.html" />
+    <link rel="next" title="요구사항 명세서" href="srs.html" />
     <link rel="prev" title="제품 구성" href="product.html" /> 
 </head>
 
@@ -57,7 +57,11 @@
 <li class="toctree-l3"><a class="reference internal" href="#i-o-board">I/O Board</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="#id3">동작 환경</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#id3">성능 목표</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id4">하위 항목</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#id5">동작 환경</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#hardware">Hardware</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="#power">Power</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#temperature">Temperature</a></li>
@@ -71,8 +75,10 @@
 </li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="development.html">기술 명세서</a></li>
-<li class="toctree-l1"><a class="reference internal" href="support.html">기능 명세서</a></li>
+<li class="toctree-l1"><a class="reference internal" href="srs.html">요구사항 명세서</a></li>
+<li class="toctree-l1"><a class="reference internal" href="feature.html">기능 명세서</a></li>
+<li class="toctree-l1"><a class="reference internal" href="tech.html">기술 명세서</a></li>
+<li class="toctree-l1"><a class="reference internal" href="design.html">설계 사양</a></li>
 </ul>
 <p class="caption" role="heading"><span class="caption-text">개발 환경</span></p>
 <ul>
@@ -126,31 +132,36 @@
            <div itemprop="articleBody">
              
   <section id="id1">
-<h1><a class="toc-backref" href="#id4" role="doc-backlink">시스템 사양</a><a class="headerlink" href="#id1" title="Link to this heading"></a></h1>
+<h1><a class="toc-backref" href="#id6" role="doc-backlink">시스템 사양</a><a class="headerlink" href="#id1" title="Link to this heading"></a></h1>
 <nav class="contents" id="table-of-contents">
 <p class="topic-title">Table of Contents</p>
 <ul class="simple">
-<li><p><a class="reference internal" href="#id1" id="id4">시스템 사양</a></p>
+<li><p><a class="reference internal" href="#id1" id="id6">시스템 사양</a></p>
 <ul>
-<li><p><a class="reference internal" href="#id2" id="id5">구성 요소</a></p>
+<li><p><a class="reference internal" href="#id2" id="id7">구성 요소</a></p>
 <ul>
-<li><p><a class="reference internal" href="#image-sensor" id="id6">Image Sensor</a></p></li>
-<li><p><a class="reference internal" href="#fpga" id="id7">FPGA</a></p></li>
-<li><p><a class="reference internal" href="#system-on-module" id="id8">System On Module</a></p></li>
-<li><p><a class="reference internal" href="#i-o-board" id="id9">I/O Board</a></p></li>
+<li><p><a class="reference internal" href="#image-sensor" id="id8">Image Sensor</a></p></li>
+<li><p><a class="reference internal" href="#fpga" id="id9">FPGA</a></p></li>
+<li><p><a class="reference internal" href="#system-on-module" id="id10">System On Module</a></p></li>
+<li><p><a class="reference internal" href="#i-o-board" id="id11">I/O Board</a></p></li>
 </ul>
 </li>
-<li><p><a class="reference internal" href="#id3" id="id10">동작 환경</a></p>
+<li><p><a class="reference internal" href="#id3" id="id12">성능 목표</a></p>
 <ul>
-<li><p><a class="reference internal" href="#hardware" id="id11">Hardware</a></p>
-<ul>
-<li><p><a class="reference internal" href="#power" id="id12">Power</a></p></li>
-<li><p><a class="reference internal" href="#temperature" id="id13">Temperature</a></p></li>
+<li><p><a class="reference internal" href="#id4" id="id13">하위 항목</a></p></li>
 </ul>
 </li>
-<li><p><a class="reference internal" href="#software" id="id14">Software</a></p>
+<li><p><a class="reference internal" href="#id5" id="id14">동작 환경</a></p>
 <ul>
-<li><p><a class="reference internal" href="#software-stack" id="id15">Software Stack</a></p></li>
+<li><p><a class="reference internal" href="#hardware" id="id15">Hardware</a></p>
+<ul>
+<li><p><a class="reference internal" href="#power" id="id16">Power</a></p></li>
+<li><p><a class="reference internal" href="#temperature" id="id17">Temperature</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference internal" href="#software" id="id18">Software</a></p>
+<ul>
+<li><p><a class="reference internal" href="#software-stack" id="id19">Software Stack</a></p></li>
 </ul>
 </li>
 </ul>
@@ -161,7 +172,7 @@
 </nav>
 <hr class="docutils" />
 <section id="id2">
-<h2><a class="toc-backref" href="#id5" role="doc-backlink">구성 요소</a><a class="headerlink" href="#id2" title="Link to this heading"></a></h2>
+<h2><a class="toc-backref" href="#id7" role="doc-backlink">구성 요소</a><a class="headerlink" href="#id2" title="Link to this heading"></a></h2>
 <ul class="simple">
 <li><dl class="simple">
 <dt>Image Processing</dt><dd><ul>
@@ -243,7 +254,7 @@
 </li>
 </ul>
 <section id="image-sensor">
-<h3><a class="toc-backref" href="#id6" role="doc-backlink">Image Sensor</a><a class="headerlink" href="#image-sensor" title="Link to this heading"></a></h3>
+<h3><a class="toc-backref" href="#id8" role="doc-backlink">Image Sensor</a><a class="headerlink" href="#image-sensor" title="Link to this heading"></a></h3>
 <table class="docutils align-default">
 <thead>
 <tr class="row-odd"><th class="head"><p>Image Sensor</p></th>
@@ -268,7 +279,7 @@
 </table>
 </section>
 <section id="fpga">
-<h3><a class="toc-backref" href="#id7" role="doc-backlink">FPGA</a><a class="headerlink" href="#fpga" title="Link to this heading"></a></h3>
+<h3><a class="toc-backref" href="#id9" role="doc-backlink">FPGA</a><a class="headerlink" href="#fpga" title="Link to this heading"></a></h3>
 <table class="docutils align-default">
 <thead>
 <tr class="row-odd"><th class="head"><p>FPGA</p></th>
@@ -298,7 +309,7 @@
 </table>
 </section>
 <section id="system-on-module">
-<h3><a class="toc-backref" href="#id8" role="doc-backlink">System On Module</a><a class="headerlink" href="#system-on-module" title="Link to this heading"></a></h3>
+<h3><a class="toc-backref" href="#id10" role="doc-backlink">System On Module</a><a class="headerlink" href="#system-on-module" title="Link to this heading"></a></h3>
 <table class="docutils align-default">
 <thead>
 <tr class="row-odd"><th class="head"><p>System On MOdule</p></th>
@@ -338,7 +349,7 @@
 </table>
 </section>
 <section id="i-o-board">
-<h3><a class="toc-backref" href="#id9" role="doc-backlink">I/O Board</a><a class="headerlink" href="#i-o-board" title="Link to this heading"></a></h3>
+<h3><a class="toc-backref" href="#id11" role="doc-backlink">I/O Board</a><a class="headerlink" href="#i-o-board" title="Link to this heading"></a></h3>
 <table class="docutils align-default">
 <thead>
 <tr class="row-odd"><th class="head"><p>I/O Board</p></th>
@@ -373,20 +384,26 @@
 </section>
 <hr class="docutils" />
 <section id="id3">
-<h2><a class="toc-backref" href="#id10" role="doc-backlink">동작 환경</a><a class="headerlink" href="#id3" title="Link to this heading"></a></h2>
+<h2><a class="toc-backref" href="#id12" role="doc-backlink">성능 목표</a><a class="headerlink" href="#id3" title="Link to this heading"></a></h2>
+<section id="id4">
+<h3><a class="toc-backref" href="#id13" role="doc-backlink">하위 항목</a><a class="headerlink" href="#id4" title="Link to this heading"></a></h3>
+</section>
+</section>
+<section id="id5">
+<h2><a class="toc-backref" href="#id14" role="doc-backlink">동작 환경</a><a class="headerlink" href="#id5" title="Link to this heading"></a></h2>
 <section id="hardware">
-<h3><a class="toc-backref" href="#id11" role="doc-backlink">Hardware</a><a class="headerlink" href="#hardware" title="Link to this heading"></a></h3>
+<h3><a class="toc-backref" href="#id15" role="doc-backlink">Hardware</a><a class="headerlink" href="#hardware" title="Link to this heading"></a></h3>
 <section id="power">
-<h4><a class="toc-backref" href="#id12" role="doc-backlink">Power</a><a class="headerlink" href="#power" title="Link to this heading"></a></h4>
+<h4><a class="toc-backref" href="#id16" role="doc-backlink">Power</a><a class="headerlink" href="#power" title="Link to this heading"></a></h4>
 </section>
 <section id="temperature">
-<h4><a class="toc-backref" href="#id13" role="doc-backlink">Temperature</a><a class="headerlink" href="#temperature" title="Link to this heading"></a></h4>
+<h4><a class="toc-backref" href="#id17" role="doc-backlink">Temperature</a><a class="headerlink" href="#temperature" title="Link to this heading"></a></h4>
 </section>
 </section>
 <section id="software">
-<h3><a class="toc-backref" href="#id14" role="doc-backlink">Software</a><a class="headerlink" href="#software" title="Link to this heading"></a></h3>
+<h3><a class="toc-backref" href="#id18" role="doc-backlink">Software</a><a class="headerlink" href="#software" title="Link to this heading"></a></h3>
 <section id="software-stack">
-<h4><a class="toc-backref" href="#id15" role="doc-backlink">Software Stack</a><a class="headerlink" href="#software-stack" title="Link to this heading"></a></h4>
+<h4><a class="toc-backref" href="#id19" role="doc-backlink">Software Stack</a><a class="headerlink" href="#software-stack" title="Link to this heading"></a></h4>
 </section>
 </section>
 </section>
@@ -397,7 +414,7 @@
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
         <a href="product.html" class="btn btn-neutral float-left" title="제품 구성" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
-        <a href="development.html" class="btn btn-neutral float-right" title="기술 명세서" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="srs.html" class="btn btn-neutral float-right" title="요구사항 명세서" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
   <hr/>
