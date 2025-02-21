@@ -46,8 +46,3 @@ License
 |                  |   - BSD License           | - Works with dm-crypt for full-disk      |
 |                  |                           |   encryption                             |
 +------------------+---------------------------+------------------------------------------+
-
-User Manual
-=============
-
-- **T.B.D**
