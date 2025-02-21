@@ -1,5 +1,5 @@
 **************************************
-Lumino Imager Color User Manual
+Welcome to Lumino Imager Color
 **************************************
 
 .. toctree::
@@ -65,8 +65,8 @@ Lumino Imager Color User Manual
 
 ----------
 
-Welcome to ICG-Color Documentation
-==================================
+ICG-Color Documentation
+=========================
 
 - 형광 영상 장비를 이용한 첨단 종양 수술에 사용되는 영상 장비를 개발중이며, 실시간 형광 이미징 기술을 활용하여 종양과 정상 조직을 명확하게 구분하고, 보다 정밀한 수술이 가능하도록 지원하는 것을 목표로 한다.
 - ( 형광 영상 장비를 이용한 첨단 종양 수술 관련 자세한 정보는 여기에_ )
