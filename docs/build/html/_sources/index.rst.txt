@@ -27,7 +27,8 @@ Welcome to Lumino Imager Color
    :hidden:
    :caption: 개발 환경
 
-   /dev_env/impl
+   /dev_env/tools
+   /dev_env/install
    /dev_env/test
    /dev_env/verify
    /dev_env/cicd
@@ -159,7 +160,7 @@ ICG-Color Documentation
     또한 보안 설정 등 시스템 운영에 필요한 환경 설정 방법을 상세히 기술합니다.
 
 요구 사항 명세서
----------------
+----------------
 
 .. raw:: html
 
