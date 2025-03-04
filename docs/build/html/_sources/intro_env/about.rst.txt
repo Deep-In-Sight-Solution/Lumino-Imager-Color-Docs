@@ -79,5 +79,12 @@
 
             유방 표면의 림프관 내에 ICG 형광
 
+시스템 데이터 흐름
+-----------------
+
+.. raw:: html
+
+    <iframe src="../_static/lumino-imager-color_drawio.html" width="100%" height="600px" frameborder="0"></iframe>
+
 ^^^^^^^^^
 
