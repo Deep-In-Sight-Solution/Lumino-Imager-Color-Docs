@@ -1,0 +1,8 @@
+.margin {
+    margin: 20px;  /* 모든 방향에 20px 여백 */
+    /* 또는 */
+    margin-top: 10px;
+    margin-right: 15px;
+    margin-bottom: 100px;
+    margin-left: 15px;
+  }

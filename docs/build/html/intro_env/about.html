@@ -6,9 +6,10 @@
   <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>개발 배경 &mdash; Lumino Imager Color 0.0.1 documentation</title>
+  <title>개발 개요 &mdash; Lumino Imager Color 0.0.1 documentation</title>
       <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=b86133f3" />
       <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=e59714d7" />
+      <link rel="stylesheet" type="text/css" href="../_static/tabs.css?v=a5c4661c" />
 
   
       <script src="../_static/jquery.js?v=5d32c60e"></script>
@@ -16,6 +17,7 @@
       <script src="../_static/documentation_options.js?v=d45e8c67"></script>
       <script src="../_static/doctools.js?v=9bcbadda"></script>
       <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+      <script src="../_static/tabs.js?v=3030b3cb"></script>
     <script src="../_static/js/theme.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
@@ -44,9 +46,10 @@
         </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
               <p class="caption" role="heading"><span class="caption-text">개요</span></p>
 <ul class="current">
-<li class="toctree-l1 current"><a class="current reference internal" href="#">개발 배경</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#id2">상위 항목</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#id3">하위 항목</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">개발 개요</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#id2">개발 배경</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id3">동물실험 ( 돼지유방 ) 을 통한 성능 확인</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id4">임상시험 촬영 사진</a></li>
 </ul>
 </li>
 </ul>
@@ -64,7 +67,8 @@
 </ul>
 <p class="caption" role="heading"><span class="caption-text">개발 환경</span></p>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="../dev_env/impl.html">구현</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../dev_env/tools.html">도구</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../dev_env/install.html">설치</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../dev_env/test.html">시험</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../dev_env/verify.html">검증</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../dev_env/cicd.html">CI / CD</a></li>
@@ -103,7 +107,7 @@
           <div role="navigation" aria-label="Page navigation">
   <ul class="wy-breadcrumbs">
       <li><a href="../index.html" class="icon icon-home" aria-label="Home"></a></li>
-      <li class="breadcrumb-item active">개발 배경</li>
+      <li class="breadcrumb-item active">개발 개요</li>
       <li class="wy-breadcrumbs-aside">
             <a href="../_sources/intro_env/about.rst.txt" rel="nofollow"> View page source</a>
       </li>
@@ -114,15 +118,16 @@
            <div itemprop="articleBody">
              
   <section id="id1">
-<h1><a class="toc-backref" href="#id4" role="doc-backlink">개발 배경</a><a class="headerlink" href="#id1" title="Link to this heading"></a></h1>
+<h1><a class="toc-backref" href="#id9" role="doc-backlink">개발 개요</a><a class="headerlink" href="#id1" title="Link to this heading"></a></h1>
 <nav class="contents" id="table-of-contents">
 <p class="topic-title">Table of Contents</p>
 <ul class="simple">
-<li><p><a class="reference internal" href="#id1" id="id4">개발 배경</a></p>
+<li><p><a class="reference internal" href="#id1" id="id9">개발 개요</a></p>
 <ul>
-<li><p><a class="reference internal" href="#id2" id="id5">상위 항목</a></p>
+<li><p><a class="reference internal" href="#id2" id="id10">개발 배경</a></p>
 <ul>
-<li><p><a class="reference internal" href="#id3" id="id6">하위 항목</a></p></li>
+<li><p><a class="reference internal" href="#id3" id="id11">동물실험 ( 돼지유방 ) 을 통한 성능 확인</a></p></li>
+<li><p><a class="reference internal" href="#id4" id="id12">임상시험 촬영 사진</a></p></li>
 </ul>
 </li>
 </ul>
@@ -131,9 +136,91 @@
 </nav>
 <hr class="docutils" />
 <section id="id2">
-<h2><a class="toc-backref" href="#id5" role="doc-backlink">상위 항목</a><a class="headerlink" href="#id2" title="Link to this heading"></a></h2>
+<h2><a class="toc-backref" href="#id10" role="doc-backlink">개발 배경</a><a class="headerlink" href="#id2" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p>ICG 형광 파장대역은 적외선 영역에 위치하여 전문적인 영상장비의 활용이 필수적입니다.</p></li>
+<li><p>Lumino-Imager-Color는 고성능 휴대용 NIR 영상촬영장치로서, 적외선 영역의 신호를 디스플레이를 통해 실시간으로 시각화할 수 있습니다.</p></li>
+<li><p>740nm 파장대의 NIR(근적외선)을 조사하여 루미노마크 및 ICG의 832nm CWL(중심파장) Emitting Light를 정밀하게 포착하고 LCD 디스플레이에 출력합니다.</p></li>
+<li><p>인체공학적 설계의 무선 휴대형 장치로, 기존 형광 영상촬영장비 대비 준비과정, 사용방법, 유지관리 측면에서 우수한 효율성을 제공합니다.</p></li>
+</ul>
+<ul class="simple">
+<li><dl class="simple">
+<dt>기존 장비의 한계점</dt><dd><ul>
+<li><p>고가의 수입 의존적 장비 구조</p></li>
+<li><p>과도한 중량 및 부피로 인한 휴대성 제약</p></li>
+<li><p>복잡한 인터페이스로 인한 사용자 경험 저하</p></li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+<table class="docutils align-default">
+<tbody>
+<tr class="row-odd"><td><figure class="margin align-center" id="id5">
+<a class="reference internal image-reference" href="../_images/background_0.png"><img alt="기존 장비의 문제점" src="../_images/background_0.png" style="width: 100%;" />
+</a>
+<figcaption>
+<p><span class="caption-text">기존 장비의 문제점</span><a class="headerlink" href="#id5" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+</td>
+</tr>
+</tbody>
+</table>
+<table class="docutils align-default">
+<tbody>
+<tr class="row-odd"><td><figure class="margin align-center" id="id6">
+<a class="reference internal image-reference" href="../_images/background_1.png"><img alt="실 사용 환경" src="../_images/background_1.png" style="width: 100%;" />
+</a>
+<figcaption>
+<p><span class="caption-text">실제 사용 환경</span><a class="headerlink" href="#id6" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+</td>
+</tr>
+</tbody>
+</table>
+<table class="docutils align-default">
+<tbody>
+<tr class="row-odd"><td><figure class="margin align-center" id="id7">
+<a class="reference internal image-reference" href="../_images/lic.png"><img alt="제품 사진" src="../_images/lic.png" style="width: 100%;" />
+</a>
+<figcaption>
+<p><span class="caption-text">제품 사진</span><a class="headerlink" href="#id7" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+</td>
+</tr>
+</tbody>
+</table>
 <section id="id3">
-<h3><a class="toc-backref" href="#id6" role="doc-backlink">하위 항목</a><a class="headerlink" href="#id3" title="Link to this heading"></a></h3>
+<h3><a class="toc-backref" href="#id11" role="doc-backlink">동물실험 ( 돼지유방 ) 을 통한 성능 확인</a><a class="headerlink" href="#id3" title="Link to this heading"></a></h3>
+<div class="sphinx-tabs docutils container">
+<div aria-label="Tabbed content" class="closeable" role="tablist"><button aria-controls="panel-0-0-0" aria-selected="true" class="sphinx-tabs-tab" id="tab-0-0-0" name="0-0" role="tab" tabindex="0">1</button><button aria-controls="panel-0-0-1" aria-selected="false" class="sphinx-tabs-tab" id="tab-0-0-1" name="0-1" role="tab" tabindex="-1">2</button><button aria-controls="panel-0-0-2" aria-selected="false" class="sphinx-tabs-tab" id="tab-0-0-2" name="0-2" role="tab" tabindex="-1">3</button></div><div aria-labelledby="tab-0-0-0" class="sphinx-tabs-panel" id="panel-0-0-0" name="0-0" role="tabpanel" tabindex="0"><figure class="align-default">
+<img alt="../_images/background_3-0.png" src="../_images/background_3-0.png" />
+</figure>
+</div><div aria-labelledby="tab-0-0-1" class="sphinx-tabs-panel" hidden="true" id="panel-0-0-1" name="0-1" role="tabpanel" tabindex="0"><figure class="align-default">
+<img alt="../_images/background_3-1.png" src="../_images/background_3-1.png" />
+</figure>
+</div><div aria-labelledby="tab-0-0-2" class="sphinx-tabs-panel" hidden="true" id="panel-0-0-2" name="0-2" role="tabpanel" tabindex="0"><figure class="align-default">
+<img alt="../_images/background_3-2.png" src="../_images/background_3-2.png" />
+</figure>
+</div></div>
+</section>
+<section id="id4">
+<h3><a class="toc-backref" href="#id12" role="doc-backlink">임상시험 촬영 사진</a><a class="headerlink" href="#id4" title="Link to this heading"></a></h3>
+<div class="sphinx-tabs docutils container">
+<div aria-label="Tabbed content" class="closeable" role="tablist"><button aria-controls="panel-1-1-0" aria-selected="true" class="sphinx-tabs-tab" id="tab-1-1-0" name="1-0" role="tab" tabindex="0">1</button><button aria-controls="panel-1-1-1" aria-selected="false" class="sphinx-tabs-tab" id="tab-1-1-1" name="1-1" role="tab" tabindex="-1">2</button></div><div aria-labelledby="tab-1-1-0" class="sphinx-tabs-panel" id="panel-1-1-0" name="1-0" role="tabpanel" tabindex="0"><figure class="align-default">
+<img alt="../_images/background_3-3.png" src="../_images/background_3-3.png" />
+</figure>
+</div><div aria-labelledby="tab-1-1-1" class="sphinx-tabs-panel" hidden="true" id="panel-1-1-1" name="1-1" role="tabpanel" tabindex="0"><figure class="align-default" id="id8">
+<img alt="../_images/background_3-4.png" src="../_images/background_3-4.png" />
+<figcaption>
+<p><span class="caption-text">유방 표면의 림프관 내에 ICG 형광</span><a class="headerlink" href="#id8" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+</div></div>
+<hr class="docutils" />
 </section>
 </section>
 </section>
