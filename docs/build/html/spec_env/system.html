@@ -50,18 +50,15 @@
 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="product.html">제품 구성</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">시스템 사양</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#id2">구성 요소</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#id2">목표 사양</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id3">구성 요소</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#image-sensor">Image Sensor</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#fpga">FPGA</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#system-on-module">System On Module</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#i-o-board">I/O Board</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="#id3">성능 목표</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#id4">하위 항목</a></li>
-</ul>
-</li>
-<li class="toctree-l2"><a class="reference internal" href="#id5">동작 환경</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#id4">동작 환경</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#hardware">Hardware</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="#power">Power</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#temperature">Temperature</a></li>
@@ -134,13 +131,14 @@
            <div itemprop="articleBody">
              
   <section id="id1">
-<h1><a class="toc-backref" href="#id6" role="doc-backlink">시스템 사양</a><a class="headerlink" href="#id1" title="Link to this heading"></a></h1>
+<h1><a class="toc-backref" href="#id5" role="doc-backlink">시스템 사양</a><a class="headerlink" href="#id1" title="Link to this heading"></a></h1>
 <nav class="contents" id="table-of-contents">
 <p class="topic-title">Table of Contents</p>
 <ul class="simple">
-<li><p><a class="reference internal" href="#id1" id="id6">시스템 사양</a></p>
+<li><p><a class="reference internal" href="#id1" id="id5">시스템 사양</a></p>
 <ul>
-<li><p><a class="reference internal" href="#id2" id="id7">구성 요소</a></p>
+<li><p><a class="reference internal" href="#id2" id="id6">목표 사양</a></p></li>
+<li><p><a class="reference internal" href="#id3" id="id7">구성 요소</a></p>
 <ul>
 <li><p><a class="reference internal" href="#image-sensor" id="id8">Image Sensor</a></p></li>
 <li><p><a class="reference internal" href="#fpga" id="id9">FPGA</a></p></li>
@@ -148,22 +146,17 @@
 <li><p><a class="reference internal" href="#i-o-board" id="id11">I/O Board</a></p></li>
 </ul>
 </li>
-<li><p><a class="reference internal" href="#id3" id="id12">성능 목표</a></p>
+<li><p><a class="reference internal" href="#id4" id="id12">동작 환경</a></p>
 <ul>
-<li><p><a class="reference internal" href="#id4" id="id13">하위 항목</a></p></li>
+<li><p><a class="reference internal" href="#hardware" id="id13">Hardware</a></p>
+<ul>
+<li><p><a class="reference internal" href="#power" id="id14">Power</a></p></li>
+<li><p><a class="reference internal" href="#temperature" id="id15">Temperature</a></p></li>
 </ul>
 </li>
-<li><p><a class="reference internal" href="#id5" id="id14">동작 환경</a></p>
+<li><p><a class="reference internal" href="#software" id="id16">Software</a></p>
 <ul>
-<li><p><a class="reference internal" href="#hardware" id="id15">Hardware</a></p>
-<ul>
-<li><p><a class="reference internal" href="#power" id="id16">Power</a></p></li>
-<li><p><a class="reference internal" href="#temperature" id="id17">Temperature</a></p></li>
-</ul>
-</li>
-<li><p><a class="reference internal" href="#software" id="id18">Software</a></p>
-<ul>
-<li><p><a class="reference internal" href="#software-stack" id="id19">Software Stack</a></p></li>
+<li><p><a class="reference internal" href="#software-stack" id="id17">Software Stack</a></p></li>
 </ul>
 </li>
 </ul>
@@ -174,7 +167,93 @@
 </nav>
 <hr class="docutils" />
 <section id="id2">
-<h2><a class="toc-backref" href="#id7" role="doc-backlink">구성 요소</a><a class="headerlink" href="#id2" title="Link to this heading"></a></h2>
+<h2><a class="toc-backref" href="#id6" role="doc-backlink">목표 사양</a><a class="headerlink" href="#id2" title="Link to this heading"></a></h2>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 20.0%" />
+<col style="width: 50.0%" />
+<col style="width: 30.0%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>항목</p></th>
+<th class="head"><p>사양</p></th>
+<th class="head"><p>비고</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Model Name</p></td>
+<td><p>Lumino-Imager-Color</p></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>Display</p></td>
+<td><p>7 inch LCD</p></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>화면구성</p></td>
+<td><p>컬러영상 / 흑백영상 / 컬러영상 + 흑백영상</p></td>
+<td><p>각 화면 볼 선택 가능</p></td>
+</tr>
+<tr class="row-odd"><td><p>NIR-LED 조도</p></td>
+<td><p>15 mW/cm², 강도 조절 ( 1 ~ 8 Step )</p></td>
+<td><p>Over ( 복사 조도 )</p></td>
+</tr>
+<tr class="row-even"><td><p>Wavelength</p></td>
+<td><p>740nm</p></td>
+<td><p>( 광원 )</p></td>
+</tr>
+<tr class="row-odd"><td><p>포작 정확도</p></td>
+<td><p>0.5IOU</p></td>
+<td><p>( 개요 참조 )</p></td>
+</tr>
+<tr class="row-even"><td><p>NIR Camera</p></td>
+<td><p>Resolution : 1920 x 1080, Auto-Focus</p></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>Recording Camera</p></td>
+<td><p>Resolution : 1920 x 1080, Auto-Focus</p></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>Image Processing Time</p></td>
+<td><p>25fps ( &#64; 1920 x 1080 )</p></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>Image Storage</p></td>
+<td><p>Image Capture ( 1920 x 1080 ), 동영상 Recording</p></td>
+<td><p>SD Card</p></td>
+</tr>
+<tr class="row-even"><td><p>Data Interface</p></td>
+<td><p>USB C-Type</p></td>
+<td><p>내부 메모리 외장하드로 인식 ( Cyber Security 등급화 )</p></td>
+</tr>
+<tr class="row-odd"><td><p>Control Interface</p></td>
+<td><p>Tact Switch ( 4EA )</p></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>Battery</p></td>
+<td><p>Continuous Operation Time: 1.5H, Charging Time: &lt; 4H</p></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>Power consumption</p></td>
+<td><p>&lt; 5W ( &#64; DC +5V )</p></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>Conformity</p></td>
+<td><p>IEC-60601-1,-2, 의료기기 적합성 시험 ( 전기적 위험, 전기/기계적 등의 안전적 요인 보증 )</p></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>Weight</p></td>
+<td><p>900g</p></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>Dimensions</p></td>
+<td><p>107 x 220 x 80</p></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="id3">
+<h2><a class="toc-backref" href="#id7" role="doc-backlink">구성 요소</a><a class="headerlink" href="#id3" title="Link to this heading"></a></h2>
 <ul class="simple">
 <li><dl class="simple">
 <dt>Image Processing</dt><dd><ul>
@@ -385,27 +464,21 @@
 </section>
 </section>
 <hr class="docutils" />
-<section id="id3">
-<h2><a class="toc-backref" href="#id12" role="doc-backlink">성능 목표</a><a class="headerlink" href="#id3" title="Link to this heading"></a></h2>
 <section id="id4">
-<h3><a class="toc-backref" href="#id13" role="doc-backlink">하위 항목</a><a class="headerlink" href="#id4" title="Link to this heading"></a></h3>
-</section>
-</section>
-<section id="id5">
-<h2><a class="toc-backref" href="#id14" role="doc-backlink">동작 환경</a><a class="headerlink" href="#id5" title="Link to this heading"></a></h2>
+<h2><a class="toc-backref" href="#id12" role="doc-backlink">동작 환경</a><a class="headerlink" href="#id4" title="Link to this heading"></a></h2>
 <section id="hardware">
-<h3><a class="toc-backref" href="#id15" role="doc-backlink">Hardware</a><a class="headerlink" href="#hardware" title="Link to this heading"></a></h3>
+<h3><a class="toc-backref" href="#id13" role="doc-backlink">Hardware</a><a class="headerlink" href="#hardware" title="Link to this heading"></a></h3>
 <section id="power">
-<h4><a class="toc-backref" href="#id16" role="doc-backlink">Power</a><a class="headerlink" href="#power" title="Link to this heading"></a></h4>
+<h4><a class="toc-backref" href="#id14" role="doc-backlink">Power</a><a class="headerlink" href="#power" title="Link to this heading"></a></h4>
 </section>
 <section id="temperature">
-<h4><a class="toc-backref" href="#id17" role="doc-backlink">Temperature</a><a class="headerlink" href="#temperature" title="Link to this heading"></a></h4>
+<h4><a class="toc-backref" href="#id15" role="doc-backlink">Temperature</a><a class="headerlink" href="#temperature" title="Link to this heading"></a></h4>
 </section>
 </section>
 <section id="software">
-<h3><a class="toc-backref" href="#id18" role="doc-backlink">Software</a><a class="headerlink" href="#software" title="Link to this heading"></a></h3>
+<h3><a class="toc-backref" href="#id16" role="doc-backlink">Software</a><a class="headerlink" href="#software" title="Link to this heading"></a></h3>
 <section id="software-stack">
-<h4><a class="toc-backref" href="#id19" role="doc-backlink">Software Stack</a><a class="headerlink" href="#software-stack" title="Link to this heading"></a></h4>
+<h4><a class="toc-backref" href="#id17" role="doc-backlink">Software Stack</a><a class="headerlink" href="#software-stack" title="Link to this heading"></a></h4>
 </section>
 </section>
 </section>

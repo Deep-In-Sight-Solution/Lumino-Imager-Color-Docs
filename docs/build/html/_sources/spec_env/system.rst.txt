@@ -6,6 +6,69 @@
 
 ---------
 
+목표 사양
+==========
+
+.. list-table:: 
+   :header-rows: 1
+   :widths: 20 50 30
+
+   * - 항목
+     - 사양
+     - 비고
+   * - Model Name
+     - Lumino-Imager-Color
+     - 
+   * - Display
+     - 7 inch LCD
+     - 
+   * - 화면구성
+     - 컬러영상 / 흑백영상 / 컬러영상 + 흑백영상
+     - 각 화면 볼 선택 가능
+   * - NIR-LED 조도
+     - 15 mW/cm², 강도 조절 ( 1 ~ 8 Step )
+     - Over ( 복사 조도 )
+   * - Wavelength
+     - 740nm
+     - ( 광원 )
+   * - 포작 정확도
+     - 0.5IOU
+     - ( 개요 참조 )
+   * - NIR Camera
+     - Resolution : 1920 x 1080, Auto-Focus
+     - 
+   * - Recording Camera
+     - Resolution : 1920 x 1080, Auto-Focus
+     - 
+   * - Image Processing Time
+     - 25fps ( @ 1920 x 1080 )
+     - 
+   * - Image Storage
+     - Image Capture ( 1920 x 1080 ), 동영상 Recording
+     - SD Card
+   * - Data Interface
+     - USB C-Type
+     - 내부 메모리 외장하드로 인식 ( Cyber Security 등급화 )
+   * - Control Interface
+     - Tact Switch ( 4EA )
+     - 
+   * - Battery
+     - Continuous Operation Time: 1.5H, Charging Time: < 4H
+     - 
+   * - Power consumption
+     - < 5W ( @ DC +5V )
+     - 
+   * - Conformity
+     - IEC-60601-1,-2, 의료기기 적합성 시험 ( 전기적 위험, 전기/기계적 등의 안전적 요인 보증 )
+     - 
+   * - Weight
+     -  900g
+     - 
+   * - Dimensions
+     - 107 x 220 x 80
+     -
+
+
 구성 요소
 =========
 
@@ -121,13 +184,6 @@ I/O Board
 | Power            | ``5V 8A``                                                                  |
 +------------------+----------------------------------------------------------------------------+
 
----------
-
-
-성능 목표
-=========
-
-하위 항목
 ---------
 
 

@@ -6,8 +6,55 @@
 
 ---------
 
+
 Hardware
-==========
+===========
+
+제품 구성품 목록
+----------------
+
+.. list-table:: 
+   :header-rows: 1
+   :widths: 5 20 10 30 35
+
+   * - No.
+     - 품명
+     - 수량
+     - 분류
+     - 특기사항
+   * - 1
+     - 촬영기
+     - 1
+     - Lumino-Imager-Color
+     - 기구물 ( 사출성형물 ) TRACOM 제공, 사급
+   * - 2
+     - 배터리
+     - 2
+     - 본체 배터리, 보조 배터리
+     - 기구물 ( 사출성형물 ) TRACOM 제공, 사급
+   * - 3
+     - 충전기
+     - 1
+     - 거치형 충전기
+     - 기구물 ( 사출성형물 ) TRACOM 제공, 사급
+   * - 5
+     - Product Bag
+     - 1
+     - 내부 Foam 포함
+     - TRACOM 제공, 사급
+   * - 6
+     - 간지
+     - 1
+     - 사용설명서, 제품보증서
+     - 사용설명서, 제품보증서
+
+.. list-table:: 
+
+    * - .. figure:: ../static/product-components.png
+            :width: 100%
+            :align: center
+            :figclass: margin
+            :alt: 
 
 
 Software
